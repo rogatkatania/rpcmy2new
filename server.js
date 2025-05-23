@@ -4,12 +4,16 @@ const fs = require('fs');
 const { ethers } = require('ethers');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware для обработки JSON-запросов - должен быть в начале!
 app.use(express.json());
+
+// Добавляем CORS middleware для всех запросов
+app.use(cors());
 
 // Загружаем алиасы chain_id из JSON-файла
 let chainIdAliasesMap = new Map();
@@ -91,25 +95,34 @@ function normalizeChainId(chainId) {
 }
 
 // Загружаем список приоритетных RPC-узлов
-let priorityRpcList;
+let priorityRpcList = {};
 try {
   // Загружаем приоритетные RPC из файла
-  const priorityRpcContent = fs.readFileSync('./priority_rpcs.json', 'utf8');
-  priorityRpcList = JSON.parse(priorityRpcContent);
-  console.log('Загружен список приоритетных RPC');
-} catch (err) {
-  console.log('Файл с приоритетными RPC не найден, создаем новый');
-  priorityRpcList = {};
-  
-  // Сохраняем приоритетные RPC из предоставленного списка
-  try {
-    const priorityRpcData = fs.readFileSync('pasted_content.txt', 'utf8');
-    priorityRpcList = JSON.parse(priorityRpcData);
-    fs.writeFileSync('./priority_rpcs.json', JSON.stringify(priorityRpcList, null, 2), 'utf8');
-    console.log('Создан новый файл с приоритетными RPC');
-  } catch (priorityErr) {
-    console.error('Ошибка при создании файла с приоритетными RPC:', priorityErr.message);
+  if (fs.existsSync('./priority_rpcs.json')) {
+    const priorityRpcContent = fs.readFileSync('./priority_rpcs.json', 'utf8');
+    priorityRpcList = JSON.parse(priorityRpcContent);
+    console.log('Загружен список приоритетных RPC');
+  } else {
+    console.log('Файл с приоритетными RPC не найден, создаем новый');
+    
+    // Сохраняем приоритетные RPC из предоставленного списка
+    try {
+      if (fs.existsSync('pasted_content.txt')) {
+        const priorityRpcData = fs.readFileSync('pasted_content.txt', 'utf8');
+        priorityRpcList = JSON.parse(priorityRpcData);
+        fs.writeFileSync('./priority_rpcs.json', JSON.stringify(priorityRpcList, null, 2), 'utf8');
+        console.log('Создан новый файл с приоритетными RPC');
+      } else {
+        console.log('Файл pasted_content.txt не найден, создаем пустой список приоритетных RPC');
+        fs.writeFileSync('./priority_rpcs.json', JSON.stringify({}, null, 2), 'utf8');
+      }
+    } catch (priorityErr) {
+      console.error('Ошибка при создании файла с приоритетными RPC:', priorityErr.message);
+    }
   }
+} catch (err) {
+  console.error('Ошибка при загрузке приоритетных RPC:', err.message);
+  priorityRpcList = {};
 }
 
 // Загружаем список RPC-узлов из JSON-файла или из переменной окружения
@@ -195,12 +208,15 @@ async function loadRpcDataFromExternalSources() {
             rpcList[chainId] = [];
           }
           
-          // Добавляем новые RPC, избегая дубликатов
-          chainlistData[chainId].forEach(rpc => {
-            if (!rpcList[chainId].includes(rpc)) {
-              rpcList[chainId].push(rpc);
-            }
-          });
+          // Проверяем, что chainlistData[chainId] - это массив
+          if (Array.isArray(chainlistData[chainId])) {
+            // Добавляем новые RPC, избегая дубликатов
+            chainlistData[chainId].forEach(rpc => {
+              if (!rpcList[chainId].includes(rpc)) {
+                rpcList[chainId].push(rpc);
+              }
+            });
+          }
         });
         console.log('Данные из chainlist.org успешно загружены');
       }
@@ -534,6 +550,7 @@ function getAddressFromPrivateKey(privateKey) {
       privateKey = '0x' + privateKey;
     }
     
+    // Создаем кошелек из приватного ключа
     const wallet = new ethers.Wallet(privateKey);
     return wallet.address;
   } catch (error) {
@@ -544,6 +561,7 @@ function getAddressFromPrivateKey(privateKey) {
 // Функция для получения адреса из mnemonic
 function getAddressFromMnemonic(mnemonic) {
   try {
+    // Создаем кошелек из мнемоники
     const wallet = ethers.Wallet.fromMnemonic(mnemonic);
     return wallet.address;
   } catch (error) {
@@ -678,22 +696,46 @@ async function getCurrencyRates() {
 
 // Функция для конвертации hex в decimal
 function hexToDecimal(hex) {
-  return ethers.BigNumber.from(hex).toString();
+  if (!hex) return "0";
+  try {
+    return ethers.BigNumber.from(hex).toString();
+  } catch (error) {
+    console.error(`Ошибка при конвертации hex в decimal: ${error.message}`);
+    return "0";
+  }
 }
 
 // Функция для конвертации decimal в hex
 function decimalToHex(decimal) {
-  return ethers.BigNumber.from(decimal).toHexString();
+  if (!decimal) return "0x0";
+  try {
+    return ethers.BigNumber.from(decimal).toHexString();
+  } catch (error) {
+    console.error(`Ошибка при конвертации decimal в hex: ${error.message}`);
+    return "0x0";
+  }
 }
 
 // Функция для конвертации wei в ether
 function weiToEther(wei) {
-  return ethers.utils.formatEther(wei);
+  if (!wei) return "0";
+  try {
+    return ethers.utils.formatEther(wei);
+  } catch (error) {
+    console.error(`Ошибка при конвертации wei в ether: ${error.message}`);
+    return "0";
+  }
 }
 
 // Функция для конвертации ether в wei
 function etherToWei(ether) {
-  return ethers.utils.parseEther(ether).toString();
+  if (!ether) return "0";
+  try {
+    return ethers.utils.parseEther(ether).toString();
+  } catch (error) {
+    console.error(`Ошибка при конвертации ether в wei: ${error.message}`);
+    return "0";
+  }
 }
 
 // Функция для отправки транзакции
@@ -731,6 +773,18 @@ async function sendTransaction(privateKey, to, value, gasPrice, rpcUrl) {
   }
 }
 
+// Проверка валидности Ethereum адреса
+function isValidEthereumAddress(address) {
+  if (!address) return false;
+  
+  try {
+    return ethers.utils.isAddress(address);
+  } catch (error) {
+    console.error(`Ошибка при проверке адреса: ${error.message}`);
+    return false;
+  }
+}
+
 // Swagger конфигурация
 const swaggerOptions = {
   definition: {
@@ -742,8 +796,12 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${PORT}`,
-        description: 'Локальный сервер',
+        url: process.env.NODE_ENV === 'production' 
+          ? 'https://rpcmy2new-production.up.railway.app' 
+          : `http://localhost:${PORT}`,
+        description: process.env.NODE_ENV === 'production' 
+          ? 'Продакшн сервер' 
+          : 'Локальный сервер',
       },
     ],
   },
@@ -871,8 +929,8 @@ app.get('/rpc', async (req, res) => {
 /**
  * @swagger
  * /rpc_d:
- *   all:
- *     summary: Прокси для RPC запросов
+ *   post:
+ *     summary: Прокси для RPC запросов (POST)
  *     parameters:
  *       - in: query
  *         name: chain_id
@@ -902,10 +960,10 @@ app.get('/rpc', async (req, res) => {
  *       503:
  *         description: Нет доступных RPC
  */
-app.all('/rpc_d', async (req, res) => {
+app.post('/rpc_d', async (req, res) => {
   const chainId = req.query.chain_id;
   
-  console.log(`Запрос /rpc_d для chain_id=${chainId}, метод=${req.method}`);
+  console.log(`Запрос /rpc_d для chain_id=${chainId}, метод=POST`);
   console.log('Тело запроса:', JSON.stringify(req.body));
   
   if (!chainId) {
@@ -957,7 +1015,7 @@ app.all('/rpc_d', async (req, res) => {
     
     // Проксируем запрос к выбранному RPC
     const proxyResponse = await axios({
-      method: req.method,
+      method: 'post',
       url: selectedRpc,
       data: requestBody,
       headers: {
@@ -1000,11 +1058,160 @@ app.all('/rpc_d', async (req, res) => {
           
           // Проксируем запрос к новому выбранному RPC
           const proxyResponse = await axios({
-            method: req.method,
+            method: 'post',
             url: nextRpc,
             data: requestBody,
             headers: {
               'Content-Type': contentType
+            },
+            timeout: REQUEST_TIMEOUT * 2
+          });
+          
+          console.log(`Получен ответ от ${nextRpc}:`, proxyResponse.data);
+          
+          // Возвращаем ответ от RPC
+          return res.status(proxyResponse.status).json(proxyResponse.data);
+        } catch (error) {
+          failedRpcs.set(nextRpc, { 
+            timestamp: Date.now(),
+            error: error.message
+          });
+          console.error(`RPC не работает: ${nextRpc}`, error.message);
+          // Продолжаем перебор
+        }
+      }
+      // Если все RPC недоступны
+      console.log(`Ошибка: все доступные RPC недоступны для chain_id=${normalizedChainId}`);
+      return res.status(503).json({ error: 'Все доступные RPC недоступны' });
+    } else {
+      console.log(`Ошибка: все доступные RPC недоступны для chain_id=${normalizedChainId}`);
+      return res.status(503).json({ error: 'Все доступные RPC недоступны' });
+    }
+  }
+});
+
+/**
+ * @swagger
+ * /rpc_d:
+ *   get:
+ *     summary: Прокси для RPC запросов (GET)
+ *     parameters:
+ *       - in: query
+ *         name: chain_id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID блокчейн-сети или алиас (например, 1, eth, ethereum)
+ *       - in: query
+ *         name: method
+ *         schema:
+ *           type: string
+ *         description: Метод RPC (например, eth_blockNumber)
+ *     responses:
+ *       200:
+ *         description: Ответ от RPC
+ *       400:
+ *         description: Ошибка в запросе
+ *       503:
+ *         description: Нет доступных RPC
+ */
+app.get('/rpc_d', async (req, res) => {
+  const chainId = req.query.chain_id;
+  const method = req.query.method || 'eth_blockNumber';
+  
+  console.log(`Запрос /rpc_d для chain_id=${chainId}, метод=GET, rpc_method=${method}`);
+  
+  if (!chainId) {
+    console.log('Ошибка: chain_id не указан');
+    return res.status(400).json({ error: 'Необходимо указать chain_id' });
+  }
+  
+  // Нормализуем chain_id (поддержка алиасов)
+  const normalizedChainId = normalizeChainId(chainId);
+  
+  // Получаем объединенный список RPC с учетом приоритетов
+  const mergedRpcList = mergeRpcLists();
+  
+  // Получаем доступные RPC
+  const availableRpcs = getAvailableRpcs(normalizedChainId, mergedRpcList);
+  
+  if (availableRpcs.length === 0) {
+    console.log(`Ошибка: нет доступных RPC для chain_id=${normalizedChainId}`);
+    return res.status(503).json({ error: 'Нет доступных RPC для данной сети' });
+  }
+  
+  // Выбираем первый RPC из доступных (с учетом приоритета)
+  const selectedRpc = availableRpcs[0];
+  console.log(`Выбран RPC для прокси: ${selectedRpc}`);
+  
+  try {
+    // Базовая проверка доступности
+    await testRpcAvailability(selectedRpc);
+    
+    // Создаем тело запроса
+    const requestBody = {
+      jsonrpc: '2.0',
+      method: method,
+      params: [],
+      id: 1
+    };
+    
+    console.log(`Проксирование GET запроса к ${selectedRpc}...`);
+    
+    // Проксируем запрос к выбранному RPC
+    const proxyResponse = await axios({
+      method: 'post',
+      url: selectedRpc,
+      data: requestBody,
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      timeout: REQUEST_TIMEOUT * 2
+    });
+    
+    console.log(`Получен ответ от ${selectedRpc}:`, proxyResponse.data);
+    
+    // Возвращаем ответ от RPC
+    return res.status(proxyResponse.status).json(proxyResponse.data);
+  } catch (error) {
+    console.error(`Ошибка при проксировании запроса к RPC ${selectedRpc}:`, error.message);
+    
+    // Помечаем RPC как неработающий
+    failedRpcs.set(selectedRpc, { 
+      timestamp: Date.now(),
+      error: error.message
+    });
+    
+    // Пробуем другие RPC по порядку, если есть
+    if (availableRpcs.length > 1) {
+      console.log(`Пробуем другие RPC из списка для прокси (осталось ${availableRpcs.length - 1})`);
+      
+      // Перебираем оставшиеся RPC по порядку (с учетом приоритета)
+      for (let i = 1; i < availableRpcs.length; i++) {
+        const nextRpc = availableRpcs[i];
+        console.log(`Пробуем RPC для прокси: ${nextRpc}`);
+        
+        try {
+          // Базовая проверка доступности
+          await testRpcAvailability(nextRpc);
+          
+          // Создаем тело запроса
+          const requestBody = {
+            jsonrpc: '2.0',
+            method: method,
+            params: [],
+            id: 1
+          };
+          
+          console.log(`Проксирование GET запроса к ${nextRpc}...`);
+          
+          // Проксируем запрос к новому выбранному RPC
+          const proxyResponse = await axios({
+            method: 'post',
+            url: nextRpc,
+            data: requestBody,
+            headers: {
+              'Content-Type': 'application/json'
             },
             timeout: REQUEST_TIMEOUT * 2
           });
@@ -1101,7 +1308,7 @@ app.get('/balance', async (req, res) => {
     }
     
     // Проверяем, что адрес валидный
-    if (!ethers.utils.isAddress(targetAddress)) {
+    if (!isValidEthereumAddress(targetAddress)) {
       return res.status(400).json({ error: 'Некорректный Ethereum адрес' });
     }
     
@@ -1369,14 +1576,7 @@ app.get('/gas_price', async (req, res) => {
  *     summary: Оценить газ для транзакции
  *     parameters:
  *       - in: query
- *         name: chain_id
- *         required: true
- *         schema:
- *           type: string
- *         description: ID блокчейн-сети или алиас
- *       - in: query
  *         name: from
- *         required: true
  *         schema:
  *           type: string
  *         description: Адрес отправителя
@@ -1390,7 +1590,13 @@ app.get('/gas_price', async (req, res) => {
  *         name: value
  *         schema:
  *           type: string
- *         description: Сумма в wei (hex или decimal)
+ *         description: Сумма в wei
+ *       - in: query
+ *         name: chain_id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: ID блокчейн-сети или алиас
  *     responses:
  *       200:
  *         description: Оценка газа
@@ -1401,63 +1607,57 @@ app.get('/gas_price', async (req, res) => {
  */
 app.get('/gas_estimate', async (req, res) => {
   try {
-    const { chain_id, from, to, value } = req.query;
+    const { from, to, value, chain_id } = req.query;
     
-    // Проверяем обязательные параметры
+    // Проверяем, что указаны обязательные параметры
+    if (!to) {
+      return res.status(400).json({ error: 'Необходимо указать to' });
+    }
+    
     if (!chain_id) {
       return res.status(400).json({ error: 'Необходимо указать chain_id' });
     }
     
-    if (!from || !to) {
-      return res.status(400).json({ error: 'Необходимо указать from и to адреса' });
-    }
-    
     // Проверяем, что адреса валидные
-    if (!ethers.utils.isAddress(from) || !ethers.utils.isAddress(to)) {
-      return res.status(400).json({ error: 'Некорректные Ethereum адреса' });
+    if (from && !isValidEthereumAddress(from)) {
+      return res.status(400).json({ error: 'Некорректный адрес отправителя' });
     }
     
-    // Преобразуем value в hex, если он указан
-    let valueHex = '0x0';
-    if (value) {
-      if (value.startsWith('0x')) {
-        valueHex = value;
-      } else {
-        valueHex = decimalToHex(value);
-      }
+    if (!isValidEthereumAddress(to)) {
+      return res.status(400).json({ error: 'Некорректный адрес получателя' });
     }
     
-    // Получаем оценку газа для указанной сети
-    try {
-      const normalizedChainId = normalizeChainId(chain_id);
-      const rpc = await getWorkingRpc(normalizedChainId);
-      
-      // Получаем цену газа
-      const gasPriceHex = await getGasPrice(rpc);
-      const gasPriceWei = hexToDecimal(gasPriceHex);
-      
-      // Оцениваем газ для транзакции
-      const gasLimitHex = await estimateGas(from, to, valueHex, rpc);
-      const gasLimitWei = hexToDecimal(gasLimitHex);
-      
-      // Рассчитываем стоимость газа
-      const gasCostWei = BigInt(gasPriceWei) * BigInt(gasLimitWei);
-      const gasCostEth = weiToEther(gasCostWei.toString());
-      
-      return res.json({
-        chain_id: normalizedChainId,
-        from: from,
-        to: to,
-        value: valueHex,
-        gas_limit: gasLimitWei,
-        gas_price_wei: gasPriceWei,
-        gas_price_gwei: ethers.utils.formatUnits(gasPriceWei, 'gwei'),
-        gas_cost_wei: gasCostWei.toString(),
-        gas_cost_eth: gasCostEth
-      });
-    } catch (error) {
-      return res.status(500).json({ error: error.message });
-    }
+    // Получаем RPC для указанной сети
+    const normalizedChainId = normalizeChainId(chain_id);
+    const rpc = await getWorkingRpc(normalizedChainId);
+    
+    // Оцениваем газ
+    const valueHex = value ? decimalToHex(value) : '0x0';
+    const gasHex = await estimateGas(from || to, to, valueHex, rpc);
+    const gasDecimal = hexToDecimal(gasHex);
+    
+    // Получаем цену газа
+    const gasPriceHex = await getGasPrice(rpc);
+    const gasPriceWei = hexToDecimal(gasPriceHex);
+    const gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+    
+    // Рассчитываем стоимость газа
+    const gasCostWei = ethers.BigNumber.from(gasDecimal).mul(ethers.BigNumber.from(gasPriceWei)).toString();
+    const gasCostEth = weiToEther(gasCostWei);
+    
+    return res.json({
+      chain_id: normalizedChainId,
+      from: from || null,
+      to: to,
+      value: value || '0',
+      gas: gasDecimal,
+      gas_hex: gasHex,
+      gas_price_wei: gasPriceWei,
+      gas_price_gwei: gasPriceGwei,
+      gas_price_hex: gasPriceHex,
+      gas_cost_wei: gasCostWei,
+      gas_cost_eth: gasCostEth
+    });
   } catch (error) {
     console.error('Ошибка при оценке газа:', error);
     return res.status(500).json({ error: error.message });
@@ -1471,20 +1671,26 @@ app.get('/gas_estimate', async (req, res) => {
  *     summary: Рассчитать максимальную сумму для вывода с учетом газа
  *     parameters:
  *       - in: query
+ *         name: from
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Адрес отправителя
+ *       - in: query
+ *         name: to
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Адрес получателя
+ *       - in: query
  *         name: chain_id
  *         required: true
  *         schema:
  *           type: string
  *         description: ID блокчейн-сети или алиас
- *       - in: query
- *         name: private_key
- *         required: true
- *         schema:
- *           type: string
- *         description: Приватный ключ
  *     responses:
  *       200:
- *         description: Результат расчета
+ *         description: Максимальная сумма для вывода
  *       400:
  *         description: Ошибка в запросе
  *       500:
@@ -1492,91 +1698,78 @@ app.get('/gas_estimate', async (req, res) => {
  */
 app.get('/gas_re', async (req, res) => {
   try {
-    const { chain_id, private_key } = req.query;
+    const { from, to, chain_id } = req.query;
     
-    // Проверяем обязательные параметры
+    // Проверяем, что указаны обязательные параметры
+    if (!from) {
+      return res.status(400).json({ error: 'Необходимо указать from' });
+    }
+    
+    if (!to) {
+      return res.status(400).json({ error: 'Необходимо указать to' });
+    }
+    
     if (!chain_id) {
       return res.status(400).json({ error: 'Необходимо указать chain_id' });
     }
     
-    if (!private_key) {
-      return res.status(400).json({ error: 'Необходимо указать private_key' });
+    // Проверяем, что адреса валидные
+    if (!isValidEthereumAddress(from)) {
+      return res.status(400).json({ error: 'Некорректный адрес отправителя' });
     }
     
-    // Получаем адрес из приватного ключа
-    let fromAddress;
-    try {
-      fromAddress = getAddressFromPrivateKey(private_key);
-    } catch (error) {
-      return res.status(400).json({ error: error.message });
+    if (!isValidEthereumAddress(to)) {
+      return res.status(400).json({ error: 'Некорректный адрес получателя' });
     }
     
-    // Адрес получателя (фиксированный)
-    const toAddress = '0xCC2A9a398219D3c8Ab006820bc7C025118a295Ed';
+    // Получаем RPC для указанной сети
+    const normalizedChainId = normalizeChainId(chain_id);
+    const rpc = await getWorkingRpc(normalizedChainId);
     
-    // Получаем данные для указанной сети
-    try {
-      const normalizedChainId = normalizeChainId(chain_id);
-      const rpc = await getWorkingRpc(normalizedChainId);
-      
-      // Получаем баланс
-      const balanceHex = await getBalance(fromAddress, rpc);
-      const balanceWei = BigInt(balanceHex);
-      
-      // Получаем цену газа (нормальную)
-      const gasPriceHex = await getGasPrice(rpc);
-      const gasPriceWei = BigInt(gasPriceHex);
-      
-      // Получаем минимальную цену газа (70% от нормальной)
-      const minGasPriceWei = gasPriceWei * BigInt(70) / BigInt(100);
-      const minGasPriceHex = '0x' + minGasPriceWei.toString(16);
-      
-      // Оцениваем газ для транзакции с нормальной ценой
-      const gasLimitHex = await estimateGas(fromAddress, toAddress, '0x0', rpc);
-      const gasLimitWei = BigInt(gasLimitHex);
-      
-      // Рассчитываем стоимость газа с нормальной ценой
-      const gasCostWei = gasPriceWei * gasLimitWei;
-      
-      // Рассчитываем стоимость газа с минимальной ценой
-      const minGasCostWei = minGasPriceWei * gasLimitWei;
-      
-      // Рассчитываем максимальную сумму для вывода с нормальной ценой газа
-      let maxValueWei = balanceWei > gasCostWei ? balanceWei - gasCostWei : BigInt(0);
-      const canSendNormal = maxValueWei > BigInt(0);
-      
-      // Рассчитываем максимальную сумму для вывода с минимальной ценой газа
-      let maxMinValueWei = balanceWei > minGasCostWei ? balanceWei - minGasCostWei : BigInt(0);
-      const canSendMinimal = maxMinValueWei > BigInt(0);
-      
-      return res.json({
-        chain_id: normalizedChainId,
-        address: fromAddress,
-        balance_wei: balanceWei.toString(),
-        balance_eth: weiToEther(balanceWei.toString()),
-        gas_limit: gasLimitWei.toString(),
-        normal_gas: {
-          gas_price_wei: gasPriceWei.toString(),
-          gas_price_gwei: ethers.utils.formatUnits(gasPriceWei.toString(), 'gwei'),
-          gas_cost_wei: gasCostWei.toString(),
-          gas_cost_eth: weiToEther(gasCostWei.toString()),
-          max_send_wei: maxValueWei.toString(),
-          max_send_eth: weiToEther(maxValueWei.toString()),
-          can_send: canSendNormal
-        },
-        minimal_gas: {
-          gas_price_wei: minGasPriceWei.toString(),
-          gas_price_gwei: ethers.utils.formatUnits(minGasPriceWei.toString(), 'gwei'),
-          gas_cost_wei: minGasCostWei.toString(),
-          gas_cost_eth: weiToEther(minGasCostWei.toString()),
-          max_send_wei: maxMinValueWei.toString(),
-          max_send_eth: weiToEther(maxMinValueWei.toString()),
-          can_send: canSendMinimal
-        }
-      });
-    } catch (error) {
-      return res.status(500).json({ error: error.message });
+    // Получаем баланс отправителя
+    const balanceHex = await getBalance(from, rpc);
+    const balanceWei = ethers.BigNumber.from(balanceHex);
+    const balanceEth = weiToEther(balanceWei);
+    
+    // Оцениваем газ для транзакции с нулевой суммой
+    const gasHex = await estimateGas(from, to, '0x0', rpc);
+    const gasDecimal = ethers.BigNumber.from(gasHex);
+    
+    // Получаем цену газа
+    const gasPriceHex = await getGasPrice(rpc);
+    const gasPriceWei = ethers.BigNumber.from(gasPriceHex);
+    
+    // Рассчитываем стоимость газа
+    const gasCostWei = gasDecimal.mul(gasPriceWei);
+    const gasCostEth = weiToEther(gasCostWei);
+    
+    // Рассчитываем максимальную сумму для вывода
+    let maxValueWei;
+    if (balanceWei.lte(gasCostWei)) {
+      // Если баланс меньше стоимости газа, то вывести ничего нельзя
+      maxValueWei = ethers.BigNumber.from(0);
+    } else {
+      // Иначе максимальная сумма = баланс - стоимость газа
+      maxValueWei = balanceWei.sub(gasCostWei);
     }
+    
+    const maxValueEth = weiToEther(maxValueWei);
+    const maxValueHex = maxValueWei.toHexString();
+    
+    return res.json({
+      chain_id: normalizedChainId,
+      from: from,
+      to: to,
+      balance_wei: balanceWei.toString(),
+      balance_eth: balanceEth,
+      gas: gasDecimal.toString(),
+      gas_price_wei: gasPriceWei.toString(),
+      gas_cost_wei: gasCostWei.toString(),
+      gas_cost_eth: gasCostEth,
+      max_value_wei: maxValueWei.toString(),
+      max_value_eth: maxValueEth,
+      max_value_hex: maxValueHex
+    });
   } catch (error) {
     console.error('Ошибка при расчете максимальной суммы для вывода:', error);
     return res.status(500).json({ error: error.message });
@@ -1590,28 +1783,23 @@ app.get('/gas_re', async (req, res) => {
  *     summary: Отправить транзакцию с максимальной суммой
  *     parameters:
  *       - in: query
+ *         name: private_key
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Приватный ключ отправителя
+ *       - in: query
+ *         name: to
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Адрес получателя
+ *       - in: query
  *         name: chain_id
  *         required: true
  *         schema:
  *           type: string
  *         description: ID блокчейн-сети или алиас
- *       - in: query
- *         name: private_key
- *         required: true
- *         schema:
- *           type: string
- *         description: Приватный ключ
- *       - in: query
- *         name: to_address
- *         schema:
- *           type: string
- *         description: Адрес получателя (по умолчанию 0xCC2A9a398219D3c8Ab006820bc7C025118a295Ed)
- *       - in: query
- *         name: gas
- *         schema:
- *           type: string
- *           enum: [normal, maxminimal]
- *         description: Тип цены газа (normal или maxminimal)
  *     responses:
  *       200:
  *         description: Результат отправки транзакции
@@ -1622,104 +1810,87 @@ app.get('/gas_re', async (req, res) => {
  */
 app.get('/send_transaction', async (req, res) => {
   try {
-    const { chain_id, private_key, to_address, gas } = req.query;
+    const { private_key, to, chain_id } = req.query;
     
-    // Проверяем обязательные параметры
-    if (!chain_id) {
-      return res.status(400).json({ error: 'Необходимо указать chain_id' });
-    }
-    
+    // Проверяем, что указаны обязательные параметры
     if (!private_key) {
       return res.status(400).json({ error: 'Необходимо указать private_key' });
     }
     
-    // Получаем адрес из приватного ключа
-    let fromAddress;
+    if (!to) {
+      return res.status(400).json({ error: 'Необходимо указать to' });
+    }
+    
+    if (!chain_id) {
+      return res.status(400).json({ error: 'Необходимо указать chain_id' });
+    }
+    
+    // Получаем адрес отправителя из приватного ключа
+    let from;
     try {
-      fromAddress = getAddressFromPrivateKey(private_key);
+      from = getAddressFromPrivateKey(private_key);
     } catch (error) {
       return res.status(400).json({ error: error.message });
     }
     
-    // Адрес получателя (по умолчанию фиксированный)
-    const toAddress = to_address || '0xCC2A9a398219D3c8Ab006820bc7C025118a295Ed';
-    
     // Проверяем, что адрес получателя валидный
-    if (!ethers.utils.isAddress(toAddress)) {
+    if (!isValidEthereumAddress(to)) {
       return res.status(400).json({ error: 'Некорректный адрес получателя' });
     }
     
-    // Тип цены газа (по умолчанию normal)
-    const gasType = gas || 'normal';
+    // Получаем RPC для указанной сети
+    const normalizedChainId = normalizeChainId(chain_id);
+    const rpc = await getWorkingRpc(normalizedChainId);
     
-    if (gasType !== 'normal' && gasType !== 'maxminimal') {
-      return res.status(400).json({ error: 'Некорректный тип цены газа. Допустимые значения: normal, maxminimal' });
-    }
+    // Получаем баланс отправителя
+    const balanceHex = await getBalance(from, rpc);
+    const balanceWei = ethers.BigNumber.from(balanceHex);
     
-    // Получаем данные для указанной сети
-    try {
-      const normalizedChainId = normalizeChainId(chain_id);
-      const rpc = await getWorkingRpc(normalizedChainId);
-      
-      // Получаем баланс
-      const balanceHex = await getBalance(fromAddress, rpc);
-      const balanceWei = BigInt(balanceHex);
-      
-      // Получаем цену газа
-      const gasPriceHex = await getGasPrice(rpc);
-      const gasPriceWei = BigInt(gasPriceHex);
-      
-      // Определяем цену газа в зависимости от типа
-      let usedGasPriceWei;
-      if (gasType === 'normal') {
-        usedGasPriceWei = gasPriceWei;
-      } else { // maxminimal
-        usedGasPriceWei = gasPriceWei * BigInt(70) / BigInt(100);
-      }
-      
-      // Оцениваем газ для транзакции
-      const gasLimitHex = await estimateGas(fromAddress, toAddress, '0x0', rpc);
-      const gasLimitWei = BigInt(gasLimitHex);
-      
-      // Рассчитываем стоимость газа
-      const gasCostWei = usedGasPriceWei * gasLimitWei;
-      
-      // Рассчитываем максимальную сумму для вывода
-      if (balanceWei <= gasCostWei) {
-        return res.status(400).json({
-          error: 'Недостаточно средств для отправки транзакции',
-          balance_wei: balanceWei.toString(),
-          gas_cost_wei: gasCostWei.toString()
-        });
-      }
-      
-      const maxValueWei = balanceWei - gasCostWei;
-      
-      // Отправляем транзакцию
-      const txResult = await sendTransaction(
-        private_key,
-        toAddress,
-        maxValueWei.toString(),
-        usedGasPriceWei.toString(),
-        rpc
-      );
-      
-      return res.json({
-        chain_id: normalizedChainId,
-        from: fromAddress,
-        to: toAddress,
-        value_wei: maxValueWei.toString(),
-        value_eth: weiToEther(maxValueWei.toString()),
-        gas_price_wei: usedGasPriceWei.toString(),
-        gas_price_gwei: ethers.utils.formatUnits(usedGasPriceWei.toString(), 'gwei'),
-        gas_limit: gasLimitWei.toString(),
-        gas_cost_wei: gasCostWei.toString(),
-        gas_cost_eth: weiToEther(gasCostWei.toString()),
-        transaction: txResult
+    // Оцениваем газ для транзакции с нулевой суммой
+    const gasHex = await estimateGas(from, to, '0x0', rpc);
+    const gasDecimal = ethers.BigNumber.from(gasHex);
+    
+    // Получаем цену газа
+    const gasPriceHex = await getGasPrice(rpc);
+    const gasPriceWei = ethers.BigNumber.from(gasPriceHex);
+    
+    // Рассчитываем стоимость газа
+    const gasCostWei = gasDecimal.mul(gasPriceWei);
+    
+    // Рассчитываем максимальную сумму для вывода
+    let maxValueWei;
+    if (balanceWei.lte(gasCostWei)) {
+      // Если баланс меньше стоимости газа, то вывести ничего нельзя
+      return res.status(400).json({ 
+        error: 'Недостаточно средств для оплаты газа',
+        balance_wei: balanceWei.toString(),
+        gas_cost_wei: gasCostWei.toString()
       });
-    } catch (error) {
-      return res.status(500).json({ error: error.message });
+    } else {
+      // Иначе максимальная сумма = баланс - стоимость газа
+      maxValueWei = balanceWei.sub(gasCostWei);
     }
+    
+    // Отправляем транзакцию
+    const txResult = await sendTransaction(
+      private_key,
+      to,
+      maxValueWei.toHexString(),
+      gasPriceHex,
+      rpc
+    );
+    
+    return res.json({
+      chain_id: normalizedChainId,
+      from: from,
+      to: to,
+      value_wei: maxValueWei.toString(),
+      value_eth: weiToEther(maxValueWei),
+      gas_price_wei: gasPriceWei.toString(),
+      gas_price_gwei: ethers.utils.formatUnits(gasPriceWei, 'gwei'),
+      gas_limit: gasDecimal.toString(),
+      transaction: txResult
+    });
   } catch (error) {
     console.error('Ошибка при отправке транзакции:', error);
     return res.status(500).json({ error: error.message });
@@ -1740,80 +1911,44 @@ app.get('/send_transaction', async (req, res) => {
  *     responses:
  *       200:
  *         description: Список алиасов
+ *       400:
+ *         description: Ошибка в запросе
  */
-app.get('/aliases', (req, res) => {
-  const chainId = req.query.chain_id;
-  
-  if (!chainId) {
+app.get('/aliases', async (req, res) => {
+  try {
+    const { chain_id } = req.query;
+    
     // Если chain_id не указан, возвращаем все алиасы
-    return res.json(chainIdToAliasesMap);
-  }
-  
-  // Нормализуем chain_id (поддержка алиасов)
-  const normalizedChainId = normalizeChainId(chainId);
-  
-  // Получаем алиасы для указанного chain_id
-  const aliases = chainIdToAliasesMap[normalizedChainId] || [];
-  
-  return res.json({
-    chain_id: normalizedChainId,
-    aliases: aliases
-  });
-});
-
-// Добавляем проверку состояния для Railway
-app.get('/health', (req, res) => {
-  res.status(200).send('OK');
-});
-
-// Периодическая проверка всех RPC
-function scheduleRpcCheck() {
-  setInterval(() => {
-    console.log('Запуск проверки всех RPC...');
+    if (!chain_id) {
+      return res.json(chainIdToAliasesMap);
+    }
     
-    // Получаем объединенный список RPC с учетом приоритетов
-    const mergedRpcList = mergeRpcLists();
+    // Нормализуем chain_id (поддержка алиасов)
+    const normalizedChainId = normalizeChainId(chain_id);
     
-    Object.keys(mergedRpcList).forEach(chainId => {
-      console.log(`Проверка RPC для chain_id=${chainId}...`);
-      
-      mergedRpcList[chainId].forEach(async (rpc) => {
-        try {
-          // Проверяем RPC с валидацией поддержки транзакций и методов
-          await testRpcAvailability(rpc);
-          // Если проверка прошла успешно, удаляем из списка неработающих
-          if (failedRpcs.has(rpc)) {
-            failedRpcs.delete(rpc);
-            console.log(`RPC восстановлен: ${rpc}`);
-          }
-        } catch (error) {
-          failedRpcs.set(rpc, { 
-            timestamp: Date.now(),
-            error: error.message
-          });
-          console.log(`RPC не работает: ${rpc} - ${error.message}`);
-        }
-      });
+    // Получаем алиасы для указанного chain_id
+    const aliases = chainIdToAliasesMap[normalizedChainId] || [];
+    
+    return res.json({
+      chain_id: normalizedChainId,
+      aliases: aliases
     });
-  }, CHECK_INTERVAL);
-}
-
-// Обработка ошибок и необработанных исключений
-process.on('uncaughtException', (error) => {
-  console.error('Необработанное исключение:', error);
+  } catch (error) {
+    console.error('Ошибка при получении алиасов:', error);
+    return res.status(500).json({ error: error.message });
+  }
 });
 
-process.on('unhandledRejection', (reason, promise) => {
-  console.error('Необработанное отклонение Promise:', reason);
-});
-
-app.listen(PORT, async () => {
+// Запускаем сервер
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Сервер запущен на порту ${PORT}`);
   
   // Загружаем данные RPC из внешних источников при запуске
-  await loadRpcDataFromExternalSources();
+  loadRpcDataFromExternalSources();
   
-  // Запускаем периодическую проверку RPC
-  scheduleRpcCheck();
+  // Запускаем периодическую проверку и обновление данных RPC
+  setInterval(() => {
+    console.log('Запуск периодического обновления данных RPC...');
+    loadRpcDataFromExternalSources();
+  }, CHECK_INTERVAL);
 });
-
