@@ -1,0 +1,309 @@
+{
+  "1": [
+    "https://ethereum-mainnet.wallet.brave.com",
+    "https://ethereum-mainnet.wallet.bravesoftware.com",
+    "https://ethereum.atomicwallet.io"
+  ],
+  "10": [
+    "https://mainnet.optimism.io",
+    "https://optimism.drpc.org",
+    "https://optimism-mainnet.wallet.brave.com",
+    "https://rpc.zerion.io/v1/optimism",
+    "https://optimism.atomicwallet.io"
+  ],
+  "56": [
+    "https://bsc-nn.atomicwallet.io/",
+    "https://bsc-dataseed1.defibit.io",
+    "https://bsc-dataseed2.defibit.io",
+    "https://bsc-dataseed3.defibit.io",
+    "https://bsc-dataseed4.defibit.io",
+    "https://bsc-dataseed1.ninicoin.io",
+    "https://bsc-dataseed2.ninicoin.io",
+    "https://bsc-dataseed3.ninicoin.io",
+    "https://bsc-dataseed4.ninicoin.io",
+    "https://bsc-dataseed1.binance.org",
+    "https://bsc-dataseed2.binance.org",
+    "https://bsc-dataseed3.binance.org",
+    "https://bsc-dataseed4.binance.org",
+    "https://rpc.zerion.io/v1/binance-smart-chain",
+    "https://rpc.zerion.io/v1/bsc",
+    "https://daemon.bnbsmartchain.shapeshift.com",
+    "https://dev-daemon.bnbsmartchain.shapeshift.com"
+  ],
+  "100": [
+    "https://rpc.zerion.io/v1/xdai",
+    "https://gnosis-mainnet.public.blastapi.io",
+    "https://gnosischain-rpc.gateway.pokt.network",
+    "https://rpc.ankr.com/gnosis",
+    "https://rpc.gnosischain.com",
+    "https://daemon.gnosis.shapeshift.com",
+    "https://dev-daemon.gnosis.shapeshift.com"
+  ],
+  "137": [
+    "https://rpc.zerion.io/v1/polygon", 
+    "https://polygon.atomicwallet.io",
+    "https://polygon.atomicwallet.io/",
+    "https://polygon-rpc.com",
+    "https://rpc-mainnet.matic.network",
+    "https://matic-mainnet.chainstacklabs.com",
+    "https://rpc-mainnet.maticvigil.com",
+    "https://rpc-mainnet.matic.quiknode.pro",
+    "https://matic-mainnet-full-rpc.bwarelabs.com",
+    "https://rpc.zerion.io/v1/polygo",
+    "https://daemon.polygon.shapeshift.com",
+    "https://dev-daemon.polygon.shapeshift.com"
+  ],
+  "250": [
+    "https://rpc.zerion.io/v1/fantom",
+    "https://fantom.atomicwallet.io",
+    "https://fantom.atomicwallet.io/",
+    "https://rpc.ftm.tools",
+    "https://rpc.zerion.io/v1/fatom"
+  ],
+  "324": [
+    "https://mainnet.era.zksync.io"
+  ],
+  "8453": [
+    "https://base-mainnet.wallet.brave.com",
+    "https://rpc.zerion.io/v1/base",
+    "https://base-mainnet.wallet.bravesoftware.com",
+    "https://mainnet.base.org"
+  ],
+  "42220": [
+    "https://forno.celo.org",
+    "https://rpc.zerion.io/v1/celo"
+  ],
+  "43114": [
+    "https://avalanche-mainnet.wallet.brave.com",
+    "https://avalanche-mainnet.wallet.bravesoftware.com",
+    "https://avax-nn.atomicwallet.io/ext/bc/C/rpc",
+    "https://api.avax.network/ext/bc/C/rpc",
+    "https://rpc.zerion.io/v1/avalance",
+    "https://rpc.zerion.io/v1/avalanche",
+    "https://daemon.avalanche.shapeshift.com/ext/bc/C/rpc",
+    "https://dev-daemon.avalanche.shapeshift.com/ext/bc/C/rpc"
+  ],
+  "59144": [
+    "https://rpc.linea.build"
+  ],
+  "1101": [
+    "https://zkevm-rpc.com"
+  ],
+  "7777777": [
+    "https://rpc.zerion.io/v1/zora",
+    "https://rpc.zora.energy/"
+  ],
+  "2222": [
+    "https://rpc.zerion.io/v1/kava"
+  ],
+  "5000": [
+    "https://rpc.zerion.io/v1/mantle",
+    "https://rpc.mantle.xyz",
+    "https://rpc.zerion.io/v1/matle"
+  ],
+  "81457": [
+    "https://rpc.blast.io/",
+    "https://rpc.zerion.io/v1/blast"
+  ],
+  "82750": [
+    "https://rpc.scroll.io",
+    "https://rpc-scroll.icecreamswap.com",
+    "https://rpc.ankr.com/scroll",
+    "https://scroll-mainnet.chainstacklabs.com",
+    "https://rpc.zerion.io/v1/scroll"
+  ],
+  "8217": [
+    "https://rpc.zerion.io/v1/klaytn"
+  ],
+  "1313161554": [
+    "https://rpc.zerion.io/v1/aurora",
+    "https://mainnet.aurora.dev"
+  ],
+  "204": [
+    "https://rpc.zerion.io/v1/opbnb",
+    "https://opbnb-mainnet-rpc.bnbchain.org",
+    "https://rpc.zerion.io/v1/opBB"
+  ],
+  "3776": [
+    "https://rpc.zerion.io/v1/astar-zkevm",
+    "https://rpc.startale.com/astar-zkevm"
+  ],
+  "80001": [
+    "https://rpc.zerion.io/v1/polygon-amoy"
+  ],
+  "60808": [
+    "https://rpc.zerion.io/v1/bob",
+    "https://rpc.gobob.xyz"
+  ],
+  "7565": [
+    "https://rpc.zerion.io/v1/degen",
+    "https://rpc.degen.tips"
+  ],
+  "252": [
+    "https://rpc.zerion.io/v1/fraxtal",
+    "https://rpc.frax.com"
+  ],
+  "1633": [
+    "https://rpc.zerion.io/v1/gravity-alpha",
+    "https://rpc.zerion.io/v1/gravity",
+    "https://rpc.gravity.xyz"
+  ],
+  "57046": [
+    "https://rpc.zerion.io/v1/ink",
+    "https://rpc-qnd.inkonchain.com"
+  ],
+  "1627": [
+    "https://rpc.zerion.io/v1/lisk",
+    "https://rpc.api.lisk.com"
+  ],
+  "34443": [
+    "https://rpc.zerion.io/v1/mode",
+    "https://mainnet.mode.network"
+  ],
+  "8000": [
+    "https://rpc.zerion.io/v1/polynomial",
+    "https://rpc.polynomial.fi"
+  ],
+  "167": [
+    "https://rpc.zerion.io/v1/redstone",
+    "https://rpc.redstonechain.com",
+    "https://rpc.zerion.io/v1/redstoe"
+  ],
+  "1329": [
+    "https://rpc.zerion.io/v1/sei",
+    "https://evm-rpc.sei-apis.com"
+  ],
+  "1868": [
+    "https://rpc.zerion.io/v1/soneium"
+  ],
+  "146": [
+    "https://rpc.zerion.io/v1/sonic",
+    "https://rpc.soniclabs.com"
+  ],
+  "1891": [
+    "https://rpc.zerion.io/v1/swellchain",
+    "https://swell-mainnet.alt.technology",
+    "https://rpc.ankr.com/swell"
+  ],
+  "167004": [
+    "https://rpc.zerion.io/v1/taiko",
+    "https://rpc.taiko.xyz"
+  ],
+  "88": [
+    "https://rpc.zerion.io/v1/victio",
+    "https://rpc.viction.xyz"
+  ],
+  "130": [
+    "https://rpc.zerion.io/v1/unichain"
+  ],
+  "196": [
+    "https://rpc.zerion.io/v1/okx",
+    "https://rpc.xlayer.tech",
+    "https://xlayerrpc.okx.com"
+  ],
+  "480": [
+    "https://rpc.zerion.io/v1/world",
+    "https://worldchain-mainnet.g.alchemy.com/public"
+  ],
+  "543210": [
+    "https://rpc.zerion.io/v1/zero"
+  ],
+  "808964": [
+    "https://rpc.zerion.io/v1/zklink-nova",
+    "https://rpc.zklink.io",
+    "https://rpc.zerion.io/v1/zklik"
+  ],
+  "7565164": [
+    "https://rpc.zerion.io/v1/berachain"
+  ],
+  "7572": [
+    "https://rpc.zerion.io/v1/cyber",
+    "https://cyber.alt.technology/",
+    "https://rpc.cyber.co/"
+  ],
+  "11155111": [
+    "https://rpc.zerion.io/v1/sepolia"
+  ],
+  "168587773": [
+    "https://rpc.zerion.io/v1/blast-sepolia"
+  ],
+  "11155420": [
+    "https://rpc.zerion.io/v1/optimism-sepolia"
+  ],
+  "80085": [
+    "https://rpc.zerion.io/v1/berachain-artio"
+  ],
+  "421614": [
+    "https://rpc.zerion.io/v1/arbitrum-sepolia"
+  ],
+  "84532": [
+    "https://rpc.zerion.io/v1/base-sepolia"
+  ],
+  "534351": [
+    "https://rpc.zerion.io/v1/scroll-sepolia"
+  ],
+  "4457845": [
+    "https://rpc.zerion.io/v1/zero-sepolia"
+  ],
+  "111555111": [
+    "https://rpc.zerion.io/v1/zora-sepolia"
+  ],
+  "7001": [
+    "https://rpc.zerion.io/v1/zetachain-athens-3"
+  ],
+  "7777": [
+    "https://rpc.zerion.io/v1/zora-goerli"
+  ],
+  "5": [
+    "https://rpc.zerion.io/v1/arbitrum"
+  ],
+  "7": [
+    "https://rpc.dome.cloud",
+    "https://rpc.thaichain.org"
+  ],
+  "8": [
+    "https://pyrus2.ubiqscan.io"
+  ],
+  "11": [
+    "https://api.metadium.com/prod"
+  ],
+  "12": [
+    "https://api.metadium.com/dev"
+  ],
+  "14": [
+    "https://flare-api.flare.network/ext/C/rpc",
+    "https://flare.rpc.thirdweb.com",
+    "https://rpc.ankr.com/flare",
+    "https://rpc.au.cc/flare",
+    "https://flare.solidifi.app/ext/C/rpc"
+  ],
+  "15": [
+    "https://prenet.diode.io:8443/"
+  ],
+  "16": [
+    "https://coston-api.flare.network/ext/C/rpc"
+  ],
+  "19": [
+    "https://songbird-api.flare.network/ext/C/rpc",
+    "https://rpc.au.cc/songbird",
+    "https://songbird.solidifi.app/ext/C/rpc"
+  ],
+  "20": [
+    "https://api.elastos.io/eth"
+  ],
+  "24": [
+    "https://rpc.kardiachain.io"
+  ],
+  "25": [
+    "https://evm.cronos.org",
+    "https://cronos-evm-rpc.publicnode.com",
+    "https://cronos.drpc.org",
+    "https://rpc.zerion.io/v1/cronos-beta"
+  ],
+  "29": [
+    "https://rpc.genesisl1.org"
+  ],
+  "114": [
+    "https://rpc.zerion.io/v1/core-blockchain"
+  ]
+}
