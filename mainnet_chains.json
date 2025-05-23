@@ -1,0 +1,9067 @@
+[
+  {
+    "id": 1,
+    "name": "Ethereum Mainnet",
+    "short_name": "eth",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2,
+    "name": "Expanse Network",
+    "short_name": "exp",
+    "chain": "EXP",
+    "currency": "EXP"
+  },
+  {
+    "id": 7,
+    "name": "ThaiChain",
+    "short_name": "tch",
+    "chain": "TCH",
+    "currency": "TCH"
+  },
+  {
+    "id": 8,
+    "name": "Ubiq",
+    "short_name": "ubq",
+    "chain": "UBQ",
+    "currency": "UBQ"
+  },
+  {
+    "id": 10,
+    "name": "OP Mainnet",
+    "short_name": "oeth",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 11,
+    "name": "Metadium Mainnet",
+    "short_name": "meta",
+    "chain": "META",
+    "currency": "META"
+  },
+  {
+    "id": 14,
+    "name": "Flare Mainnet",
+    "short_name": "flr",
+    "chain": "FLR",
+    "currency": "FLR"
+  },
+  {
+    "id": 15,
+    "name": "Diode Prenet",
+    "short_name": "diode",
+    "chain": "DIODE",
+    "currency": "DIODE"
+  },
+  {
+    "id": 17,
+    "name": "ThaiChain 2.0 ThaiFi",
+    "short_name": "tfi",
+    "chain": "TCH",
+    "currency": "TFI"
+  },
+  {
+    "id": 19,
+    "name": "Songbird Canary-Network",
+    "short_name": "sgb",
+    "chain": "SGB",
+    "currency": "SGB"
+  },
+  {
+    "id": 20,
+    "name": "Elastos Smart Chain",
+    "short_name": "esc",
+    "chain": "ETH",
+    "currency": "ELA"
+  },
+  {
+    "id": 22,
+    "name": "ELA-DID-Sidechain Mainnet",
+    "short_name": "eladid",
+    "chain": "ETH",
+    "currency": "ELA"
+  },
+  {
+    "id": 24,
+    "name": "KardiaChain Mainnet",
+    "short_name": "kardiachain",
+    "chain": "KAI",
+    "currency": "KAI"
+  },
+  {
+    "id": 25,
+    "name": "Cronos Mainnet",
+    "short_name": "cro",
+    "chain": "CRO",
+    "currency": "CRO"
+  },
+  {
+    "id": 27,
+    "name": "ShibaChain",
+    "short_name": "shib",
+    "chain": "SHIB",
+    "currency": "SHIB"
+  },
+  {
+    "id": 29,
+    "name": "Genesis L1",
+    "short_name": "L1",
+    "chain": "genesis",
+    "currency": "L1"
+  },
+  {
+    "id": 30,
+    "name": "Rootstock Mainnet",
+    "short_name": "rsk",
+    "chain": "Rootstock",
+    "currency": "RBTC"
+  },
+  {
+    "id": 33,
+    "name": "GoodData Mainnet",
+    "short_name": "GooD",
+    "chain": "GooD",
+    "currency": "GooD"
+  },
+  {
+    "id": 34,
+    "name": "SecureChain Mainnet",
+    "short_name": "scai",
+    "chain": "SCAI",
+    "currency": "SCAI"
+  },
+  {
+    "id": 35,
+    "name": "TBWG Chain",
+    "short_name": "tbwg",
+    "chain": "TBWG",
+    "currency": "TBG"
+  },
+  {
+    "id": 36,
+    "name": "Dxchain Mainnet",
+    "short_name": "dx",
+    "chain": "Dxchain",
+    "currency": "DX"
+  },
+  {
+    "id": 37,
+    "name": "Xpla Mainnet",
+    "short_name": "xpla",
+    "chain": "XPLA",
+    "currency": "XPLA"
+  },
+  {
+    "id": 38,
+    "name": "Valorbit",
+    "short_name": "val",
+    "chain": "VAL",
+    "currency": "VAL"
+  },
+  {
+    "id": 39,
+    "name": "U2U Solaris Mainnet",
+    "short_name": "u2u",
+    "chain": "u2u",
+    "currency": "U2U"
+  },
+  {
+    "id": 40,
+    "name": "Telos EVM Mainnet",
+    "short_name": "TelosEVM",
+    "chain": "TLOS",
+    "currency": "TLOS"
+  },
+  {
+    "id": 42,
+    "name": "LUKSO Mainnet",
+    "short_name": "lukso",
+    "chain": "LUKSO",
+    "currency": "LYX"
+  },
+  {
+    "id": 44,
+    "name": "Crab Network",
+    "short_name": "crab",
+    "chain": "crab",
+    "currency": "CRAB"
+  },
+  {
+    "id": 46,
+    "name": "Darwinia Network",
+    "short_name": "darwinia",
+    "chain": "darwinia",
+    "currency": "RING"
+  },
+  {
+    "id": 47,
+    "name": "Acria IntelliChain",
+    "short_name": "aic",
+    "chain": "AIC",
+    "currency": "ACRIA"
+  },
+  {
+    "id": 48,
+    "name": "Ennothem Mainnet Proterozoic",
+    "short_name": "etmp",
+    "chain": "ETMP",
+    "currency": "ETMP"
+  },
+  {
+    "id": 50,
+    "name": "XDC Network",
+    "short_name": "xdc",
+    "chain": "XDC",
+    "currency": "XDC"
+  },
+  {
+    "id": 51,
+    "name": "XDC Apothem Network",
+    "short_name": "txdc",
+    "chain": "XDC",
+    "currency": "TXDC"
+  },
+  {
+    "id": 52,
+    "name": "CoinEx Smart Chain Mainnet",
+    "short_name": "cet",
+    "chain": "CSC",
+    "currency": "cet"
+  },
+  {
+    "id": 54,
+    "name": "Openpiece Mainnet",
+    "short_name": "OP",
+    "chain": "OPENPIECE",
+    "currency": "BELLY"
+  },
+  {
+    "id": 55,
+    "name": "Zyx Mainnet",
+    "short_name": "ZYX",
+    "chain": "ZYX",
+    "currency": "ZYX"
+  },
+  {
+    "id": 56,
+    "name": "BNB Smart Chain Mainnet",
+    "short_name": "bnb",
+    "chain": "BSC",
+    "currency": "BNB"
+  },
+  {
+    "id": 57,
+    "name": "Syscoin Mainnet",
+    "short_name": "sys",
+    "chain": "SYS",
+    "currency": "SYS"
+  },
+  {
+    "id": 58,
+    "name": "Ontology Mainnet",
+    "short_name": "OntologyMainnet",
+    "chain": "Ontology",
+    "currency": "ONG"
+  },
+  {
+    "id": 60,
+    "name": "GoChain",
+    "short_name": "go",
+    "chain": "GO",
+    "currency": "GO"
+  },
+  {
+    "id": 61,
+    "name": "Ethereum Classic",
+    "short_name": "etc",
+    "chain": "ETC",
+    "currency": "ETC"
+  },
+  {
+    "id": 64,
+    "name": "Ellaism",
+    "short_name": "ellaism",
+    "chain": "ELLA",
+    "currency": "ELLA"
+  },
+  {
+    "id": 66,
+    "name": "OKXChain Mainnet",
+    "short_name": "okt",
+    "chain": "okxchain",
+    "currency": "OKT"
+  },
+  {
+    "id": 68,
+    "name": "SoterOne Mainnet",
+    "short_name": "SO1",
+    "chain": "SOTER",
+    "currency": "SOTER"
+  },
+  {
+    "id": 70,
+    "name": "Hoo Smart Chain",
+    "short_name": "hsc",
+    "chain": "HSC",
+    "currency": "HOO"
+  },
+  {
+    "id": 73,
+    "name": "FNCY",
+    "short_name": "FNCY",
+    "chain": "FNCY",
+    "currency": "FNCY"
+  },
+  {
+    "id": 74,
+    "name": "IDChain Mainnet",
+    "short_name": "idchain",
+    "chain": "IDChain",
+    "currency": "EIDI"
+  },
+  {
+    "id": 75,
+    "name": "Decimal Smart Chain Mainnet",
+    "short_name": "DSC",
+    "chain": "DSC",
+    "currency": "DEL"
+  },
+  {
+    "id": 76,
+    "name": "Mix",
+    "short_name": "mix",
+    "chain": "MIX",
+    "currency": "MIX"
+  },
+  {
+    "id": 77,
+    "name": "POA Network Sokol",
+    "short_name": "spoa",
+    "chain": "POA",
+    "currency": "SPOA"
+  },
+  {
+    "id": 78,
+    "name": "PrimusChain mainnet",
+    "short_name": "primuschain",
+    "chain": "PC",
+    "currency": "PETH"
+  },
+  {
+    "id": 79,
+    "name": "Zenith Mainnet",
+    "short_name": "zenith",
+    "chain": "Zenith",
+    "currency": "ZENITH"
+  },
+  {
+    "id": 80,
+    "name": "GeneChain",
+    "short_name": "GeneChain",
+    "chain": "GeneChain",
+    "currency": "RNA"
+  },
+  {
+    "id": 81,
+    "name": "Japan Open Chain Mainnet",
+    "short_name": "joc",
+    "chain": "JOC",
+    "currency": "JOC"
+  },
+  {
+    "id": 82,
+    "name": "Meter Mainnet",
+    "short_name": "Meter",
+    "chain": "METER",
+    "currency": "MTR"
+  },
+  {
+    "id": 86,
+    "name": "GateChain Mainnet",
+    "short_name": "gt",
+    "chain": "GT",
+    "currency": "GT"
+  },
+  {
+    "id": 87,
+    "name": "Nova Network",
+    "short_name": "nnw",
+    "chain": "NNW",
+    "currency": "SNT"
+  },
+  {
+    "id": 88,
+    "name": "Viction",
+    "short_name": "vic",
+    "chain": "Viction",
+    "currency": "VIC"
+  },
+  {
+    "id": 90,
+    "name": "Garizon Stage0",
+    "short_name": "gar-s0",
+    "chain": "GAR",
+    "currency": "GAR"
+  },
+  {
+    "id": 91,
+    "name": "Garizon Stage1",
+    "short_name": "gar-s1",
+    "chain": "GAR",
+    "currency": "GAR"
+  },
+  {
+    "id": 92,
+    "name": "Garizon Stage2",
+    "short_name": "gar-s2",
+    "chain": "GAR",
+    "currency": "GAR"
+  },
+  {
+    "id": 93,
+    "name": "Garizon Stage3",
+    "short_name": "gar-s3",
+    "chain": "GAR",
+    "currency": "GAR"
+  },
+  {
+    "id": 94,
+    "name": "SwissDLT",
+    "short_name": "sdlt",
+    "chain": "SDLT",
+    "currency": "BCTS"
+  },
+  {
+    "id": 95,
+    "name": "CamDL Mainnet",
+    "short_name": "camdl",
+    "chain": "CADL",
+    "currency": "CADL"
+  },
+  {
+    "id": 96,
+    "name": "KUB Mainnet",
+    "short_name": "kub",
+    "chain": "KUB",
+    "currency": "KUB"
+  },
+  {
+    "id": 98,
+    "name": "Six Protocol",
+    "short_name": "six",
+    "chain": "SIXNET",
+    "currency": "SIX"
+  },
+  {
+    "id": 99,
+    "name": "POA Network Core",
+    "short_name": "poa",
+    "chain": "POA",
+    "currency": "POA"
+  },
+  {
+    "id": 100,
+    "name": "Gnosis",
+    "short_name": "gno",
+    "chain": "GNO",
+    "currency": "XDAI"
+  },
+  {
+    "id": 101,
+    "name": "EtherInc",
+    "short_name": "eti",
+    "chain": "ETI",
+    "currency": "ETI"
+  },
+  {
+    "id": 103,
+    "name": "WorldLand Mainnet",
+    "short_name": "WLC",
+    "chain": "Worldland",
+    "currency": "WLC"
+  },
+  {
+    "id": 106,
+    "name": "Velas EVM Mainnet",
+    "short_name": "vlx",
+    "chain": "Velas",
+    "currency": "VLX"
+  },
+  {
+    "id": 108,
+    "name": "ThunderCore Mainnet",
+    "short_name": "TT",
+    "chain": "TT",
+    "currency": "TT"
+  },
+  {
+    "id": 109,
+    "name": "Shibarium",
+    "short_name": "shibariumecosystem",
+    "chain": "Shibarium",
+    "currency": "BONE"
+  },
+  {
+    "id": 111,
+    "name": "EtherLite Chain",
+    "short_name": "ETL",
+    "chain": "ETL",
+    "currency": "ETL"
+  },
+  {
+    "id": 112,
+    "name": "Coinbit Mainnet",
+    "short_name": "coinbit",
+    "chain": "Coinbit",
+    "currency": "GIDR"
+  },
+  {
+    "id": 113,
+    "name": "Dehvo",
+    "short_name": "deh",
+    "chain": "Dehvo",
+    "currency": "Deh"
+  },
+  {
+    "id": 117,
+    "name": "Uptick Mainnet",
+    "short_name": "auptick",
+    "chain": "Uptick",
+    "currency": "UPTICK"
+  },
+  {
+    "id": 119,
+    "name": "ENULS Mainnet",
+    "short_name": "enuls",
+    "chain": "ENULS",
+    "currency": "NULS"
+  },
+  {
+    "id": 121,
+    "name": "Realchain Mainnet",
+    "short_name": "REAL",
+    "chain": "REAL",
+    "currency": "REAL"
+  },
+  {
+    "id": 122,
+    "name": "Fuse Mainnet",
+    "short_name": "fuse",
+    "chain": "FUSE",
+    "currency": "FUSE"
+  },
+  {
+    "id": 123,
+    "name": "Fuse Sparknet",
+    "short_name": "spark",
+    "chain": "fuse",
+    "currency": "SPARK"
+  },
+  {
+    "id": 124,
+    "name": "Decentralized Web Mainnet",
+    "short_name": "dwu",
+    "chain": "DWU",
+    "currency": "DWU"
+  },
+  {
+    "id": 126,
+    "name": "OYchain Mainnet",
+    "short_name": "OYchainMainnet",
+    "chain": "OYchain",
+    "currency": "OY"
+  },
+  {
+    "id": 127,
+    "name": "Factory 127 Mainnet",
+    "short_name": "feth",
+    "chain": "FETH",
+    "currency": "FETH"
+  },
+  {
+    "id": 128,
+    "name": "Huobi ECO Chain Mainnet",
+    "short_name": "heco",
+    "chain": "Heco",
+    "currency": "HT"
+  },
+  {
+    "id": 129,
+    "name": "Innovator Chain",
+    "short_name": "Innovator",
+    "chain": "INNOVATOR",
+    "currency": "INOV8"
+  },
+  {
+    "id": 130,
+    "name": "Unichain",
+    "short_name": "unichain",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 132,
+    "name": "Namefi Chain Mainnet",
+    "short_name": "nfic",
+    "chain": "NFIC",
+    "currency": "NFIC"
+  },
+  {
+    "id": 134,
+    "name": "iExec Sidechain",
+    "short_name": "rlc",
+    "chain": "Bellecour",
+    "currency": "xRLC"
+  },
+  {
+    "id": 136,
+    "name": "Deamchain Mainnet",
+    "short_name": "deam",
+    "chain": "Deamchain",
+    "currency": "DEAM"
+  },
+  {
+    "id": 137,
+    "name": "Polygon Mainnet",
+    "short_name": "pol",
+    "chain": "Polygon",
+    "currency": "POL"
+  },
+  {
+    "id": 138,
+    "name": "Defi Oracle Meta Mainnet",
+    "short_name": "dfio-meta-main",
+    "chain": "dfiometa",
+    "currency": "ETH"
+  },
+  {
+    "id": 139,
+    "name": "WoopChain Mainnet",
+    "short_name": "woop",
+    "chain": "WOOP",
+    "currency": "WOOC"
+  },
+  {
+    "id": 140,
+    "name": "Eternal Mainnet",
+    "short_name": "ETE",
+    "chain": "ETE",
+    "currency": "ETE"
+  },
+  {
+    "id": 142,
+    "name": "DAX CHAIN",
+    "short_name": "dax",
+    "chain": "DAX",
+    "currency": "DAX"
+  },
+  {
+    "id": 143,
+    "name": "Monad Mainnet",
+    "short_name": "mon",
+    "chain": "MON",
+    "currency": "MON"
+  },
+  {
+    "id": 144,
+    "name": "PHI Network v2",
+    "short_name": "PHI",
+    "chain": "PHI",
+    "currency": "\u03a6"
+  },
+  {
+    "id": 146,
+    "name": "Sonic Mainnet",
+    "short_name": "sonic",
+    "chain": "sonic",
+    "currency": "S"
+  },
+  {
+    "id": 147,
+    "name": "Flag Mainnet",
+    "short_name": "FLAG",
+    "chain": "Flag",
+    "currency": "FLAG"
+  },
+  {
+    "id": 148,
+    "name": "ShimmerEVM",
+    "short_name": "shimmerevm",
+    "chain": "ShimmerEVM",
+    "currency": "SMR"
+  },
+  {
+    "id": 151,
+    "name": "Redbelly Network Mainnet",
+    "short_name": "rbn",
+    "chain": "RBN",
+    "currency": "RBNT"
+  },
+  {
+    "id": 154,
+    "name": "Redbelly Network TGE",
+    "short_name": "rbn-tge",
+    "chain": "RBN",
+    "currency": "RBNT"
+  },
+  {
+    "id": 157,
+    "name": "Puppynet",
+    "short_name": "puppynet",
+    "chain": "Puppynet",
+    "currency": "BONE"
+  },
+  {
+    "id": 158,
+    "name": "Roburna Mainnet",
+    "short_name": "rba",
+    "chain": "RBA",
+    "currency": "RBA"
+  },
+  {
+    "id": 160,
+    "name": "Armonia Eva Chain Mainnet",
+    "short_name": "eva",
+    "chain": "Eva",
+    "currency": "AMAX"
+  },
+  {
+    "id": 163,
+    "name": "Lightstreams Mainnet",
+    "short_name": "pht",
+    "chain": "PHT",
+    "currency": "PHT"
+  },
+  {
+    "id": 166,
+    "name": "Omni",
+    "short_name": "omni",
+    "chain": "Omni",
+    "currency": "OMNI"
+  },
+  {
+    "id": 168,
+    "name": "AIOZ Network",
+    "short_name": "aioz",
+    "chain": "AIOZ",
+    "currency": "AIOZ"
+  },
+  {
+    "id": 169,
+    "name": "Manta Pacific Mainnet",
+    "short_name": "manta",
+    "chain": "Manta Pacific",
+    "currency": "ETH"
+  },
+  {
+    "id": 171,
+    "name": "CO2e Chain",
+    "short_name": "CO2e",
+    "chain": "CO2E",
+    "currency": "CO2E"
+  },
+  {
+    "id": 175,
+    "name": "OTC",
+    "short_name": "OTC",
+    "chain": "OTC",
+    "currency": "OTC"
+  },
+  {
+    "id": 176,
+    "name": "DC Mainnet",
+    "short_name": "dcchain",
+    "chain": "dcchain",
+    "currency": "DCT"
+  },
+  {
+    "id": 177,
+    "name": "HashKey Chain",
+    "short_name": "hsk",
+    "chain": "HashKey Chain",
+    "currency": "HSK"
+  },
+  {
+    "id": 179,
+    "name": "ABEY Mainnet",
+    "short_name": "abey",
+    "chain": "ABEY",
+    "currency": "ABEY"
+  },
+  {
+    "id": 180,
+    "name": "AME Chain Mainnet",
+    "short_name": "ame",
+    "chain": "AME",
+    "currency": "AME"
+  },
+  {
+    "id": 181,
+    "name": "Waterfall Network",
+    "short_name": "water",
+    "chain": "Waterfall Network",
+    "currency": "WATER"
+  },
+  {
+    "id": 182,
+    "name": "IOST Mainnet",
+    "short_name": "iost",
+    "chain": "iost",
+    "currency": "BNB"
+  },
+  {
+    "id": 183,
+    "name": "Ethernity",
+    "short_name": "ethernity-mainnet",
+    "chain": "Ethernity",
+    "currency": "ETH"
+  },
+  {
+    "id": 185,
+    "name": "Mint Mainnet",
+    "short_name": "mint",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 186,
+    "name": "Seele Mainnet",
+    "short_name": "Seele",
+    "chain": "Seele",
+    "currency": "Seele"
+  },
+  {
+    "id": 187,
+    "name": "Dojima",
+    "short_name": "dojima",
+    "chain": "Dojima",
+    "currency": "DOJ"
+  },
+  {
+    "id": 188,
+    "name": "BMC Mainnet",
+    "short_name": "BMC",
+    "chain": "BMC",
+    "currency": "BTM"
+  },
+  {
+    "id": 190,
+    "name": "CMDAO BBQ Chain",
+    "short_name": "cmdao-bbq-chain",
+    "chain": "Underchain 1",
+    "currency": "CMD"
+  },
+  {
+    "id": 191,
+    "name": "FileFileGo",
+    "short_name": "ffg",
+    "chain": "FFG",
+    "currency": "FFG"
+  },
+  {
+    "id": 193,
+    "name": "Crypto Emergency",
+    "short_name": "cem",
+    "chain": "CEM",
+    "currency": "CEM"
+  },
+  {
+    "id": 194,
+    "name": "firachain",
+    "short_name": "FIR",
+    "chain": "FIR",
+    "currency": "FIR"
+  },
+  {
+    "id": 196,
+    "name": "X Layer Mainnet",
+    "short_name": "okb",
+    "chain": "X Layer",
+    "currency": "OKB"
+  },
+  {
+    "id": 198,
+    "name": "Bitchain Mainnet",
+    "short_name": "bit",
+    "chain": "Bit",
+    "currency": "BTC"
+  },
+  {
+    "id": 199,
+    "name": "BitTorrent Chain Mainnet",
+    "short_name": "BTT",
+    "chain": "BTTC",
+    "currency": "BTT"
+  },
+  {
+    "id": 200,
+    "name": "Arbitrum on xDai",
+    "short_name": "aox",
+    "chain": "AOX",
+    "currency": "xDAI"
+  },
+  {
+    "id": 203,
+    "name": "WowChain Mainnet",
+    "short_name": "wow",
+    "chain": "WowChain",
+    "currency": "DOGE"
+  },
+  {
+    "id": 204,
+    "name": "opBNB Mainnet",
+    "short_name": "obnb",
+    "chain": "opBNB",
+    "currency": "BNB"
+  },
+  {
+    "id": 205,
+    "name": "EKAASH",
+    "short_name": "ekaash",
+    "chain": "EKAASH",
+    "currency": "$EKH"
+  },
+  {
+    "id": 207,
+    "name": "VinuChain Network",
+    "short_name": "VC",
+    "chain": "VinuChain",
+    "currency": "VC"
+  },
+  {
+    "id": 208,
+    "name": "Structx Mainnet",
+    "short_name": "utx",
+    "chain": "utx",
+    "currency": "utx"
+  },
+  {
+    "id": 210,
+    "name": "Bitnet",
+    "short_name": "BTN",
+    "chain": "BTN",
+    "currency": "BTN"
+  },
+  {
+    "id": 211,
+    "name": "Freight Trust Network",
+    "short_name": "EDI",
+    "chain": "EDI",
+    "currency": "0xF"
+  },
+  {
+    "id": 213,
+    "name": "B2 Hub Mainnet",
+    "short_name": "B2Hub-mainnet",
+    "chain": "B2",
+    "currency": "B2"
+  },
+  {
+    "id": 214,
+    "name": "Shinarium Mainnet",
+    "short_name": "shinarium",
+    "chain": "Shinarium",
+    "currency": "SHI"
+  },
+  {
+    "id": 215,
+    "name": "IDN Mainnet",
+    "short_name": "IDN",
+    "chain": "IDN",
+    "currency": "IDN"
+  },
+  {
+    "id": 217,
+    "name": "SiriusNet V2",
+    "short_name": "SIN2",
+    "chain": "SIN2",
+    "currency": "MCD"
+  },
+  {
+    "id": 221,
+    "name": "BlockEx Mainnet",
+    "short_name": "BlockEx",
+    "chain": "BlockEx",
+    "currency": "XBE"
+  },
+  {
+    "id": 223,
+    "name": "B2 Mainnet",
+    "short_name": "B2-mainnet",
+    "chain": "B2",
+    "currency": "BTC"
+  },
+  {
+    "id": 225,
+    "name": "LACHAIN Mainnet",
+    "short_name": "LA",
+    "chain": "LA",
+    "currency": "LA"
+  },
+  {
+    "id": 227,
+    "name": "Prom",
+    "short_name": "PROM",
+    "chain": "Prom",
+    "currency": "PROM"
+  },
+  {
+    "id": 228,
+    "name": "Mind Network Mainnet",
+    "short_name": "fhe",
+    "chain": "FHE",
+    "currency": "ETH"
+  },
+  {
+    "id": 230,
+    "name": "SwapDEX",
+    "short_name": "SDX",
+    "chain": "SDX",
+    "currency": "SDX"
+  },
+  {
+    "id": 232,
+    "name": "Lens",
+    "short_name": "lens",
+    "chain": "Lens",
+    "currency": "GHO"
+  },
+  {
+    "id": 238,
+    "name": "Blast Mainnet",
+    "short_name": "blast",
+    "chain": "ETH",
+    "currency": "OWCT"
+  },
+  {
+    "id": 239,
+    "name": "TAC Mainnet",
+    "short_name": "tac",
+    "chain": "TAC",
+    "currency": "TAC"
+  },
+  {
+    "id": 242,
+    "name": "Plinga Mainnet",
+    "short_name": "plgchain",
+    "chain": "Plinga",
+    "currency": "PLINGA"
+  },
+  {
+    "id": 246,
+    "name": "Energy Web Chain",
+    "short_name": "ewt",
+    "chain": "Energy Web Chain",
+    "currency": "EWT"
+  },
+  {
+    "id": 247,
+    "name": "ChooChain",
+    "short_name": "choo",
+    "chain": "CHOO",
+    "currency": "CHOO"
+  },
+  {
+    "id": 248,
+    "name": "Oasys Mainnet",
+    "short_name": "OAS",
+    "chain": "Oasys",
+    "currency": "OAS"
+  },
+  {
+    "id": 250,
+    "name": "Fantom Opera",
+    "short_name": "ftm",
+    "chain": "FTM",
+    "currency": "FTM"
+  },
+  {
+    "id": 251,
+    "name": "Glide L1 Protocol XP",
+    "short_name": "glide",
+    "chain": "GLXP",
+    "currency": "GLXP"
+  },
+  {
+    "id": 252,
+    "name": "Fraxtal",
+    "short_name": "fraxtal",
+    "chain": "FRAX",
+    "currency": "frxETH"
+  },
+  {
+    "id": 253,
+    "name": "Glide L2 Protocol XP",
+    "short_name": "glidexp",
+    "chain": "GLXP",
+    "currency": "GLXP"
+  },
+  {
+    "id": 254,
+    "name": "Swan Chain Mainnet",
+    "short_name": "Swan",
+    "chain": "SWAN",
+    "currency": "ETH"
+  },
+  {
+    "id": 255,
+    "name": "Kroma",
+    "short_name": "kroma",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 258,
+    "name": "Setheum",
+    "short_name": "setm",
+    "chain": "Setheum",
+    "currency": "SETM"
+  },
+  {
+    "id": 259,
+    "name": "Neonlink Mainnet",
+    "short_name": "neon",
+    "chain": "Neonlink",
+    "currency": "NEON"
+  },
+  {
+    "id": 260,
+    "name": "Guru Network",
+    "short_name": "guru",
+    "chain": "GURU",
+    "currency": "GURU"
+  },
+  {
+    "id": 262,
+    "name": "SUR Blockchain Network",
+    "short_name": "SUR",
+    "chain": "SUR",
+    "currency": "SRN"
+  },
+  {
+    "id": 266,
+    "name": "Neura",
+    "short_name": "neura",
+    "chain": "NEURA",
+    "currency": "ANKR"
+  },
+  {
+    "id": 269,
+    "name": "High Performance Blockchain",
+    "short_name": "hpb",
+    "chain": "HPB",
+    "currency": "HPB"
+  },
+  {
+    "id": 271,
+    "name": "EgonCoin Mainnet",
+    "short_name": "EGONm",
+    "chain": "EGON",
+    "currency": "EGON"
+  },
+  {
+    "id": 273,
+    "name": "XR One",
+    "short_name": "xr1",
+    "chain": "ETH",
+    "currency": "XR1"
+  },
+  {
+    "id": 274,
+    "name": "LaChain",
+    "short_name": "lachain",
+    "chain": "LaChain",
+    "currency": "LAC"
+  },
+  {
+    "id": 278,
+    "name": "xFair.AI Mainnet",
+    "short_name": "fai",
+    "chain": "FAI",
+    "currency": "FAI"
+  },
+  {
+    "id": 279,
+    "name": "BPX Chain",
+    "short_name": "bpx",
+    "chain": "BPX",
+    "currency": "BPX"
+  },
+  {
+    "id": 288,
+    "name": "Boba Network",
+    "short_name": "Boba",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 291,
+    "name": "Orderly Mainnet",
+    "short_name": "orderly",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 293,
+    "name": "DaVinci",
+    "short_name": "davinci",
+    "chain": "DCOIN",
+    "currency": "DCOIN"
+  },
+  {
+    "id": 295,
+    "name": "Hedera Mainnet",
+    "short_name": "hedera-mainnet",
+    "chain": "Hedera",
+    "currency": "HBAR"
+  },
+  {
+    "id": 297,
+    "name": "Hedera Previewnet",
+    "short_name": "hedera-previewnet",
+    "chain": "Hedera",
+    "currency": "HBAR"
+  },
+  {
+    "id": 298,
+    "name": "Hedera Localnet",
+    "short_name": "hedera-localnet",
+    "chain": "Hedera",
+    "currency": "HBAR"
+  },
+  {
+    "id": 305,
+    "name": "ZKSats Mainnet",
+    "short_name": "ZKSats-Mainnet",
+    "chain": "ZKSats",
+    "currency": "BTC"
+  },
+  {
+    "id": 308,
+    "name": "Furtheon",
+    "short_name": "furtheon",
+    "chain": "Furtheon Network",
+    "currency": "FTH"
+  },
+  {
+    "id": 311,
+    "name": "Omax Mainnet",
+    "short_name": "omax",
+    "chain": "OMAX Chain",
+    "currency": "OMAX"
+  },
+  {
+    "id": 313,
+    "name": "Neurochain Mainnet",
+    "short_name": "ncn",
+    "chain": "NCN",
+    "currency": "NCN"
+  },
+  {
+    "id": 314,
+    "name": "Filecoin - Mainnet",
+    "short_name": "filecoin",
+    "chain": "FIL",
+    "currency": "FIL"
+  },
+  {
+    "id": 315,
+    "name": "WorldEcoMoney",
+    "short_name": "wem",
+    "chain": "WEM",
+    "currency": "WEM"
+  },
+  {
+    "id": 320,
+    "name": "ZKcandy Mainnet",
+    "short_name": "zkcandy",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 321,
+    "name": "KCC Mainnet",
+    "short_name": "kcs",
+    "chain": "KCC",
+    "currency": "KCS"
+  },
+  {
+    "id": 323,
+    "name": "Cosvm Mainnet",
+    "short_name": "cvm",
+    "chain": "CVM",
+    "currency": "CVM"
+  },
+  {
+    "id": 324,
+    "name": "zkSync Mainnet",
+    "short_name": "zksync",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 325,
+    "name": "GRVT Exchange",
+    "short_name": "grvt",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 333,
+    "name": "Web3Q Mainnet",
+    "short_name": "w3q",
+    "chain": "Web3Q",
+    "currency": "W3Q"
+  },
+  {
+    "id": 336,
+    "name": "Shiden",
+    "short_name": "sdn",
+    "chain": "SDN",
+    "currency": "SDN"
+  },
+  {
+    "id": 337,
+    "name": "R5 Network",
+    "short_name": "r5",
+    "chain": "r5",
+    "currency": "R5"
+  },
+  {
+    "id": 339,
+    "name": "Pencils Protocol",
+    "short_name": "dapp",
+    "chain": "ETH",
+    "currency": "DAPP"
+  },
+  {
+    "id": 345,
+    "name": "TSC Mainnet",
+    "short_name": "TSC",
+    "chain": "Trust Smart Chain",
+    "currency": "TAS"
+  },
+  {
+    "id": 360,
+    "name": "Shape",
+    "short_name": "shape",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 361,
+    "name": "Theta Mainnet",
+    "short_name": "theta-mainnet",
+    "chain": "Theta",
+    "currency": "TFUEL"
+  },
+  {
+    "id": 369,
+    "name": "PulseChain",
+    "short_name": "pls",
+    "chain": "PLS",
+    "currency": "PLS"
+  },
+  {
+    "id": 381,
+    "name": "ZKAmoeba Mainnet",
+    "short_name": "zkamoeba",
+    "chain": "FIL",
+    "currency": "FIL"
+  },
+  {
+    "id": 385,
+    "name": "Lisinski",
+    "short_name": "lisinski",
+    "chain": "CRO",
+    "currency": "LISINS"
+  },
+  {
+    "id": 388,
+    "name": "Cronos zkEVM Mainnet",
+    "short_name": "zkCRO",
+    "chain": "CronosZkEVMMainnet",
+    "currency": "zkCRO"
+  },
+  {
+    "id": 397,
+    "name": "NEAR Protocol",
+    "short_name": "near",
+    "chain": "NEAR",
+    "currency": "NEAR"
+  },
+  {
+    "id": 399,
+    "name": "Nativ3 Mainnet",
+    "short_name": "N3",
+    "chain": "Nativ3",
+    "currency": "USNT"
+  },
+  {
+    "id": 404,
+    "name": "Syndr L3",
+    "short_name": "syndr-l3",
+    "chain": "SYNDR",
+    "currency": "ETH"
+  },
+  {
+    "id": 411,
+    "name": "Pepe Chain Mainnet",
+    "short_name": "pepe",
+    "chain": "PC",
+    "currency": "PEPE"
+  },
+  {
+    "id": 416,
+    "name": "SX Network Mainnet",
+    "short_name": "SX",
+    "chain": "SX",
+    "currency": "SX"
+  },
+  {
+    "id": 422,
+    "name": "Viridis Mainnet",
+    "short_name": "vrd",
+    "chain": "VRD",
+    "currency": "VRD"
+  },
+  {
+    "id": 424,
+    "name": "PGN (Public Goods Network)",
+    "short_name": "PGN",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 425,
+    "name": "Stenix Mainnet",
+    "short_name": "sten",
+    "chain": "STEN",
+    "currency": "STEN"
+  },
+  {
+    "id": 426,
+    "name": "The Widows Mite",
+    "short_name": "mite",
+    "chain": "MITE",
+    "currency": "MITE"
+  },
+  {
+    "id": 427,
+    "name": "Zeeth Chain",
+    "short_name": "zeeth",
+    "chain": "ZeethChain",
+    "currency": "ZTH"
+  },
+  {
+    "id": 428,
+    "name": "Geso Verse",
+    "short_name": "GSV",
+    "chain": "Geso Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 434,
+    "name": "Boyaa Mainnet",
+    "short_name": "BYC",
+    "chain": "BYC",
+    "currency": "BYC"
+  },
+  {
+    "id": 456,
+    "name": "ARZIO Chain",
+    "short_name": "arzio",
+    "chain": "ARZIO",
+    "currency": "AZO"
+  },
+  {
+    "id": 463,
+    "name": "Areon Network Mainnet",
+    "short_name": "area",
+    "chain": "Areon",
+    "currency": "AREA"
+  },
+  {
+    "id": 466,
+    "name": "AppChain",
+    "short_name": "appchain",
+    "chain": "AppChain",
+    "currency": "ETH"
+  },
+  {
+    "id": 478,
+    "name": "Form Network",
+    "short_name": "formnetwork",
+    "chain": "form",
+    "currency": "ETH"
+  },
+  {
+    "id": 480,
+    "name": "World Chain",
+    "short_name": "wc",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 486,
+    "name": "Standard Mainnet",
+    "short_name": "stnd",
+    "chain": "STND",
+    "currency": "STND"
+  },
+  {
+    "id": 488,
+    "name": "BlackFort Exchange Network",
+    "short_name": "BXN",
+    "chain": "BXN",
+    "currency": "BXN"
+  },
+  {
+    "id": 495,
+    "name": "Landstars",
+    "short_name": "lds",
+    "chain": "Landstars",
+    "currency": "LDS"
+  },
+  {
+    "id": 499,
+    "name": "Rupaya",
+    "short_name": "rupx",
+    "chain": "RUPX",
+    "currency": "RUPX"
+  },
+  {
+    "id": 500,
+    "name": "Camino C-Chain",
+    "short_name": "Camino",
+    "chain": "CAM",
+    "currency": "CAM"
+  },
+  {
+    "id": 510,
+    "name": "Syndicate Chain",
+    "short_name": "syndicate-chain-mainnet",
+    "chain": "Syndicate",
+    "currency": "ETH"
+  },
+  {
+    "id": 512,
+    "name": "Double-A Chain Mainnet",
+    "short_name": "aac",
+    "chain": "AAC",
+    "currency": "AAC"
+  },
+  {
+    "id": 516,
+    "name": "Gear Zero Network Mainnet",
+    "short_name": "gz-mainnet",
+    "chain": "GearZero",
+    "currency": "GZN"
+  },
+  {
+    "id": 520,
+    "name": "XT Smart Chain Mainnet",
+    "short_name": "xt",
+    "chain": "XSC",
+    "currency": "XT"
+  },
+  {
+    "id": 529,
+    "name": "Firechain Mainnet",
+    "short_name": "fire",
+    "chain": "FIRE",
+    "currency": "FIRE"
+  },
+  {
+    "id": 530,
+    "name": "Pundi AIFX Omnilayer",
+    "short_name": "pundiai",
+    "chain": "PUNDIAI",
+    "currency": "PUNDAI"
+  },
+  {
+    "id": 534,
+    "name": "Candle",
+    "short_name": "CNDL",
+    "chain": "Candle",
+    "currency": "CNDL"
+  },
+  {
+    "id": 537,
+    "name": "OpTrust Mainnet",
+    "short_name": "optrust",
+    "chain": "OpTrust",
+    "currency": "BNB"
+  },
+  {
+    "id": 550,
+    "name": "River",
+    "short_name": "river",
+    "chain": "river",
+    "currency": "ETH"
+  },
+  {
+    "id": 555,
+    "name": "Vela1 Chain Mainnet",
+    "short_name": "CLASS",
+    "chain": "VELA1",
+    "currency": "CLASS"
+  },
+  {
+    "id": 558,
+    "name": "Tao Network",
+    "short_name": "tao",
+    "chain": "TAO",
+    "currency": "TAO"
+  },
+  {
+    "id": 570,
+    "name": "Rollux Mainnet",
+    "short_name": "sys-rollux",
+    "chain": "SYS",
+    "currency": "SYS"
+  },
+  {
+    "id": 571,
+    "name": "MetaChain Mainnet",
+    "short_name": "metatime",
+    "chain": "MTC",
+    "currency": "MTC"
+  },
+  {
+    "id": 579,
+    "name": "Filenova Mainnet",
+    "short_name": "filenova",
+    "chain": "Filenova",
+    "currency": "FIL"
+  },
+  {
+    "id": 592,
+    "name": "Astar",
+    "short_name": "astr",
+    "chain": "ASTR",
+    "currency": "ASTR"
+  },
+  {
+    "id": 612,
+    "name": "EIOB Mainnet",
+    "short_name": "eiob",
+    "chain": "EIOB",
+    "currency": "EIOB"
+  },
+  {
+    "id": 614,
+    "name": "Graphlinq Blockchain Mainnet",
+    "short_name": "glq",
+    "chain": "GLQ Blockchain",
+    "currency": "GLQ"
+  },
+  {
+    "id": 619,
+    "name": "Skynet",
+    "short_name": "Skynet",
+    "chain": "Skynet",
+    "currency": "sUSD"
+  },
+  {
+    "id": 624,
+    "name": "Binary Mainnet",
+    "short_name": "thebinaryholdings-mainnet",
+    "chain": "The Binary Holdings",
+    "currency": "BNRY"
+  },
+  {
+    "id": 632,
+    "name": "NFB Chain",
+    "short_name": "nfbchain",
+    "chain": "NFB Chain",
+    "currency": "NFBC"
+  },
+  {
+    "id": 634,
+    "name": "Avocado",
+    "short_name": "avocado",
+    "chain": "Avocado",
+    "currency": "USDC"
+  },
+  {
+    "id": 648,
+    "name": "Endurance Smart Chain Mainnet",
+    "short_name": "ace",
+    "chain": "ACE",
+    "currency": "ACE"
+  },
+  {
+    "id": 654,
+    "name": "Kalichain",
+    "short_name": "kalichainMainnet",
+    "chain": "Kalichain",
+    "currency": "KALIS"
+  },
+  {
+    "id": 662,
+    "name": "AmaxSmartchain",
+    "short_name": "Amaxsmartchain",
+    "chain": "AmaxSmartchain",
+    "currency": "AMAX"
+  },
+  {
+    "id": 668,
+    "name": "JuncaChain",
+    "short_name": "junca",
+    "chain": "JuncaChain",
+    "currency": "JGC"
+  },
+  {
+    "id": 678,
+    "name": "Janction",
+    "short_name": "janction",
+    "chain": "Janction",
+    "currency": "JCT"
+  },
+  {
+    "id": 686,
+    "name": "Karura Network",
+    "short_name": "kar",
+    "chain": "KAR",
+    "currency": "KAR"
+  },
+  {
+    "id": 690,
+    "name": "Redstone",
+    "short_name": "redstone",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 698,
+    "name": "Matchain",
+    "short_name": "Matchain",
+    "chain": "Matchain",
+    "currency": "BNB"
+  },
+  {
+    "id": 707,
+    "name": "BlockChain Station Mainnet",
+    "short_name": "bcs",
+    "chain": "BCS",
+    "currency": "BCS"
+  },
+  {
+    "id": 710,
+    "name": "Highbury",
+    "short_name": "fury",
+    "chain": "HIGHBURY",
+    "currency": "FURY"
+  },
+  {
+    "id": 713,
+    "name": "Vrcscan Mainnet",
+    "short_name": "vrc",
+    "chain": "VRC",
+    "currency": "VRC"
+  },
+  {
+    "id": 718,
+    "name": "UXLINK ONE Mainnet",
+    "short_name": "uxlink1",
+    "chain": "UXLINK ONE",
+    "currency": "UXLINK"
+  },
+  {
+    "id": 719,
+    "name": "Shibarium Beta",
+    "short_name": "shibarium",
+    "chain": "Shibarium",
+    "currency": "BONE"
+  },
+  {
+    "id": 721,
+    "name": "Lycan Chain",
+    "short_name": "LYC",
+    "chain": "LYC",
+    "currency": "LYC"
+  },
+  {
+    "id": 727,
+    "name": "Blucrates",
+    "short_name": "blu",
+    "chain": "BLU",
+    "currency": "BLU"
+  },
+  {
+    "id": 730,
+    "name": "Lovely Network Mainnet",
+    "short_name": "LOVELY",
+    "chain": "Lovely",
+    "currency": "LOVELY"
+  },
+  {
+    "id": 743,
+    "name": "Tranched Mainnet",
+    "short_name": "tranched-mainnet",
+    "chain": "tranched-mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 747,
+    "name": "Flow EVM Mainnet",
+    "short_name": "flow-mainnet",
+    "chain": "Flow",
+    "currency": "FLOW"
+  },
+  {
+    "id": 753,
+    "name": "Rivalz",
+    "short_name": "rivalz",
+    "chain": "rivalz",
+    "currency": "ETH"
+  },
+  {
+    "id": 766,
+    "name": "QL1",
+    "short_name": "qom",
+    "chain": "QOM",
+    "currency": "QOM"
+  },
+  {
+    "id": 777,
+    "name": "cheapETH",
+    "short_name": "cth",
+    "chain": "cheapETH",
+    "currency": "cTH"
+  },
+  {
+    "id": 786,
+    "name": "MAAL Chain",
+    "short_name": "maal",
+    "chain": "MAAL",
+    "currency": "MAAL"
+  },
+  {
+    "id": 787,
+    "name": "Acala Network",
+    "short_name": "aca",
+    "chain": "ACA",
+    "currency": "ACA"
+  },
+  {
+    "id": 789,
+    "name": "Patex",
+    "short_name": "peth",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 800,
+    "name": "Lucid Blockchain",
+    "short_name": "LUCID",
+    "chain": "Lucid",
+    "currency": "LUCID"
+  },
+  {
+    "id": 803,
+    "name": "Haic",
+    "short_name": "haic",
+    "chain": "Haic",
+    "currency": "HAIC"
+  },
+  {
+    "id": 805,
+    "name": "Evoz Mainnet",
+    "short_name": "Evoz",
+    "chain": "Evoz",
+    "currency": "EVOZ"
+  },
+  {
+    "id": 813,
+    "name": "Qitmeer Network Mainnet",
+    "short_name": "meer",
+    "chain": "MEER",
+    "currency": "MEER"
+  },
+  {
+    "id": 814,
+    "name": "Firechain zkEVM",
+    "short_name": "firechan-zkEVM",
+    "chain": "Firechain",
+    "currency": "ETH"
+  },
+  {
+    "id": 818,
+    "name": "BeOne Chain Mainnet",
+    "short_name": "BOC",
+    "chain": "BOC",
+    "currency": "BOC"
+  },
+  {
+    "id": 820,
+    "name": "Callisto Mainnet",
+    "short_name": "clo",
+    "chain": "CLO",
+    "currency": "CLO"
+  },
+  {
+    "id": 824,
+    "name": "Daily Network Mainnet",
+    "short_name": "dly",
+    "chain": "Daily Network",
+    "currency": "DLY"
+  },
+  {
+    "id": 841,
+    "name": "Taraxa Mainnet",
+    "short_name": "tara",
+    "chain": "TARA",
+    "currency": "TARA"
+  },
+  {
+    "id": 852,
+    "name": "HongKong Mainnet",
+    "short_name": "HongKong",
+    "chain": "HONGKONG",
+    "currency": "HK"
+  },
+  {
+    "id": 861,
+    "name": "Electra Network",
+    "short_name": "elc",
+    "chain": "Electra",
+    "currency": "ELC"
+  },
+  {
+    "id": 868,
+    "name": "Fantasia Chain Mainnet",
+    "short_name": "FSCMainnet",
+    "chain": "FSC",
+    "currency": "FST"
+  },
+  {
+    "id": 876,
+    "name": "Bandai Namco Research Verse Mainnet",
+    "short_name": "BNKEN",
+    "chain": "Bandai Namco Research Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 877,
+    "name": "Dexit Network",
+    "short_name": "DXT",
+    "chain": "DXT",
+    "currency": "DXT"
+  },
+  {
+    "id": 880,
+    "name": "Ambros Chain Mainnet",
+    "short_name": "ambros",
+    "chain": "ambroschain",
+    "currency": "AMBROS"
+  },
+  {
+    "id": 881,
+    "name": "Weber Governance Mainnet",
+    "short_name": "ptt",
+    "chain": "PTT",
+    "currency": "PTT"
+  },
+  {
+    "id": 888,
+    "name": "Wanchain",
+    "short_name": "wan",
+    "chain": "WAN",
+    "currency": "WAN"
+  },
+  {
+    "id": 899,
+    "name": "MAXI Chain Mainnet",
+    "short_name": "maxi-mainnet",
+    "chain": "MAXI",
+    "currency": "MGAS"
+  },
+  {
+    "id": 909,
+    "name": "Portal Fantasy Chain",
+    "short_name": "PF",
+    "chain": "PF",
+    "currency": "PFT"
+  },
+  {
+    "id": 911,
+    "name": "TAPROOT Mainnet",
+    "short_name": "TAPROOT-Mainnet",
+    "chain": "TAPROOT CHAIN",
+    "currency": "TBTC"
+  },
+  {
+    "id": 918,
+    "name": "SlerfChain Mainnet",
+    "short_name": "SlerfChain-Mainnet",
+    "chain": "SLERF CHAIN",
+    "currency": "WSLERF"
+  },
+  {
+    "id": 927,
+    "name": "Yidark Chain Mainnet",
+    "short_name": "ydk",
+    "chain": "Yidark",
+    "currency": "YDK"
+  },
+  {
+    "id": 938,
+    "name": "Haust Mainnet",
+    "short_name": "haust",
+    "chain": "Haust",
+    "currency": "HAUST"
+  },
+  {
+    "id": 957,
+    "name": "Lyra Chain",
+    "short_name": "lyra",
+    "chain": "Lyra",
+    "currency": "ETH"
+  },
+  {
+    "id": 963,
+    "name": "BTC20 Smart Chain",
+    "short_name": "btc20",
+    "chain": "BTC20",
+    "currency": "BTCC"
+  },
+  {
+    "id": 964,
+    "name": "Subtensor EVM",
+    "short_name": "bittensor-evm-mainnet",
+    "chain": "Bittensor",
+    "currency": "TAO"
+  },
+  {
+    "id": 969,
+    "name": "EthXY",
+    "short_name": "sexy",
+    "chain": "EthXY",
+    "currency": "SEXY"
+  },
+  {
+    "id": 970,
+    "name": "Oort Mainnet",
+    "short_name": "ccn",
+    "chain": "Oort Mainnet",
+    "currency": "OORT"
+  },
+  {
+    "id": 971,
+    "name": "Oort Huygens",
+    "short_name": "Huygens",
+    "chain": "Huygens",
+    "currency": "CCN"
+  },
+  {
+    "id": 972,
+    "name": "Oort Ascraeus",
+    "short_name": "Ascraeus",
+    "chain": "Ascraeus",
+    "currency": "CCNA"
+  },
+  {
+    "id": 973,
+    "name": "Palm Smart Chain",
+    "short_name": "PalmChain",
+    "chain": "Palm",
+    "currency": "PALM"
+  },
+  {
+    "id": 977,
+    "name": "Nepal Blockchain Network",
+    "short_name": "yeti",
+    "chain": "YETI",
+    "currency": "YETI"
+  },
+  {
+    "id": 980,
+    "name": "TOP Mainnet EVM",
+    "short_name": "top_evm",
+    "chain": "TOP",
+    "currency": "ETH"
+  },
+  {
+    "id": 985,
+    "name": "Memo Smart Chain Mainnet",
+    "short_name": "memochain",
+    "chain": "MEMO",
+    "currency": "CMEMO"
+  },
+  {
+    "id": 986,
+    "name": "LAGOM Mainnet",
+    "short_name": "Lagom-Chain",
+    "chain": "LAGOM Mainnet",
+    "currency": "LAGO"
+  },
+  {
+    "id": 987,
+    "name": "BinaryChain Mainnet",
+    "short_name": "binary",
+    "chain": "BinaryChain",
+    "currency": "BNRY"
+  },
+  {
+    "id": 989,
+    "name": "TOP Mainnet",
+    "short_name": "top",
+    "chain": "TOP",
+    "currency": "TOP"
+  },
+  {
+    "id": 990,
+    "name": "eLiberty Mainnet",
+    "short_name": "ELm",
+    "chain": "$EL",
+    "currency": "$EL"
+  },
+  {
+    "id": 995,
+    "name": "5ireChain Mainnet",
+    "short_name": "5ire",
+    "chain": "5ireChain",
+    "currency": "5ire"
+  },
+  {
+    "id": 996,
+    "name": "Bifrost Polkadot Mainnet",
+    "short_name": "bnc",
+    "chain": "Bifrost",
+    "currency": "WETH"
+  },
+  {
+    "id": 1000,
+    "name": "GTON Mainnet",
+    "short_name": "gton",
+    "chain": "GTON",
+    "currency": "GCD"
+  },
+  {
+    "id": 1003,
+    "name": "Tectum Emission Token",
+    "short_name": "tet",
+    "chain": "TET",
+    "currency": "TET"
+  },
+  {
+    "id": 1006,
+    "name": "LemonChain",
+    "short_name": "lemx",
+    "chain": "LEMX",
+    "currency": "LEMX"
+  },
+  {
+    "id": 1008,
+    "name": "Eurus Mainnet",
+    "short_name": "eun",
+    "chain": "EUN",
+    "currency": "EUN"
+  },
+  {
+    "id": 1009,
+    "name": "Jumbochain Mainnet",
+    "short_name": "Jumboscan",
+    "chain": "Jumbo",
+    "currency": "JNFTC"
+  },
+  {
+    "id": 1010,
+    "name": "Evrice Network",
+    "short_name": "EVC",
+    "chain": "EVC",
+    "currency": "EVC"
+  },
+  {
+    "id": 1011,
+    "name": "Rebus Classic Mainnet",
+    "short_name": "rebusclassic",
+    "chain": "REBUS",
+    "currency": "REBUS"
+  },
+  {
+    "id": 1012,
+    "name": "Newton",
+    "short_name": "new",
+    "chain": "NEW",
+    "currency": "NEW"
+  },
+  {
+    "id": 1022,
+    "name": "Sakura",
+    "short_name": "sku",
+    "chain": "Sakura",
+    "currency": "SKU"
+  },
+  {
+    "id": 1024,
+    "name": "CLV Parachain",
+    "short_name": "clv",
+    "chain": "CLV",
+    "currency": "CLV"
+  },
+  {
+    "id": 1029,
+    "name": "BitTorrent Chain Donau",
+    "short_name": "tBTT",
+    "chain": "BTTC",
+    "currency": "BTT"
+  },
+  {
+    "id": 1030,
+    "name": "Conflux eSpace",
+    "short_name": "cfx",
+    "chain": "Conflux",
+    "currency": "CFX"
+  },
+  {
+    "id": 1039,
+    "name": "Bronos Mainnet",
+    "short_name": "bronos-mainnet",
+    "chain": "Bronos",
+    "currency": "BRO"
+  },
+  {
+    "id": 1071,
+    "name": "OpenGPU Mainnet",
+    "short_name": "ogpu",
+    "chain": "OGPU",
+    "currency": "OGPU"
+  },
+  {
+    "id": 1080,
+    "name": "Mintara Mainnet",
+    "short_name": "mintara",
+    "chain": "Mintara",
+    "currency": "MNTR"
+  },
+  {
+    "id": 1088,
+    "name": "Metis Andromeda Mainnet",
+    "short_name": "metis-andromeda",
+    "chain": "ETH",
+    "currency": "METIS"
+  },
+  {
+    "id": 1089,
+    "name": "Humans.ai Mainnet",
+    "short_name": "humans",
+    "chain": "Humans",
+    "currency": "HEART"
+  },
+  {
+    "id": 1099,
+    "name": "MOAC mainnet",
+    "short_name": "moac",
+    "chain": "MOAC",
+    "currency": "mc"
+  },
+  {
+    "id": 1100,
+    "name": "Dymension",
+    "short_name": "dymension",
+    "chain": "Dymension",
+    "currency": "DYM"
+  },
+  {
+    "id": 1101,
+    "name": "Polygon zkEVM",
+    "short_name": "zkevm",
+    "chain": "Polygon",
+    "currency": "ETH"
+  },
+  {
+    "id": 1108,
+    "name": "BLXq Mainnet",
+    "short_name": "blxq",
+    "chain": "BLXQ",
+    "currency": "BLXQ"
+  },
+  {
+    "id": 1111,
+    "name": "WEMIX3.0 Mainnet",
+    "short_name": "wemix",
+    "chain": "WEMIX",
+    "currency": "WEMIX"
+  },
+  {
+    "id": 1116,
+    "name": "Core Blockchain Mainnet",
+    "short_name": "core",
+    "chain": "Core",
+    "currency": "CORE"
+  },
+  {
+    "id": 1117,
+    "name": "Dogcoin Mainnet",
+    "short_name": "DOGSm",
+    "chain": "DOGS",
+    "currency": "DOGS"
+  },
+  {
+    "id": 1125,
+    "name": "Taker Chain Mainnet",
+    "short_name": "taker",
+    "chain": "Taker",
+    "currency": "TAKER"
+  },
+  {
+    "id": 1130,
+    "name": "DeFiChain EVM Network Mainnet",
+    "short_name": "DFI",
+    "chain": "defichain-evm",
+    "currency": "DFI"
+  },
+  {
+    "id": 1134,
+    "name": "StateMesh",
+    "short_name": "mesh",
+    "chain": "MESH",
+    "currency": "MESH"
+  },
+  {
+    "id": 1135,
+    "name": "Lisk",
+    "short_name": "lisk",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1139,
+    "name": "MathChain",
+    "short_name": "MATH",
+    "chain": "MATH",
+    "currency": "MATH"
+  },
+  {
+    "id": 1149,
+    "name": "Symplexia Smart Chain",
+    "short_name": "Plexchain",
+    "chain": "Plexchain",
+    "currency": "PLEX"
+  },
+  {
+    "id": 1188,
+    "name": "ClubMos Mainnet",
+    "short_name": "MOS",
+    "chain": "MOS",
+    "currency": "MOS"
+  },
+  {
+    "id": 1197,
+    "name": "Iora Chain",
+    "short_name": "iora",
+    "chain": "IORA",
+    "currency": "IORA"
+  },
+  {
+    "id": 1200,
+    "name": "Cuckoo Chain",
+    "short_name": "cai",
+    "chain": "CuckooAI",
+    "currency": "CAI"
+  },
+  {
+    "id": 1202,
+    "name": "World Trade Technical Chain Mainnet",
+    "short_name": "wtt",
+    "chain": "WTT",
+    "currency": "WTT"
+  },
+  {
+    "id": 1209,
+    "name": "SaitaBlockChain(SBC)",
+    "short_name": "SBC",
+    "chain": "SaitaBlockChain(SBC)",
+    "currency": "STC"
+  },
+  {
+    "id": 1213,
+    "name": "Popcateum Mainnet",
+    "short_name": "popcat",
+    "chain": "POPCATEUM",
+    "currency": "POP"
+  },
+  {
+    "id": 1214,
+    "name": "EnterChain Mainnet",
+    "short_name": "enter",
+    "chain": "ENTER",
+    "currency": "ENTER"
+  },
+  {
+    "id": 1215,
+    "name": "ADF Chain",
+    "short_name": "ADF",
+    "chain": "ADF Chain",
+    "currency": "ADF"
+  },
+  {
+    "id": 1229,
+    "name": "Exzo Network Mainnet",
+    "short_name": "xzo",
+    "chain": "EXZO",
+    "currency": "XZO"
+  },
+  {
+    "id": 1231,
+    "name": "Ultron Mainnet",
+    "short_name": "UtronMainnet",
+    "chain": "Ultron",
+    "currency": "ULX"
+  },
+  {
+    "id": 1234,
+    "name": "Step Network",
+    "short_name": "step",
+    "chain": "STEP",
+    "currency": "FITFI"
+  },
+  {
+    "id": 1235,
+    "name": "ITX Mainnet",
+    "short_name": "itx",
+    "chain": "ITX",
+    "currency": "ITX"
+  },
+  {
+    "id": 1243,
+    "name": "ARC Mainnet",
+    "short_name": "ARC",
+    "chain": "ARC",
+    "currency": "ARC"
+  },
+  {
+    "id": 1246,
+    "name": "OM Platform Mainnet",
+    "short_name": "om",
+    "chain": "omplatform",
+    "currency": "OM"
+  },
+  {
+    "id": 1248,
+    "name": "Dogether Mainnet",
+    "short_name": "Dogether",
+    "chain": "Dogether",
+    "currency": "dogeth"
+  },
+  {
+    "id": 1280,
+    "name": "HALO Mainnet",
+    "short_name": "HO",
+    "chain": "HALO",
+    "currency": "HO"
+  },
+  {
+    "id": 1284,
+    "name": "Moonbeam",
+    "short_name": "mbeam",
+    "chain": "MOON",
+    "currency": "GLMR"
+  },
+  {
+    "id": 1285,
+    "name": "Moonriver",
+    "short_name": "mriver",
+    "chain": "MOON",
+    "currency": "MOVR"
+  },
+  {
+    "id": 1287,
+    "name": "Moonbase Alpha",
+    "short_name": "mbase",
+    "chain": "MOON",
+    "currency": "DEV"
+  },
+  {
+    "id": 1288,
+    "name": "Moonrock",
+    "short_name": "mrock",
+    "chain": "MOON",
+    "currency": "ROC"
+  },
+  {
+    "id": 1299,
+    "name": "Argochain",
+    "short_name": "AGC",
+    "chain": "Argochain",
+    "currency": "AGC"
+  },
+  {
+    "id": 1300,
+    "name": "Glue Mainnet",
+    "short_name": "glue",
+    "chain": "GLUE",
+    "currency": "GLUE"
+  },
+  {
+    "id": 1310,
+    "name": "COINZAX",
+    "short_name": "zax",
+    "chain": "ZAX",
+    "currency": "ZAX"
+  },
+  {
+    "id": 1311,
+    "name": "Dos Fuji Subnet",
+    "short_name": "TDOS",
+    "chain": "DOS",
+    "currency": "DOS"
+  },
+  {
+    "id": 1313,
+    "name": "JaiHo Chain",
+    "short_name": "JHC",
+    "chain": "JaiHoChain",
+    "currency": "JaiHo"
+  },
+  {
+    "id": 1314,
+    "name": "Alyx Mainnet",
+    "short_name": "alyx",
+    "chain": "ALYX",
+    "currency": "ALYX"
+  },
+  {
+    "id": 1319,
+    "name": "AIA Mainnet",
+    "short_name": "aia",
+    "chain": "AIA",
+    "currency": "AIA"
+  },
+  {
+    "id": 1329,
+    "name": "Sei Network",
+    "short_name": "sei",
+    "chain": "Sei",
+    "currency": "SEI"
+  },
+  {
+    "id": 1339,
+    "name": "Elysium Mainnet",
+    "short_name": "ELY",
+    "chain": "Elysium",
+    "currency": "ELY"
+  },
+  {
+    "id": 1343,
+    "name": "Blitz Subnet",
+    "short_name": "blitz",
+    "chain": "BLITZ",
+    "currency": "BGAS"
+  },
+  {
+    "id": 1353,
+    "name": "CIC Chain Mainnet",
+    "short_name": "CIC",
+    "chain": "CIC",
+    "currency": "CIC"
+  },
+  {
+    "id": 1369,
+    "name": "Zafirium Mainnet",
+    "short_name": "zafic",
+    "chain": "ZAFIC",
+    "currency": "ZAFIC"
+  },
+  {
+    "id": 1370,
+    "name": "Ramestta Mainnet",
+    "short_name": "RAMA",
+    "chain": "Ramestta",
+    "currency": "RAMA"
+  },
+  {
+    "id": 1379,
+    "name": "Kalar Chain",
+    "short_name": "KLC",
+    "chain": "KLC",
+    "currency": "KLC"
+  },
+  {
+    "id": 1388,
+    "name": "AmStar Mainnet",
+    "short_name": "ASAR",
+    "chain": "AmStar",
+    "currency": "SINSO"
+  },
+  {
+    "id": 1392,
+    "name": "Joseon Mainnet",
+    "short_name": "mun",
+    "chain": "Joseon",
+    "currency": "JSM"
+  },
+  {
+    "id": 1424,
+    "name": "Perennial",
+    "short_name": "perennial",
+    "chain": "perennial",
+    "currency": "ETH"
+  },
+  {
+    "id": 1425,
+    "name": "ONINO Mainnet",
+    "short_name": "onino",
+    "chain": "ONI",
+    "currency": "ONI"
+  },
+  {
+    "id": 1433,
+    "name": "Rikeza Network Mainnet",
+    "short_name": "RIK",
+    "chain": "Rikeza",
+    "currency": "RIK"
+  },
+  {
+    "id": 1440,
+    "name": "Living Assets Mainnet",
+    "short_name": "LAS",
+    "chain": "LAS",
+    "currency": "LAS"
+  },
+  {
+    "id": 1455,
+    "name": "Ctex Scan Blockchain",
+    "short_name": "CTEX",
+    "chain": "Ctex Scan Blockchain",
+    "currency": "CTEX"
+  },
+  {
+    "id": 1456,
+    "name": "ZKBase Mainnet",
+    "short_name": "zkbase",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1480,
+    "name": "Vana",
+    "short_name": "vana",
+    "chain": "Vana",
+    "currency": "VANA"
+  },
+  {
+    "id": 1490,
+    "name": "Vitruveo Mainnet",
+    "short_name": "vitruveo",
+    "chain": "Vitruveo",
+    "currency": "VTRU"
+  },
+  {
+    "id": 1501,
+    "name": "BEVM Canary",
+    "short_name": "chainx",
+    "chain": "ChainX",
+    "currency": "BTC"
+  },
+  {
+    "id": 1506,
+    "name": "Sherpax Mainnet",
+    "short_name": "Sherpax",
+    "chain": "Sherpax Mainnet",
+    "currency": "KSX"
+  },
+  {
+    "id": 1514,
+    "name": "Story",
+    "short_name": "sty",
+    "chain": "STORY",
+    "currency": "IP"
+  },
+  {
+    "id": 1515,
+    "name": "Beagle Messaging Chain",
+    "short_name": "beagle",
+    "chain": "BMC",
+    "currency": "BG"
+  },
+  {
+    "id": 1555,
+    "name": "Datacore Smart Chain",
+    "short_name": "DSCs",
+    "chain": "Datacore Smart Chain",
+    "currency": "DSC"
+  },
+  {
+    "id": 1559,
+    "name": "Tenet",
+    "short_name": "tenet",
+    "chain": "TENET",
+    "currency": "TENET"
+  },
+  {
+    "id": 1578,
+    "name": "StarCHAIN",
+    "short_name": "starchain",
+    "chain": "StarCHAIN",
+    "currency": "STARX"
+  },
+  {
+    "id": 1597,
+    "name": "Reactive Mainnet",
+    "short_name": "react",
+    "chain": "REACT",
+    "currency": "REACT"
+  },
+  {
+    "id": 1605,
+    "name": "Betherance",
+    "short_name": "Beth",
+    "chain": "Beth",
+    "currency": "BETH"
+  },
+  {
+    "id": 1617,
+    "name": "Ethereum Inscription Mainnet",
+    "short_name": "etins",
+    "chain": "ETINS",
+    "currency": "ETINS"
+  },
+  {
+    "id": 1618,
+    "name": "Catecoin Chain Mainnet",
+    "short_name": "cate",
+    "chain": "Catechain",
+    "currency": "CATE"
+  },
+  {
+    "id": 1620,
+    "name": "Atheios",
+    "short_name": "ath",
+    "chain": "ATH",
+    "currency": "ATH"
+  },
+  {
+    "id": 1625,
+    "name": "Gravity Alpha Mainnet",
+    "short_name": "gravity",
+    "chain": "Gravity",
+    "currency": "G"
+  },
+  {
+    "id": 1648,
+    "name": "Pivotal Mainnet",
+    "short_name": "pivotal-mainnet",
+    "chain": "Pivotal",
+    "currency": "ETH"
+  },
+  {
+    "id": 1657,
+    "name": "Btachain",
+    "short_name": "bta",
+    "chain": "btachain",
+    "currency": "BTA"
+  },
+  {
+    "id": 1662,
+    "name": "Liquichain",
+    "short_name": "Liquichain",
+    "chain": "LQC",
+    "currency": "LCN"
+  },
+  {
+    "id": 1688,
+    "name": "LUDAN Mainnet",
+    "short_name": "LUDAN",
+    "chain": "LUDAN",
+    "currency": "LUDAN"
+  },
+  {
+    "id": 1689,
+    "name": "NERO Mainnet",
+    "short_name": "NERO",
+    "chain": "NERO Chain",
+    "currency": "NERO"
+  },
+  {
+    "id": 1701,
+    "name": "Anytype EVM Chain",
+    "short_name": "AnytypeChain",
+    "chain": "ETH",
+    "currency": "ANY"
+  },
+  {
+    "id": 1707,
+    "name": "TBSI Mainnet",
+    "short_name": "TBSI",
+    "chain": "TBSI",
+    "currency": "JINDA"
+  },
+  {
+    "id": 1717,
+    "name": "Doric Network",
+    "short_name": "DRC",
+    "chain": "DRC",
+    "currency": "DRC"
+  },
+  {
+    "id": 1718,
+    "name": "Palette Chain Mainnet",
+    "short_name": "PCM",
+    "chain": "PLT",
+    "currency": "PLT"
+  },
+  {
+    "id": 1727,
+    "name": "Ethpar Mainnet",
+    "short_name": "ethpar",
+    "chain": "ETP",
+    "currency": "ETP"
+  },
+  {
+    "id": 1729,
+    "name": "Reya Network",
+    "short_name": "reya",
+    "chain": "Reya",
+    "currency": "ETH"
+  },
+  {
+    "id": 1732,
+    "name": "Fuga Mainnet",
+    "short_name": "FUGA",
+    "chain": "Fuga",
+    "currency": "FUGA"
+  },
+  {
+    "id": 1750,
+    "name": "Metal L2",
+    "short_name": "metall2",
+    "chain": "Metal L2",
+    "currency": "ETH"
+  },
+  {
+    "id": 1773,
+    "name": "PartyChain",
+    "short_name": "TeaParty",
+    "chain": "mainnet",
+    "currency": "GRAMS"
+  },
+  {
+    "id": 1777,
+    "name": "Gauss Mainnet",
+    "short_name": "gauss",
+    "chain": "Gauss",
+    "currency": "GANG"
+  },
+  {
+    "id": 1818,
+    "name": "Cube Chain Mainnet",
+    "short_name": "cube",
+    "chain": "Cube",
+    "currency": "CUBE"
+  },
+  {
+    "id": 1821,
+    "name": "Ruby Smart Chain MAINNET",
+    "short_name": "RUBY",
+    "chain": "RUBY",
+    "currency": "RUBY"
+  },
+  {
+    "id": 1829,
+    "name": "PlayBlock",
+    "short_name": "playblock",
+    "chain": "playblock",
+    "currency": "PBG"
+  },
+  {
+    "id": 1848,
+    "name": "Swisstronik Mainnet",
+    "short_name": "swtr",
+    "chain": "SWTR",
+    "currency": "SWTR"
+  },
+  {
+    "id": 1853,
+    "name": "HighOctane Subnet",
+    "short_name": "HighOctane",
+    "chain": "HighOctane Subnet",
+    "currency": "HO"
+  },
+  {
+    "id": 1856,
+    "name": "Teslafunds",
+    "short_name": "tsf",
+    "chain": "TSF",
+    "currency": "TSF"
+  },
+  {
+    "id": 1868,
+    "name": "Soneium",
+    "short_name": "soneium",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1875,
+    "name": "Whitechain",
+    "short_name": "wbt",
+    "chain": "WBT",
+    "currency": "WBT"
+  },
+  {
+    "id": 1890,
+    "name": "Lightlink Phoenix Mainnet",
+    "short_name": "lightlink_phoenix",
+    "chain": "Lightlink Phoenix Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 1898,
+    "name": "BON Network",
+    "short_name": "boya",
+    "chain": "BON",
+    "currency": "BOY"
+  },
+  {
+    "id": 1899,
+    "name": "ReDeFi Layer 2",
+    "short_name": "red",
+    "chain": "ReDeFi",
+    "currency": "RED"
+  },
+  {
+    "id": 1904,
+    "name": "Sports Chain Network",
+    "short_name": "SCN",
+    "chain": "SCN",
+    "currency": "SCN"
+  },
+  {
+    "id": 1907,
+    "name": "Bitcichain Mainnet",
+    "short_name": "bitci",
+    "chain": "BITCI",
+    "currency": "BITCI"
+  },
+  {
+    "id": 1909,
+    "name": "Merkle Scan",
+    "short_name": "MRK",
+    "chain": "MRK",
+    "currency": "MRK"
+  },
+  {
+    "id": 1911,
+    "name": "Scalind",
+    "short_name": "scal",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1923,
+    "name": "Swellchain",
+    "short_name": "swellchain",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1951,
+    "name": "D-Chain Mainnet",
+    "short_name": "dchain-mainnet",
+    "chain": "D-Chain",
+    "currency": "DOINX"
+  },
+  {
+    "id": 1961,
+    "name": "Selendra Network Mainnet",
+    "short_name": "SEL",
+    "chain": "SEL",
+    "currency": "SEL"
+  },
+  {
+    "id": 1970,
+    "name": "Super Smart Chain Mainnet",
+    "short_name": "scs",
+    "chain": "SCS",
+    "currency": "SCS"
+  },
+  {
+    "id": 1972,
+    "name": "RedeCoin",
+    "short_name": "rede",
+    "chain": "REDEV2",
+    "currency": "REDEV2"
+  },
+  {
+    "id": 1975,
+    "name": "ONUS Chain Mainnet",
+    "short_name": "onus-mainnet",
+    "chain": "onus",
+    "currency": "ONUS"
+  },
+  {
+    "id": 1985,
+    "name": "SatoshIE",
+    "short_name": "satoshie",
+    "chain": "TUSHY",
+    "currency": "TUSHY"
+  },
+  {
+    "id": 1987,
+    "name": "EtherGem",
+    "short_name": "egem",
+    "chain": "EGEM",
+    "currency": "EGEM"
+  },
+  {
+    "id": 1989,
+    "name": "Lydia Coin",
+    "short_name": "lydia",
+    "chain": "LYDIA",
+    "currency": "BSW"
+  },
+  {
+    "id": 1992,
+    "name": "Hubble Exchange",
+    "short_name": "hubblenet",
+    "chain": "Hubblenet",
+    "currency": "USDC"
+  },
+  {
+    "id": 1994,
+    "name": "Ekta",
+    "short_name": "ekta",
+    "chain": "EKTA",
+    "currency": "EKTA"
+  },
+  {
+    "id": 1996,
+    "name": "Sanko",
+    "short_name": "Sanko",
+    "chain": "Sanko",
+    "currency": "DMT"
+  },
+  {
+    "id": 1997,
+    "name": "Kyoto",
+    "short_name": "kyoto",
+    "chain": "KYOTO",
+    "currency": "KYOTO"
+  },
+  {
+    "id": 2000,
+    "name": "Dogechain Mainnet",
+    "short_name": "dc",
+    "chain": "DC",
+    "currency": "DOGE"
+  },
+  {
+    "id": 2001,
+    "name": "Milkomeda C1 Mainnet",
+    "short_name": "milkAda",
+    "chain": "milkAda",
+    "currency": "mADA"
+  },
+  {
+    "id": 2002,
+    "name": "Milkomeda A1 Mainnet",
+    "short_name": "milkALGO",
+    "chain": "milkALGO",
+    "currency": "mALGO"
+  },
+  {
+    "id": 2004,
+    "name": "MetaLink Network",
+    "short_name": "mtl",
+    "chain": "MetaLink",
+    "currency": "MTL"
+  },
+  {
+    "id": 2009,
+    "name": "CloudWalk Mainnet",
+    "short_name": "cloudwalk_mainnet",
+    "chain": "CloudWalk Mainnet",
+    "currency": "CWN"
+  },
+  {
+    "id": 2013,
+    "name": "Panarchy",
+    "short_name": "panarchy",
+    "chain": "Panarchy",
+    "currency": "GAS"
+  },
+  {
+    "id": 2016,
+    "name": "MainnetZ Mainnet",
+    "short_name": "netz",
+    "chain": "NetZ",
+    "currency": "NetZ"
+  },
+  {
+    "id": 2020,
+    "name": "Ronin Mainnet",
+    "short_name": "ron",
+    "chain": "ronin",
+    "currency": "RON"
+  },
+  {
+    "id": 2021,
+    "name": "Edgeware EdgeEVM Mainnet",
+    "short_name": "edg",
+    "chain": "EDG",
+    "currency": "EDG"
+  },
+  {
+    "id": 2025,
+    "name": "Rangers Protocol Mainnet",
+    "short_name": "rpg",
+    "chain": "Rangers",
+    "currency": "RPG"
+  },
+  {
+    "id": 2026,
+    "name": "Edgeless Network",
+    "short_name": "edgeless",
+    "chain": "Edgeless",
+    "currency": "EwEth"
+  },
+  {
+    "id": 2031,
+    "name": "Centrifuge",
+    "short_name": "cfg",
+    "chain": "CFG",
+    "currency": "CFG"
+  },
+  {
+    "id": 2032,
+    "name": "Catalyst",
+    "short_name": "ncfg",
+    "chain": "CFG",
+    "currency": "NCFG"
+  },
+  {
+    "id": 2035,
+    "name": "Phala Network",
+    "short_name": "phala",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2037,
+    "name": "Kiwi Subnet",
+    "short_name": "kiwi",
+    "chain": "KIWI",
+    "currency": "SHRAP"
+  },
+  {
+    "id": 2039,
+    "name": "Aleph Zero",
+    "short_name": "aleph",
+    "chain": "Aleph Zero",
+    "currency": "TZERO"
+  },
+  {
+    "id": 2040,
+    "name": "Vanar Mainnet",
+    "short_name": "Vanar",
+    "chain": "VANAR",
+    "currency": "VANRY"
+  },
+  {
+    "id": 2043,
+    "name": "NeuroWeb",
+    "short_name": "NEURO",
+    "chain": "NEUROWEB",
+    "currency": "NEURO"
+  },
+  {
+    "id": 2044,
+    "name": "Shrapnel Subnet",
+    "short_name": "Shrapnel",
+    "chain": "shrapnel",
+    "currency": "SHRAPG"
+  },
+  {
+    "id": 2045,
+    "name": "AIW3 Mainnet",
+    "short_name": "AIW3",
+    "chain": "AIW3",
+    "currency": "BTC"
+  },
+  {
+    "id": 2048,
+    "name": "Stratos",
+    "short_name": "stos-mainnet",
+    "chain": "STOS",
+    "currency": "STOS"
+  },
+  {
+    "id": 2049,
+    "name": "Movo Smart Chain Mainnet",
+    "short_name": "movo",
+    "chain": "MOVO",
+    "currency": "MOVO"
+  },
+  {
+    "id": 2071,
+    "name": "Metacces Mainnet",
+    "short_name": "ACCES",
+    "chain": "Metacces Mainnet",
+    "currency": "ACCES"
+  },
+  {
+    "id": 2077,
+    "name": "Quokkacoin Mainnet",
+    "short_name": "QKA",
+    "chain": "Qkacoin",
+    "currency": "QKA"
+  },
+  {
+    "id": 2088,
+    "name": "Altair",
+    "short_name": "air",
+    "chain": "AIR",
+    "currency": "AIR"
+  },
+  {
+    "id": 2100,
+    "name": "Ecoball Mainnet",
+    "short_name": "eco",
+    "chain": "ECO",
+    "currency": "ECO"
+  },
+  {
+    "id": 2109,
+    "name": "Exosama Network",
+    "short_name": "exn",
+    "chain": "EXN",
+    "currency": "SAMA"
+  },
+  {
+    "id": 2112,
+    "name": "UCHAIN Mainnet",
+    "short_name": "uchain",
+    "chain": "UCHAIN",
+    "currency": "UCASH"
+  },
+  {
+    "id": 2121,
+    "name": "Catena Mainnet",
+    "short_name": "cmcx",
+    "chain": "CMCX",
+    "currency": "CMCX"
+  },
+  {
+    "id": 2122,
+    "name": "Metaplayerone Mainnet",
+    "short_name": "Metad",
+    "chain": "METAD",
+    "currency": "METAD"
+  },
+  {
+    "id": 2137,
+    "name": "BigShortBets",
+    "short_name": "bigsb",
+    "chain": "BIGSB",
+    "currency": "USDC"
+  },
+  {
+    "id": 2140,
+    "name": "Oneness Network",
+    "short_name": "oneness",
+    "chain": "Oneness",
+    "currency": "BTC"
+  },
+  {
+    "id": 2151,
+    "name": "BOSagora Mainnet",
+    "short_name": "boa",
+    "chain": "ETH",
+    "currency": "BOA"
+  },
+  {
+    "id": 2152,
+    "name": "Findora Mainnet",
+    "short_name": "fra",
+    "chain": "Findora",
+    "currency": "FRA"
+  },
+  {
+    "id": 2154,
+    "name": "Findora Forge",
+    "short_name": "findora-forge",
+    "chain": "Testnet-forge",
+    "currency": "FRA"
+  },
+  {
+    "id": 2187,
+    "name": "Game7",
+    "short_name": "g7",
+    "chain": "Game7",
+    "currency": "G7"
+  },
+  {
+    "id": 2192,
+    "name": "SnaxChain",
+    "short_name": "snax",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2199,
+    "name": "Moonsama Network",
+    "short_name": "msn",
+    "chain": "MSN",
+    "currency": "SAMA"
+  },
+  {
+    "id": 2202,
+    "name": "Antofy Mainnet",
+    "short_name": "ABNm",
+    "chain": "ABN",
+    "currency": "ABN"
+  },
+  {
+    "id": 2203,
+    "name": "Bitcoin EVM",
+    "short_name": "BTC",
+    "chain": "Bitcoin EVM",
+    "currency": "BTC"
+  },
+  {
+    "id": 2213,
+    "name": "Evanesco Mainnet",
+    "short_name": "evanesco",
+    "chain": "EVA",
+    "currency": "EVA"
+  },
+  {
+    "id": 2222,
+    "name": "Kava",
+    "short_name": "kava",
+    "chain": "KAVA",
+    "currency": "KAVA"
+  },
+  {
+    "id": 2223,
+    "name": "VChain Mainnet",
+    "short_name": "VChain",
+    "chain": "VChain",
+    "currency": "VNDT"
+  },
+  {
+    "id": 2241,
+    "name": "Krest Network",
+    "short_name": "KRST",
+    "chain": "Krest",
+    "currency": "KRST"
+  },
+  {
+    "id": 2300,
+    "name": "BOMB Chain",
+    "short_name": "bomb",
+    "chain": "BOMB",
+    "currency": "BOMB"
+  },
+  {
+    "id": 2306,
+    "name": "Ebro Network",
+    "short_name": "ebro",
+    "chain": "ebro",
+    "currency": "ebro"
+  },
+  {
+    "id": 2309,
+    "name": "Arevia",
+    "short_name": "arevia",
+    "chain": "Arevia",
+    "currency": "AR\u00c9V"
+  },
+  {
+    "id": 2310,
+    "name": "CratD2C",
+    "short_name": "cratd2c",
+    "chain": "CRATD2C",
+    "currency": "CRAT"
+  },
+  {
+    "id": 2330,
+    "name": "Altcoinchain",
+    "short_name": "alt",
+    "chain": "mainnet",
+    "currency": "ALT"
+  },
+  {
+    "id": 2332,
+    "name": "SOMA Network Mainnet",
+    "short_name": "smam",
+    "chain": "SOMA",
+    "currency": "SMA"
+  },
+  {
+    "id": 2340,
+    "name": "Atleta Olympia",
+    "short_name": "olym",
+    "chain": "Atleta Testnet Olympia",
+    "currency": "ATLA"
+  },
+  {
+    "id": 2342,
+    "name": "Omnia Chain",
+    "short_name": "omnia",
+    "chain": "OMNIA",
+    "currency": "OMNIA"
+  },
+  {
+    "id": 2345,
+    "name": "GOAT Network",
+    "short_name": "goat",
+    "chain": "GOAT",
+    "currency": "BTC"
+  },
+  {
+    "id": 2355,
+    "name": "Silicon zkEVM",
+    "short_name": "silicon-zk",
+    "chain": "Silicon",
+    "currency": "ETH"
+  },
+  {
+    "id": 2400,
+    "name": "TCG Verse Mainnet",
+    "short_name": "TCGV",
+    "chain": "TCG Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 2410,
+    "name": "K2 Mainnet",
+    "short_name": "K2-mainnet",
+    "chain": "K2",
+    "currency": "ETH"
+  },
+  {
+    "id": 2415,
+    "name": "XODEX",
+    "short_name": "xodex",
+    "chain": "XODEX",
+    "currency": "XODEX"
+  },
+  {
+    "id": 2420,
+    "name": "Rufus",
+    "short_name": "rufus",
+    "chain": "rufus",
+    "currency": "ELON"
+  },
+  {
+    "id": 2425,
+    "name": "King Of Legends Mainnet",
+    "short_name": "kcc",
+    "chain": "KCC",
+    "currency": "KCC"
+  },
+  {
+    "id": 2440,
+    "name": "Atleta Network",
+    "short_name": "atla",
+    "chain": "Atleta",
+    "currency": "ATLA"
+  },
+  {
+    "id": 2468,
+    "name": "Hybrid Chain Network Mainnet",
+    "short_name": "hrc",
+    "chain": "HYBRID",
+    "currency": "HRC"
+  },
+  {
+    "id": 2477,
+    "name": "6Degree of Outreach",
+    "short_name": "6do",
+    "chain": "6DO",
+    "currency": "6DO"
+  },
+  {
+    "id": 2488,
+    "name": "NOW Chain Mainnet",
+    "short_name": "now",
+    "chain": "NOW",
+    "currency": "NOW"
+  },
+  {
+    "id": 2525,
+    "name": "inEVM Mainnet",
+    "short_name": "inevm",
+    "chain": "inEVM",
+    "currency": "INJ"
+  },
+  {
+    "id": 2552,
+    "name": "Bahamut horizon",
+    "short_name": "horizon",
+    "chain": "Bahamut",
+    "currency": "FTN"
+  },
+  {
+    "id": 2559,
+    "name": "Kortho Mainnet",
+    "short_name": "ktoc",
+    "chain": "Kortho Chain",
+    "currency": "KTO"
+  },
+  {
+    "id": 2569,
+    "name": "TechPay Mainnet",
+    "short_name": "tpc",
+    "chain": "TPC",
+    "currency": "TPC"
+  },
+  {
+    "id": 2605,
+    "name": "Pho Blockchain Mainnet",
+    "short_name": "pho",
+    "chain": "PHO",
+    "currency": "PHO"
+  },
+  {
+    "id": 2606,
+    "name": "PoCRNet",
+    "short_name": "pocrnet",
+    "chain": "CRC",
+    "currency": "CRC"
+  },
+  {
+    "id": 2611,
+    "name": "Redlight Chain Mainnet",
+    "short_name": "REDLC",
+    "chain": "REDLC",
+    "currency": "REDLC"
+  },
+  {
+    "id": 2612,
+    "name": "EZChain C-Chain Mainnet",
+    "short_name": "EZChain",
+    "chain": "EZC",
+    "currency": "EZC"
+  },
+  {
+    "id": 2649,
+    "name": "AILayer Mainnet",
+    "short_name": "ailayer-mainnet",
+    "chain": "AILayer",
+    "currency": "BTC"
+  },
+  {
+    "id": 2662,
+    "name": "APEX",
+    "short_name": "apexmainnet",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2718,
+    "name": "K-LAOS",
+    "short_name": "k-laos",
+    "chain": "K-LAOS",
+    "currency": "KLAOS"
+  },
+  {
+    "id": 2741,
+    "name": "Abstract",
+    "short_name": "abstract",
+    "chain": "Abstract",
+    "currency": "ETH"
+  },
+  {
+    "id": 2748,
+    "name": "Nanon",
+    "short_name": "Nanon",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2777,
+    "name": "GM Network Mainnet",
+    "short_name": "gmnetwork-mainnet",
+    "chain": "GM Network Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 2786,
+    "name": "Apertum",
+    "short_name": "aptm",
+    "chain": "APTM",
+    "currency": "APTM"
+  },
+  {
+    "id": 2818,
+    "name": "Morph",
+    "short_name": "morph",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2868,
+    "name": "HyperAGI Mainnet",
+    "short_name": "hypt",
+    "chain": "HyperAGI",
+    "currency": "HYPT"
+  },
+  {
+    "id": 2882,
+    "name": "Chips Network",
+    "short_name": "chips",
+    "chain": "CHIPS",
+    "currency": "IOTA"
+  },
+  {
+    "id": 2889,
+    "name": "Aarma Mainnet",
+    "short_name": "ARMA",
+    "chain": "Aarma",
+    "currency": "ARMA"
+  },
+  {
+    "id": 2907,
+    "name": "Elux Chain",
+    "short_name": "ELUX",
+    "chain": "ELUX",
+    "currency": "ELUX"
+  },
+  {
+    "id": 2911,
+    "name": "HYCHAIN",
+    "short_name": "hychain",
+    "chain": "ETH",
+    "currency": "TOPIA"
+  },
+  {
+    "id": 2999,
+    "name": "BitYuan Mainnet",
+    "short_name": "bty",
+    "chain": "BTY",
+    "currency": "BTY"
+  },
+  {
+    "id": 3000,
+    "name": "CENNZnet Rata",
+    "short_name": "cennz-r",
+    "chain": "CENNZnet",
+    "currency": "CPAY"
+  },
+  {
+    "id": 3001,
+    "name": "CENNZnet Nikau",
+    "short_name": "cennz-n",
+    "chain": "CENNZnet",
+    "currency": "CPAY"
+  },
+  {
+    "id": 3003,
+    "name": "Canxium Mainnet",
+    "short_name": "cau",
+    "chain": "CAU",
+    "currency": "CAU"
+  },
+  {
+    "id": 3011,
+    "name": "PLAYA3ULL GAMES",
+    "short_name": "3ULL",
+    "chain": "3ULL",
+    "currency": "3ULL"
+  },
+  {
+    "id": 3030,
+    "name": "BC Hyper Chain Mainnet",
+    "short_name": "BCHYPER",
+    "chain": "BC Hyper Chain",
+    "currency": "VTCN"
+  },
+  {
+    "id": 3031,
+    "name": "Orlando Chain",
+    "short_name": "ORL",
+    "chain": "ORL",
+    "currency": "ORL"
+  },
+  {
+    "id": 3068,
+    "name": "Bifrost Mainnet",
+    "short_name": "bfc",
+    "chain": "BFC",
+    "currency": "BFC"
+  },
+  {
+    "id": 3073,
+    "name": "Movement EVM",
+    "short_name": "move",
+    "chain": "MOVE",
+    "currency": "MOVE"
+  },
+  {
+    "id": 3100,
+    "name": "Immu3 EVM",
+    "short_name": "Immu3",
+    "chain": "EVMCC",
+    "currency": "IMMU"
+  },
+  {
+    "id": 3102,
+    "name": "Vulture EVM Beta",
+    "short_name": "VFI",
+    "chain": "VFIEVMCC",
+    "currency": "VFI"
+  },
+  {
+    "id": 3109,
+    "name": "SatoshiVM Alpha Mainnet",
+    "short_name": "SAVM",
+    "chain": "SatoshiVM",
+    "currency": "BTC"
+  },
+  {
+    "id": 3269,
+    "name": "Dubxcoin network",
+    "short_name": "dubx",
+    "chain": "DUBX",
+    "currency": "DUBX"
+  },
+  {
+    "id": 3332,
+    "name": "EthStorage L2 Mainnet",
+    "short_name": "esl2-m",
+    "chain": "EthStorage",
+    "currency": "ETH"
+  },
+  {
+    "id": 3334,
+    "name": "Web3Q Galileo",
+    "short_name": "w3q-g",
+    "chain": "Web3Q",
+    "currency": "W3Q"
+  },
+  {
+    "id": 3338,
+    "name": "peaq",
+    "short_name": "PEAQ",
+    "chain": "peaq",
+    "currency": "PEAQ"
+  },
+  {
+    "id": 3339,
+    "name": "EthStorage Mainnet",
+    "short_name": "es-m",
+    "chain": "EthStorage",
+    "currency": "ETH"
+  },
+  {
+    "id": 3344,
+    "name": "Pentagon Chain",
+    "short_name": "PentagonChain",
+    "chain": "Pentagon Chain",
+    "currency": "PC"
+  },
+  {
+    "id": 3366,
+    "name": "Meroneum",
+    "short_name": "meron-testnet",
+    "chain": "MERON",
+    "currency": "MERON"
+  },
+  {
+    "id": 3400,
+    "name": "Paribu Net Mainnet",
+    "short_name": "prb",
+    "chain": "PRB",
+    "currency": "PRB"
+  },
+  {
+    "id": 3409,
+    "name": "Pepe Unchained",
+    "short_name": "PEPU",
+    "chain": "PEPU",
+    "currency": "PEPU"
+  },
+  {
+    "id": 3424,
+    "name": "EVOLVE Mainnet",
+    "short_name": "EVOm",
+    "chain": "EVO",
+    "currency": "EVO"
+  },
+  {
+    "id": 3490,
+    "name": "GTCSCAN",
+    "short_name": "gtc",
+    "chain": "GTC",
+    "currency": "GTC"
+  },
+  {
+    "id": 3501,
+    "name": "JFIN Chain",
+    "short_name": "JFIN",
+    "chain": "JFIN",
+    "currency": "JFIN"
+  },
+  {
+    "id": 3502,
+    "name": "JFINPOS",
+    "short_name": "jzero",
+    "chain": "JFINPOS",
+    "currency": "JPOS"
+  },
+  {
+    "id": 3601,
+    "name": "PandoProject Mainnet",
+    "short_name": "pando-mainnet",
+    "chain": "PandoProject",
+    "currency": "PTX"
+  },
+  {
+    "id": 3630,
+    "name": "Tycooncoin",
+    "short_name": "TYCON",
+    "chain": "TYCON",
+    "currency": "TYCO"
+  },
+  {
+    "id": 3637,
+    "name": "Botanix Mainnet",
+    "short_name": "BTCm",
+    "chain": "BTC",
+    "currency": "BTC"
+  },
+  {
+    "id": 3639,
+    "name": "iChain Network",
+    "short_name": "ISLAMI",
+    "chain": "iChain",
+    "currency": "ISLAMI"
+  },
+  {
+    "id": 3666,
+    "name": "Jouleverse Mainnet",
+    "short_name": "jouleverse",
+    "chain": "Jouleverse",
+    "currency": "J"
+  },
+  {
+    "id": 3690,
+    "name": "Bittex Mainnet",
+    "short_name": "btx",
+    "chain": "BTX",
+    "currency": "BTX"
+  },
+  {
+    "id": 3693,
+    "name": "Empire Network",
+    "short_name": "empire",
+    "chain": "EMPIRE",
+    "currency": "EMPIRE"
+  },
+  {
+    "id": 3699,
+    "name": "SenjePowers Mainnet",
+    "short_name": "SPCm",
+    "chain": "SPC",
+    "currency": "SPC"
+  },
+  {
+    "id": 3721,
+    "name": "Xone Mainnet",
+    "short_name": "XOC",
+    "chain": "XOC",
+    "currency": "XOC"
+  },
+  {
+    "id": 3737,
+    "name": "Crossbell",
+    "short_name": "csb",
+    "chain": "Crossbell",
+    "currency": "CSB"
+  },
+  {
+    "id": 3776,
+    "name": "Astar zkEVM",
+    "short_name": "astrzk",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 3797,
+    "name": "AlveyChain Mainnet",
+    "short_name": "alv",
+    "chain": "ALV",
+    "currency": "ALV"
+  },
+  {
+    "id": 3888,
+    "name": "KalyChain Mainnet",
+    "short_name": "kalymainnet",
+    "chain": "KLC",
+    "currency": "KLC"
+  },
+  {
+    "id": 3912,
+    "name": "DRAC Network",
+    "short_name": "drac",
+    "chain": "DRAC",
+    "currency": "DRAC"
+  },
+  {
+    "id": 3966,
+    "name": "DYNO Mainnet",
+    "short_name": "dyno",
+    "chain": "DYNO",
+    "currency": "DYNO"
+  },
+  {
+    "id": 3969,
+    "name": "PayNetwork Mainnet",
+    "short_name": "paynetwork",
+    "chain": "paynetwork",
+    "currency": "Pay"
+  },
+  {
+    "id": 3999,
+    "name": "YuanChain Mainnet",
+    "short_name": "ycc",
+    "chain": "YCC",
+    "currency": "YCC"
+  },
+  {
+    "id": 4000,
+    "name": "Ozone Chain Mainnet",
+    "short_name": "ozo",
+    "chain": "OZONE",
+    "currency": "OZO"
+  },
+  {
+    "id": 4003,
+    "name": "X1 Fastnet",
+    "short_name": "x1-fastnet",
+    "chain": "X1",
+    "currency": "XN"
+  },
+  {
+    "id": 4058,
+    "name": "Bahamut ocean",
+    "short_name": "ocean",
+    "chain": "Bahamut",
+    "currency": "FTN"
+  },
+  {
+    "id": 4061,
+    "name": "Nahmii 3 Mainnet",
+    "short_name": "Nahmii3Mainnet",
+    "chain": "Nahmii",
+    "currency": "ETH"
+  },
+  {
+    "id": 4078,
+    "name": "Muster Mainnet",
+    "short_name": "muster",
+    "chain": "Muster",
+    "currency": "ETH"
+  },
+  {
+    "id": 4088,
+    "name": "Zeroth Mainnet",
+    "short_name": "ZRH",
+    "chain": "ZRH",
+    "currency": "ZRH"
+  },
+  {
+    "id": 4099,
+    "name": "Bitindi Mainnet",
+    "short_name": "BNIm",
+    "chain": "BNI",
+    "currency": "$BNI"
+  },
+  {
+    "id": 4158,
+    "name": "CrossFi Mainnet",
+    "short_name": "crossfi",
+    "chain": "crossfi",
+    "currency": "XFI"
+  },
+  {
+    "id": 4162,
+    "name": "SX Rollup",
+    "short_name": "SXR",
+    "chain": "SX",
+    "currency": "SX"
+  },
+  {
+    "id": 4181,
+    "name": "PHI Network V1",
+    "short_name": "PHIv1",
+    "chain": "PHI V1",
+    "currency": "\u03a6"
+  },
+  {
+    "id": 4200,
+    "name": "Merlin Mainnet",
+    "short_name": "Merlin-Mainnet",
+    "chain": "Merlin",
+    "currency": "BTC"
+  },
+  {
+    "id": 4242,
+    "name": "Nexi Mainnet",
+    "short_name": "nexi",
+    "chain": "Nexi",
+    "currency": "NEXI"
+  },
+  {
+    "id": 4243,
+    "name": "Nexi V2 Mainnet",
+    "short_name": "NexiV2",
+    "chain": "Nexi V2",
+    "currency": "NEXI"
+  },
+  {
+    "id": 4321,
+    "name": "Echos Chain",
+    "short_name": "echos",
+    "chain": "Echos",
+    "currency": "USDC"
+  },
+  {
+    "id": 4337,
+    "name": "Beam",
+    "short_name": "beam",
+    "chain": "BEAM",
+    "currency": "BEAM"
+  },
+  {
+    "id": 4352,
+    "name": "MemeCore",
+    "short_name": "m",
+    "chain": "MemeCore",
+    "currency": "M"
+  },
+  {
+    "id": 4400,
+    "name": "Credit Smart Chain Mainnet",
+    "short_name": "CreditEdge",
+    "chain": "CREDIT",
+    "currency": "CREDIT"
+  },
+  {
+    "id": 4444,
+    "name": "Htmlcoin Mainnet",
+    "short_name": "html",
+    "chain": "mainnet",
+    "currency": "HTML"
+  },
+  {
+    "id": 4488,
+    "name": "Hydra Chain",
+    "short_name": "HYDRA",
+    "chain": "HYDRA",
+    "currency": "HYDRA"
+  },
+  {
+    "id": 4545,
+    "name": "Emoney Network Mainnet",
+    "short_name": "emoney",
+    "chain": "Emoney",
+    "currency": "EMYC"
+  },
+  {
+    "id": 4547,
+    "name": "TRUMPCHAIN",
+    "short_name": "TRUMPCHAIN",
+    "chain": "trumpchain",
+    "currency": "TRUMP"
+  },
+  {
+    "id": 4613,
+    "name": "VERY Mainnet",
+    "short_name": "very",
+    "chain": "VERY Mainnet",
+    "currency": "VERY"
+  },
+  {
+    "id": 4646,
+    "name": "MST Chain",
+    "short_name": "mst",
+    "chain": "MST",
+    "currency": "MST"
+  },
+  {
+    "id": 4653,
+    "name": "Gold Chain",
+    "short_name": "gold",
+    "chain": "Gold",
+    "currency": "ETH"
+  },
+  {
+    "id": 4689,
+    "name": "IoTeX Network Mainnet",
+    "short_name": "iotex-mainnet",
+    "chain": "iotex.io",
+    "currency": "IOTX"
+  },
+  {
+    "id": 4893,
+    "name": "Globel Chain",
+    "short_name": "GC",
+    "chain": "GC",
+    "currency": "GC"
+  },
+  {
+    "id": 4913,
+    "name": "OEV Network",
+    "short_name": "oev-network",
+    "chain": "oev-network",
+    "currency": "ETH"
+  },
+  {
+    "id": 4919,
+    "name": "Venidium Mainnet",
+    "short_name": "xvm",
+    "chain": "XVM",
+    "currency": "XVM"
+  },
+  {
+    "id": 5000,
+    "name": "Mantle",
+    "short_name": "mantle",
+    "chain": "ETH",
+    "currency": "MNT"
+  },
+  {
+    "id": 5002,
+    "name": "Treasurenet Mainnet Alpha",
+    "short_name": "treasurenet",
+    "chain": "Treasurenet Mainnet Alpha",
+    "currency": "UNIT"
+  },
+  {
+    "id": 5040,
+    "name": "ONIGIRI Subnet",
+    "short_name": "onigiri",
+    "chain": "ONIGIRI",
+    "currency": "ONGR"
+  },
+  {
+    "id": 5050,
+    "name": "Skate Mainnet",
+    "short_name": "skate",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 5080,
+    "name": "Pione Zero",
+    "short_name": "pzo",
+    "chain": "PZO",
+    "currency": "PZO"
+  },
+  {
+    "id": 5090,
+    "name": "Pione Chain Mainnet",
+    "short_name": "pio",
+    "chain": "PIO",
+    "currency": "PIO"
+  },
+  {
+    "id": 5101,
+    "name": "Syndicate Frame Chain",
+    "short_name": "syndicate-chain-frame",
+    "chain": "Syndicate Frame",
+    "currency": "ETH"
+  },
+  {
+    "id": 5112,
+    "name": "Ham",
+    "short_name": "ham",
+    "chain": "Ham",
+    "currency": "ETH"
+  },
+  {
+    "id": 5165,
+    "name": "Bahamut",
+    "short_name": "ftn",
+    "chain": "Bahamut",
+    "currency": "FTN"
+  },
+  {
+    "id": 5169,
+    "name": "Smart Layer Network",
+    "short_name": "SLN",
+    "chain": "SLN",
+    "currency": "SU"
+  },
+  {
+    "id": 5177,
+    "name": "TLChain Network Mainnet",
+    "short_name": "tlc",
+    "chain": "TLC",
+    "currency": "TLC"
+  },
+  {
+    "id": 5197,
+    "name": "EraSwap Mainnet",
+    "short_name": "es",
+    "chain": "ESN",
+    "currency": "ES"
+  },
+  {
+    "id": 5234,
+    "name": "Humanode Mainnet",
+    "short_name": "hmnd",
+    "chain": "HMND",
+    "currency": "eHMND"
+  },
+  {
+    "id": 5315,
+    "name": "Uzmi Network Mainnet",
+    "short_name": "UZMI",
+    "chain": "UZMI",
+    "currency": "UZMI"
+  },
+  {
+    "id": 5330,
+    "name": "Superseed",
+    "short_name": "sseed",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 5333,
+    "name": "Netsbo",
+    "short_name": "nets",
+    "chain": "NETSBO",
+    "currency": "NETS"
+  },
+  {
+    "id": 5371,
+    "name": "Settlus",
+    "short_name": "setl",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 5424,
+    "name": "edeXa Mainnet",
+    "short_name": "edx",
+    "chain": "edeXa",
+    "currency": "EDX"
+  },
+  {
+    "id": 5433,
+    "name": "Inertia Scan",
+    "short_name": "IRTA",
+    "chain": "IRTA",
+    "currency": "IRTA"
+  },
+  {
+    "id": 5439,
+    "name": "Egochain",
+    "short_name": "egax",
+    "chain": "EGAX",
+    "currency": "EGAX"
+  },
+  {
+    "id": 5464,
+    "name": "Saga",
+    "short_name": "saga",
+    "chain": "SAGA",
+    "currency": "GAS"
+  },
+  {
+    "id": 5511,
+    "name": "PointPay Mainnet",
+    "short_name": "PP",
+    "chain": "pointpay",
+    "currency": "PXP"
+  },
+  {
+    "id": 5545,
+    "name": "DuckChain Mainnet",
+    "short_name": "Duck-Chain-Mainnet",
+    "chain": "DuckChain",
+    "currency": "TON"
+  },
+  {
+    "id": 5551,
+    "name": "Nahmii 2 Mainnet",
+    "short_name": "Nahmii",
+    "chain": "Nahmii",
+    "currency": "ETH"
+  },
+  {
+    "id": 5555,
+    "name": "Chain Verse Mainnet",
+    "short_name": "cverse",
+    "chain": "CVERSE",
+    "currency": "OAS"
+  },
+  {
+    "id": 5656,
+    "name": "QIE Blockchain",
+    "short_name": "QIE",
+    "chain": "QIE",
+    "currency": "QIE"
+  },
+  {
+    "id": 5678,
+    "name": "Tanssi Demo",
+    "short_name": "tango",
+    "chain": "TANGO",
+    "currency": "TANGO"
+  },
+  {
+    "id": 5845,
+    "name": "Tangle",
+    "short_name": "tangle",
+    "chain": "Tangle",
+    "currency": "TNT"
+  },
+  {
+    "id": 5858,
+    "name": "Chang Chain Foundation Mainnet",
+    "short_name": "ChangChain",
+    "chain": "ChangChain",
+    "currency": "CTH"
+  },
+  {
+    "id": 5869,
+    "name": "Wegochain Rubidium Mainnet",
+    "short_name": "rbd",
+    "chain": "RBD",
+    "currency": "RBD"
+  },
+  {
+    "id": 6001,
+    "name": "BounceBit Mainnet",
+    "short_name": "bouncebit-mainnet",
+    "chain": "BounceBit",
+    "currency": "BB"
+  },
+  {
+    "id": 6066,
+    "name": "Tres Mainnet",
+    "short_name": "TRESMAIN",
+    "chain": "TresLeches",
+    "currency": "TRES"
+  },
+  {
+    "id": 6119,
+    "name": "UPTN",
+    "short_name": "UPTN",
+    "chain": "UPTN",
+    "currency": "UPTN"
+  },
+  {
+    "id": 6122,
+    "name": "Tea Mainnet",
+    "short_name": "tea",
+    "chain": "TEA",
+    "currency": "TEA"
+  },
+  {
+    "id": 6278,
+    "name": "Rails",
+    "short_name": "rails",
+    "chain": "RAILS",
+    "currency": "STEAMX"
+  },
+  {
+    "id": 6283,
+    "name": "LAOS",
+    "short_name": "laosnetwork",
+    "chain": "LAOS",
+    "currency": "LAOS"
+  },
+  {
+    "id": 6322,
+    "name": "Aura Mainnet",
+    "short_name": "aura",
+    "chain": "Aura",
+    "currency": "AURA"
+  },
+  {
+    "id": 6363,
+    "name": "Digit Soul Smart Chain",
+    "short_name": "DGS",
+    "chain": "DGS",
+    "currency": "DGC"
+  },
+  {
+    "id": 6502,
+    "name": "Peerpay",
+    "short_name": "Peerpay",
+    "chain": "P2P",
+    "currency": "P2P"
+  },
+  {
+    "id": 6626,
+    "name": "Pixie Chain Mainnet",
+    "short_name": "pixie-chain",
+    "chain": "PixieChain",
+    "currency": "PIX"
+  },
+  {
+    "id": 6661,
+    "name": "Cybria Mainnet",
+    "short_name": "cyba",
+    "chain": "CYBA",
+    "currency": "CYBA"
+  },
+  {
+    "id": 6667,
+    "name": "Storchain",
+    "short_name": "str",
+    "chain": "STR",
+    "currency": "STR"
+  },
+  {
+    "id": 6678,
+    "name": "Edge Matrix Chain",
+    "short_name": "EMC",
+    "chain": "EMC",
+    "currency": "EMC"
+  },
+  {
+    "id": 6688,
+    "name": "IRIShub",
+    "short_name": "iris",
+    "chain": "IRIShub",
+    "currency": "ERIS"
+  },
+  {
+    "id": 6699,
+    "name": "OX Chain",
+    "short_name": "ox-chain",
+    "chain": "OX",
+    "currency": "OX"
+  },
+  {
+    "id": 6701,
+    "name": "PAXB Mainnet",
+    "short_name": "PAXB",
+    "chain": "PAXB",
+    "currency": "PAXB"
+  },
+  {
+    "id": 6779,
+    "name": "Compverse Mainnet",
+    "short_name": "compverse",
+    "chain": "CPV",
+    "currency": "CPV"
+  },
+  {
+    "id": 6789,
+    "name": "Gold Smart Chain Mainnet",
+    "short_name": "STANDm",
+    "chain": "STAND",
+    "currency": "STAND"
+  },
+  {
+    "id": 6805,
+    "name": "RACE Mainnet",
+    "short_name": "raceeth",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 6868,
+    "name": "Pools Mainnet",
+    "short_name": "POOLS",
+    "chain": "Pools",
+    "currency": "POOLS"
+  },
+  {
+    "id": 6880,
+    "name": "MTT Network",
+    "short_name": "mtt-network",
+    "chain": "MTT",
+    "currency": "MTT"
+  },
+  {
+    "id": 6900,
+    "name": "Nibiru cataclysm-1",
+    "short_name": "cataclysm-1",
+    "chain": "Nibiru",
+    "currency": "NIBI"
+  },
+  {
+    "id": 6942,
+    "name": "Laika Mainnet",
+    "short_name": "laika",
+    "chain": "LAIKA",
+    "currency": "DOGE"
+  },
+  {
+    "id": 6969,
+    "name": "Tomb Chain Mainnet",
+    "short_name": "tombchain",
+    "chain": "Tomb Chain",
+    "currency": "TOMB"
+  },
+  {
+    "id": 6999,
+    "name": "PolySmartChain",
+    "short_name": "psc",
+    "chain": "PSC",
+    "currency": "PSC"
+  },
+  {
+    "id": 7000,
+    "name": "ZetaChain Mainnet",
+    "short_name": "zetachain-mainnet",
+    "chain": "ZetaChain",
+    "currency": "ZETA"
+  },
+  {
+    "id": 7007,
+    "name": "BST Chain",
+    "short_name": "BSTC",
+    "chain": "BSTC",
+    "currency": "BSTC"
+  },
+  {
+    "id": 7027,
+    "name": "Ella the heart",
+    "short_name": "ELLA",
+    "chain": "ella",
+    "currency": "ELLA"
+  },
+  {
+    "id": 7070,
+    "name": "Planq Mainnet",
+    "short_name": "planq",
+    "chain": "Planq",
+    "currency": "PLQ"
+  },
+  {
+    "id": 7099,
+    "name": "Bharat Blockchain Network",
+    "short_name": "bbnt",
+    "chain": "BBNT",
+    "currency": "BBN"
+  },
+  {
+    "id": 7100,
+    "name": "Nume",
+    "short_name": "nume",
+    "chain": "Nume",
+    "currency": "DAI"
+  },
+  {
+    "id": 7117,
+    "name": "0XL3",
+    "short_name": "0xl3",
+    "chain": "0XL3",
+    "currency": "XL3"
+  },
+  {
+    "id": 7118,
+    "name": "Help The Homeless",
+    "short_name": "hth",
+    "chain": "mainnet",
+    "currency": "HTH"
+  },
+  {
+    "id": 7171,
+    "name": "Bitrock Mainnet",
+    "short_name": "bitrock",
+    "chain": "Bitrock",
+    "currency": "BROCK"
+  },
+  {
+    "id": 7200,
+    "name": "exSat Mainnet",
+    "short_name": "xsat",
+    "chain": "exSat",
+    "currency": "BTC"
+  },
+  {
+    "id": 7208,
+    "name": "Nexera Mainnet",
+    "short_name": "nxra-mainnet",
+    "chain": "Nexera",
+    "currency": "NXRA"
+  },
+  {
+    "id": 7233,
+    "name": "InitVerse Mainnet",
+    "short_name": "INI",
+    "chain": "InitVerse",
+    "currency": "INI"
+  },
+  {
+    "id": 7300,
+    "name": "XPLA Verse",
+    "short_name": "XPLAVERSE",
+    "chain": "XPLA Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 7331,
+    "name": "KLYNTAR",
+    "short_name": "kly",
+    "chain": "KLY",
+    "currency": "KLY"
+  },
+  {
+    "id": 7332,
+    "name": "Horizen EON Mainnet",
+    "short_name": "EON",
+    "chain": "EON",
+    "currency": "ZEN"
+  },
+  {
+    "id": 7341,
+    "name": "Shyft Mainnet",
+    "short_name": "shyft",
+    "chain": "SHYFT",
+    "currency": "SHYFT"
+  },
+  {
+    "id": 7368,
+    "name": "Rarimo",
+    "short_name": "rarimo",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 7484,
+    "name": "Raba Network Mainnet",
+    "short_name": "raba",
+    "chain": "Raba",
+    "currency": "RABA"
+  },
+  {
+    "id": 7518,
+    "name": "MEVerse Chain Mainnet",
+    "short_name": "MEV",
+    "chain": "MEVerse",
+    "currency": "MEV"
+  },
+  {
+    "id": 7560,
+    "name": "Cyber Mainnet",
+    "short_name": "cyeth",
+    "chain": "Cyber",
+    "currency": "ETH"
+  },
+  {
+    "id": 7576,
+    "name": "Adil Chain V2 Mainnet",
+    "short_name": "adil",
+    "chain": "ADIL",
+    "currency": "ADIL"
+  },
+  {
+    "id": 7668,
+    "name": "The Root Network - Mainnet",
+    "short_name": "trn-mainnet",
+    "chain": "TRN",
+    "currency": "XRP"
+  },
+  {
+    "id": 7700,
+    "name": "Canto",
+    "short_name": "canto",
+    "chain": "Canto",
+    "currency": "CANTO"
+  },
+  {
+    "id": 7701,
+    "name": "Canto Tesnet",
+    "short_name": "TestnetCanto",
+    "chain": "Canto",
+    "currency": "CANTO"
+  },
+  {
+    "id": 7774,
+    "name": "GDCC MAINNET",
+    "short_name": "GdccMainnet",
+    "chain": "GDCC",
+    "currency": "GDCC"
+  },
+  {
+    "id": 7776,
+    "name": "PandaSea Mainnet",
+    "short_name": "pandaSea-mainnet",
+    "chain": "PandaSea",
+    "currency": "PANDA"
+  },
+  {
+    "id": 7778,
+    "name": "Orenium Mainnet Protocol",
+    "short_name": "ore",
+    "chain": "ORE",
+    "currency": "ORE"
+  },
+  {
+    "id": 7788,
+    "name": "Draw Coin",
+    "short_name": "drw",
+    "chain": "DRW",
+    "currency": "DRW"
+  },
+  {
+    "id": 7862,
+    "name": "MaalChain V2",
+    "short_name": "maal-v2",
+    "chain": "MAAL",
+    "currency": "MAAL"
+  },
+  {
+    "id": 7865,
+    "name": "Powerloom Mainnet",
+    "short_name": "power",
+    "chain": "POWER",
+    "currency": "POWER"
+  },
+  {
+    "id": 7869,
+    "name": "Powerloom Mainnet V2",
+    "short_name": "powerloom",
+    "chain": "Powerloom Mainnet V2",
+    "currency": "POWER"
+  },
+  {
+    "id": 7887,
+    "name": "Kinto Mainnet",
+    "short_name": "kintoMainnet",
+    "chain": "Kinto Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 7895,
+    "name": "ARDENIUM Athena",
+    "short_name": "ard",
+    "chain": "ATHENA",
+    "currency": "tARD"
+  },
+  {
+    "id": 7897,
+    "name": "arena-z",
+    "short_name": "arena-z",
+    "chain": "arena-z",
+    "currency": "ETH"
+  },
+  {
+    "id": 7923,
+    "name": "Dot Blox",
+    "short_name": "DTBX",
+    "chain": "DTBX",
+    "currency": "DTBX"
+  },
+  {
+    "id": 7924,
+    "name": "MO Mainnet",
+    "short_name": "MO",
+    "chain": "MO",
+    "currency": "MO"
+  },
+  {
+    "id": 7979,
+    "name": "DOS Chain",
+    "short_name": "dos",
+    "chain": "DOS",
+    "currency": "DOS"
+  },
+  {
+    "id": 8000,
+    "name": "Teleport",
+    "short_name": "teleport",
+    "chain": "Teleport",
+    "currency": "TELE"
+  },
+  {
+    "id": 8008,
+    "name": "Polynomial",
+    "short_name": "polynomial",
+    "chain": "Polynomial",
+    "currency": "ETH"
+  },
+  {
+    "id": 8017,
+    "name": "iSunCoin Mainnet",
+    "short_name": "isc",
+    "chain": "iSunCoin",
+    "currency": "ISC"
+  },
+  {
+    "id": 8047,
+    "name": "BOAT Mainnet",
+    "short_name": "boat",
+    "chain": "BOAT",
+    "currency": "BOAT"
+  },
+  {
+    "id": 8080,
+    "name": "Shardeum Liberty 1.X",
+    "short_name": "Liberty10",
+    "chain": "Shardeum",
+    "currency": "SHM"
+  },
+  {
+    "id": 8081,
+    "name": "Shardeum Liberty 2.X",
+    "short_name": "Liberty20",
+    "chain": "Shardeum",
+    "currency": "SHM"
+  },
+  {
+    "id": 8082,
+    "name": "Shardeum Sphinx 1.X",
+    "short_name": "Sphinx10",
+    "chain": "Shardeum",
+    "currency": "SHM"
+  },
+  {
+    "id": 8086,
+    "name": "Bitcoin Chain",
+    "short_name": "Bitcoin",
+    "chain": "BTC",
+    "currency": "BTC"
+  },
+  {
+    "id": 8087,
+    "name": "E-Dollar",
+    "short_name": "E-Dollar",
+    "chain": "USD",
+    "currency": "USD"
+  },
+  {
+    "id": 8098,
+    "name": "StreamuX Blockchain",
+    "short_name": "StreamuX",
+    "chain": "StreamuX",
+    "currency": "SmuX"
+  },
+  {
+    "id": 8099,
+    "name": "Bharat Blockchain Network Mainnet",
+    "short_name": "bbn",
+    "chain": "BBN",
+    "currency": "BBN"
+  },
+  {
+    "id": 8108,
+    "name": "ZenChain",
+    "short_name": "zen",
+    "chain": "ZTC",
+    "currency": "ZTC"
+  },
+  {
+    "id": 8118,
+    "name": "Shardeum",
+    "short_name": "Shardeum",
+    "chain": "Shardeum",
+    "currency": "SHM"
+  },
+  {
+    "id": 8132,
+    "name": "Qitmeer Network Mixnet",
+    "short_name": "meermix",
+    "chain": "MEER",
+    "currency": "MEER-M"
+  },
+  {
+    "id": 8133,
+    "name": "Qitmeer Network Privnet",
+    "short_name": "meerpriv",
+    "chain": "MEER",
+    "currency": "MEER-P"
+  },
+  {
+    "id": 8134,
+    "name": "Amana",
+    "short_name": "amana",
+    "chain": "MEER",
+    "currency": "MEER"
+  },
+  {
+    "id": 8135,
+    "name": "Flana",
+    "short_name": "flana",
+    "chain": "MEER",
+    "currency": "MEER"
+  },
+  {
+    "id": 8136,
+    "name": "Mizana",
+    "short_name": "mizana",
+    "chain": "MEER",
+    "currency": "MEER"
+  },
+  {
+    "id": 8192,
+    "name": "Torus Mainnet",
+    "short_name": "tqf",
+    "chain": "TQF",
+    "currency": "TQF"
+  },
+  {
+    "id": 8217,
+    "name": "Kaia Mainnet",
+    "short_name": "kaia-mainnet",
+    "chain": "KAIA",
+    "currency": "KAIA"
+  },
+  {
+    "id": 8227,
+    "name": "Space Subnet",
+    "short_name": "space",
+    "chain": "SPACE",
+    "currency": "FUEL"
+  },
+  {
+    "id": 8272,
+    "name": "Blockton Blockchain",
+    "short_name": "BTON",
+    "chain": "Blockton Blockchain",
+    "currency": "BTON"
+  },
+  {
+    "id": 8329,
+    "name": "Lorenzo",
+    "short_name": "lrz",
+    "chain": "Lorenzo",
+    "currency": "stBTC"
+  },
+  {
+    "id": 8333,
+    "name": "B3",
+    "short_name": "b3",
+    "chain": "B3",
+    "currency": "ETH"
+  },
+  {
+    "id": 8386,
+    "name": "XProtocol",
+    "short_name": "xprotocol",
+    "chain": "XPROTOCOL",
+    "currency": "KICK"
+  },
+  {
+    "id": 8387,
+    "name": "Dracones Financial Services",
+    "short_name": "fuck",
+    "chain": "FUCK",
+    "currency": "FUCK"
+  },
+  {
+    "id": 8428,
+    "name": "THAT Mainnet",
+    "short_name": "THAT",
+    "chain": "THAT",
+    "currency": "THAT"
+  },
+  {
+    "id": 8453,
+    "name": "Base",
+    "short_name": "base",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 8569,
+    "name": "New Reality Blockchain",
+    "short_name": "newrl",
+    "chain": "NEWRL",
+    "currency": "NEWRL"
+  },
+  {
+    "id": 8654,
+    "name": "Toki Network",
+    "short_name": "toki",
+    "chain": "TOKI",
+    "currency": "TOKI"
+  },
+  {
+    "id": 8668,
+    "name": "Hela Official Runtime Mainnet",
+    "short_name": "hela",
+    "chain": "Hela",
+    "currency": "HLUSD"
+  },
+  {
+    "id": 8723,
+    "name": "TOOL Global Mainnet",
+    "short_name": "olo",
+    "chain": "OLO",
+    "currency": "OLO"
+  },
+  {
+    "id": 8726,
+    "name": "Storagechain Mainnet",
+    "short_name": "stor",
+    "chain": "Storagechain",
+    "currency": "STOR"
+  },
+  {
+    "id": 8732,
+    "name": "Bullions Smart Chain",
+    "short_name": "bln",
+    "chain": "Bullions",
+    "currency": "BLN"
+  },
+  {
+    "id": 8738,
+    "name": "Alph Network",
+    "short_name": "alph",
+    "chain": "ALPH",
+    "currency": "ALPH"
+  },
+  {
+    "id": 8768,
+    "name": "TMY Chain",
+    "short_name": "tmy",
+    "chain": "TMY",
+    "currency": "TMY"
+  },
+  {
+    "id": 8811,
+    "name": "Haven1",
+    "short_name": "haven1",
+    "chain": "haven1",
+    "currency": "H1"
+  },
+  {
+    "id": 8822,
+    "name": "IOTA EVM",
+    "short_name": "iotaevm",
+    "chain": "IOTA EVM",
+    "currency": "IOTA"
+  },
+  {
+    "id": 8848,
+    "name": "MARO Blockchain Mainnet",
+    "short_name": "maro",
+    "chain": "MARO Blockchain",
+    "currency": "MARO"
+  },
+  {
+    "id": 8866,
+    "name": "SuperLumio",
+    "short_name": "superlumio",
+    "chain": "SuperLumio",
+    "currency": "ETH"
+  },
+  {
+    "id": 8869,
+    "name": "Lif3 Chain",
+    "short_name": "lif3-mainnet",
+    "chain": "lif3chain",
+    "currency": "LIF3"
+  },
+  {
+    "id": 8880,
+    "name": "Unique",
+    "short_name": "unq",
+    "chain": "UNQ",
+    "currency": "UNQ"
+  },
+  {
+    "id": 8881,
+    "name": "Quartz by Unique",
+    "short_name": "qtz",
+    "chain": "UNQ",
+    "currency": "QTZ"
+  },
+  {
+    "id": 8883,
+    "name": "Sapphire by Unique",
+    "short_name": "sph",
+    "chain": "UNQ",
+    "currency": "QTZ"
+  },
+  {
+    "id": 8888,
+    "name": "XANAChain",
+    "short_name": "XANAChain",
+    "chain": "XANAChain",
+    "currency": "XETA"
+  },
+  {
+    "id": 8889,
+    "name": "Vyvo Smart Chain",
+    "short_name": "vsc",
+    "chain": "VSC",
+    "currency": "VSC"
+  },
+  {
+    "id": 8898,
+    "name": "Mammoth Mainnet",
+    "short_name": "mmt",
+    "chain": "MMT",
+    "currency": "MMT"
+  },
+  {
+    "id": 8899,
+    "name": "JIBCHAIN L1",
+    "short_name": "jbc",
+    "chain": "JBC",
+    "currency": "JBC"
+  },
+  {
+    "id": 8911,
+    "name": "Algen",
+    "short_name": "alg",
+    "chain": "ALG",
+    "currency": "ALG"
+  },
+  {
+    "id": 8921,
+    "name": "Algen Layer2",
+    "short_name": "algl2",
+    "chain": "ALG L2",
+    "currency": "ALG"
+  },
+  {
+    "id": 8989,
+    "name": "Giant Mammoth Mainnet",
+    "short_name": "gmmt",
+    "chain": "GMMT",
+    "currency": "GMMT"
+  },
+  {
+    "id": 8995,
+    "name": "bloxberg",
+    "short_name": "berg",
+    "chain": "bloxberg",
+    "currency": "U+25B3"
+  },
+  {
+    "id": 9001,
+    "name": "Evmos",
+    "short_name": "evmos",
+    "chain": "Evmos",
+    "currency": "EVMOS"
+  },
+  {
+    "id": 9008,
+    "name": "Shido Network",
+    "short_name": "Shido",
+    "chain": "Shido Mainnet",
+    "currency": "SHIDO"
+  },
+  {
+    "id": 9012,
+    "name": "BerylBit Mainnet",
+    "short_name": "brb",
+    "chain": "BRB",
+    "currency": "BRB"
+  },
+  {
+    "id": 9025,
+    "name": "Nexa Mainnet Block",
+    "short_name": "Nexa",
+    "chain": "Nexa Mainnet",
+    "currency": "NEXB"
+  },
+  {
+    "id": 9069,
+    "name": "Apex Fusion - Nexus Mainnet",
+    "short_name": "AP3X",
+    "chain": "Nexus Mainnet",
+    "currency": "AP3X"
+  },
+  {
+    "id": 9100,
+    "name": "Genesis Coin",
+    "short_name": "GENEC",
+    "chain": "Genesis",
+    "currency": "GNC"
+  },
+  {
+    "id": 9223,
+    "name": "Codefin Mainnet",
+    "short_name": "COF",
+    "chain": "COF",
+    "currency": "COF"
+  },
+  {
+    "id": 9302,
+    "name": "Galactica-Reticulum",
+    "short_name": "GNET",
+    "chain": "Galactica Testnet",
+    "currency": "GNET"
+  },
+  {
+    "id": 9369,
+    "name": "Z Chain",
+    "short_name": "z",
+    "chain": "Z",
+    "currency": "Z"
+  },
+  {
+    "id": 9395,
+    "name": "Evoke Mainnet",
+    "short_name": "MTHN",
+    "chain": "MTHN",
+    "currency": "MTHN"
+  },
+  {
+    "id": 9496,
+    "name": "Load Alphanet",
+    "short_name": "tload",
+    "chain": "LOAD",
+    "currency": "tLOAD"
+  },
+  {
+    "id": 9696,
+    "name": "Rebus Mainnet",
+    "short_name": "rebus",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 9779,
+    "name": "PepeNetwork Mainnet",
+    "short_name": "pn",
+    "chain": "PepeNetwork",
+    "currency": "WPEPE"
+  },
+  {
+    "id": 9790,
+    "name": "Carbon EVM",
+    "short_name": "carbon",
+    "chain": "Carbon",
+    "currency": "SWTH"
+  },
+  {
+    "id": 9797,
+    "name": "OptimusZ7 Mainnet",
+    "short_name": "OZ7m",
+    "chain": "OptimusZ7",
+    "currency": "OZ7"
+  },
+  {
+    "id": 9819,
+    "name": "IMPERIUM MAINNET",
+    "short_name": "IMP",
+    "chain": "IMP",
+    "currency": "IMP"
+  },
+  {
+    "id": 9888,
+    "name": "Dogelayer Mainnet",
+    "short_name": "Dogelayer",
+    "chain": "Dogelayer",
+    "currency": "DOGE"
+  },
+  {
+    "id": 9889,
+    "name": "pointledger",
+    "short_name": "pointledger",
+    "chain": "pointledger",
+    "currency": "PLG"
+  },
+  {
+    "id": 9898,
+    "name": "Larissa Chain",
+    "short_name": "lrs",
+    "chain": "Larissa",
+    "currency": "LRS"
+  },
+  {
+    "id": 9901,
+    "name": "Zytron Linea Mainnet",
+    "short_name": "zytron-linea",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 9911,
+    "name": "Espento Mainnet",
+    "short_name": "spent",
+    "chain": "SPENT",
+    "currency": "SPENT"
+  },
+  {
+    "id": 9980,
+    "name": "Combo Mainnet",
+    "short_name": "combo-mainnet",
+    "chain": "Combo",
+    "currency": "BNB"
+  },
+  {
+    "id": 9981,
+    "name": "Volley Mainnet",
+    "short_name": "volley-mainnet",
+    "chain": "Volley",
+    "currency": "V2X"
+  },
+  {
+    "id": 9982,
+    "name": "MFEV CHAIN MAINNET",
+    "short_name": "mfevscan",
+    "chain": "MFEV CHAIN",
+    "currency": "MFEV"
+  },
+  {
+    "id": 9990,
+    "name": "Agung Network",
+    "short_name": "AGNG",
+    "chain": "Agung",
+    "currency": "AGNG"
+  },
+  {
+    "id": 9996,
+    "name": "Mind Smart Chain Mainnet",
+    "short_name": "MIND",
+    "chain": "MIND",
+    "currency": "MIND"
+  },
+  {
+    "id": 9998,
+    "name": "Ztc Mainnet",
+    "short_name": "ZTC",
+    "chain": "ZTC",
+    "currency": "ZTC"
+  },
+  {
+    "id": 10000,
+    "name": "Smart Bitcoin Cash",
+    "short_name": "smartbch",
+    "chain": "smartBCH",
+    "currency": "BCH"
+  },
+  {
+    "id": 10011,
+    "name": "DeepSafe Beta Mainnet",
+    "short_name": "DeepSafe",
+    "chain": "DeepSafe",
+    "currency": "DEF"
+  },
+  {
+    "id": 10024,
+    "name": "Gon Chain",
+    "short_name": "gon",
+    "chain": "GonChain",
+    "currency": "GT"
+  },
+  {
+    "id": 10025,
+    "name": "AEON Chain",
+    "short_name": "aeon",
+    "chain": "AEON Chain",
+    "currency": "AEON"
+  },
+  {
+    "id": 10085,
+    "name": "Volcano Chain Mainnet",
+    "short_name": "volcanochain",
+    "chain": "Volcano",
+    "currency": "VC"
+  },
+  {
+    "id": 10086,
+    "name": "SJATSH",
+    "short_name": "SJ",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 10096,
+    "name": "MetaNova Verse",
+    "short_name": "mnv",
+    "chain": "MNV",
+    "currency": "MNV"
+  },
+  {
+    "id": 10101,
+    "name": "Blockchain Genesis Mainnet",
+    "short_name": "GEN",
+    "chain": "GEN",
+    "currency": "GEN"
+  },
+  {
+    "id": 10201,
+    "name": "MaxxChain Mainnet",
+    "short_name": "PWR",
+    "chain": "MaxxChain",
+    "currency": "PWR"
+  },
+  {
+    "id": 10222,
+    "name": "GLScan",
+    "short_name": "glc",
+    "chain": "GLC",
+    "currency": "GLC"
+  },
+  {
+    "id": 10242,
+    "name": "Arthera Mainnet",
+    "short_name": "aa",
+    "chain": "AA",
+    "currency": "AA"
+  },
+  {
+    "id": 10248,
+    "name": "0XTade",
+    "short_name": "0xt",
+    "chain": "0XTade Chain",
+    "currency": "0XT"
+  },
+  {
+    "id": 10321,
+    "name": "TAO EVM Mainnet",
+    "short_name": "TAOm",
+    "chain": "TAO EVM",
+    "currency": "TAO"
+  },
+  {
+    "id": 10507,
+    "name": "Numbers Mainnet",
+    "short_name": "Jade",
+    "chain": "NUM",
+    "currency": "NUM"
+  },
+  {
+    "id": 10823,
+    "name": "CryptoCoinPay",
+    "short_name": "CCP",
+    "chain": "CCP",
+    "currency": "CCP"
+  },
+  {
+    "id": 10849,
+    "name": "Lamina1",
+    "short_name": "lamina1",
+    "chain": "Lamina1",
+    "currency": "L1"
+  },
+  {
+    "id": 10850,
+    "name": "Lamina1 Identity",
+    "short_name": "lamina1id",
+    "chain": "Lamina1 Identity",
+    "currency": "L1ID"
+  },
+  {
+    "id": 10946,
+    "name": "Quadrans Blockchain",
+    "short_name": "quadrans",
+    "chain": "QDC",
+    "currency": "QDC"
+  },
+  {
+    "id": 11000,
+    "name": "KB Chain",
+    "short_name": "KBC",
+    "chain": "KB",
+    "currency": "KBC"
+  },
+  {
+    "id": 11100,
+    "name": "Bool Network Beta Mainnet",
+    "short_name": "BOL",
+    "chain": "BOOL",
+    "currency": "BOL"
+  },
+  {
+    "id": 11110,
+    "name": "Astra",
+    "short_name": "astra",
+    "chain": "Astra",
+    "currency": "ASA"
+  },
+  {
+    "id": 11111,
+    "name": "WAGMI",
+    "short_name": "WAGMI",
+    "chain": "WAGMI",
+    "currency": "WGM"
+  },
+  {
+    "id": 11119,
+    "name": "HashBit Mainnet",
+    "short_name": "hbit",
+    "chain": "HBIT",
+    "currency": "HBIT"
+  },
+  {
+    "id": 11221,
+    "name": "Shine Chain",
+    "short_name": "SC20",
+    "chain": "SC20",
+    "currency": "SC20"
+  },
+  {
+    "id": 11235,
+    "name": "Haqq Network",
+    "short_name": "ISLM",
+    "chain": "Haqq",
+    "currency": "ISLM"
+  },
+  {
+    "id": 11451,
+    "name": "eGold Chain",
+    "short_name": "egoldchain",
+    "chain": "EGC",
+    "currency": "XAU"
+  },
+  {
+    "id": 11501,
+    "name": "GEB Mainnet",
+    "short_name": "geb",
+    "chain": "GEB",
+    "currency": "BTC"
+  },
+  {
+    "id": 11504,
+    "name": "GEB Signet",
+    "short_name": "geb-signet",
+    "chain": "GEB",
+    "currency": "BTC"
+  },
+  {
+    "id": 11521,
+    "name": "SatsChain",
+    "short_name": "satschain",
+    "chain": "SatsChain",
+    "currency": "SATS"
+  },
+  {
+    "id": 11820,
+    "name": "Artela Mainnet",
+    "short_name": "artela-mainnet",
+    "chain": "Artela",
+    "currency": "ART"
+  },
+  {
+    "id": 11891,
+    "name": "Polygon Supernet Arianee",
+    "short_name": "Arianee",
+    "chain": "Arianee",
+    "currency": "ARIA20"
+  },
+  {
+    "id": 12009,
+    "name": "SatoshiChain Mainnet",
+    "short_name": "sats",
+    "chain": "SATS",
+    "currency": "SATS"
+  },
+  {
+    "id": 12020,
+    "name": "Aternos",
+    "short_name": "ATR",
+    "chain": "Aternos",
+    "currency": "ATR"
+  },
+  {
+    "id": 12052,
+    "name": "Singularity ZERO Mainnet",
+    "short_name": "ZERO",
+    "chain": "ZERO",
+    "currency": "ZERO"
+  },
+  {
+    "id": 12123,
+    "name": "BRC Chain Mainnet",
+    "short_name": "BRC",
+    "chain": "BRC",
+    "currency": "BRC"
+  },
+  {
+    "id": 12306,
+    "name": "Fibonacci Mainnet",
+    "short_name": "fibo",
+    "chain": "FIBO",
+    "currency": "FIBO"
+  },
+  {
+    "id": 12323,
+    "name": "Huddle01 dRTC Chain",
+    "short_name": "huddle01",
+    "chain": "huddle01",
+    "currency": "ETH"
+  },
+  {
+    "id": 12324,
+    "name": "L3X Protocol",
+    "short_name": "l3x",
+    "chain": "L3X",
+    "currency": "ETH"
+  },
+  {
+    "id": 12358,
+    "name": "GDPR Mainnet",
+    "short_name": "gdpr",
+    "chain": "GDPR",
+    "currency": "GDPR"
+  },
+  {
+    "id": 12553,
+    "name": "RSS3 VSL Mainnet",
+    "short_name": "rss3",
+    "chain": "RSS3",
+    "currency": "RSS3"
+  },
+  {
+    "id": 13000,
+    "name": "SPS",
+    "short_name": "SPS",
+    "chain": "SPS",
+    "currency": "ECG"
+  },
+  {
+    "id": 13308,
+    "name": "Credit Smart Chain",
+    "short_name": "Credit",
+    "chain": "CREDIT",
+    "currency": "CREDIT"
+  },
+  {
+    "id": 13371,
+    "name": "Immutable zkEVM",
+    "short_name": "imx",
+    "chain": "Immutable zkEVM",
+    "currency": "IMX"
+  },
+  {
+    "id": 13381,
+    "name": "Phoenix Mainnet",
+    "short_name": "Phoenix",
+    "chain": "Phoenix",
+    "currency": "PHX"
+  },
+  {
+    "id": 13396,
+    "name": "Masa",
+    "short_name": "masa",
+    "chain": "MASA",
+    "currency": "MASA"
+  },
+  {
+    "id": 13600,
+    "name": "Kronobit Mainnet",
+    "short_name": "KNB",
+    "chain": "KNB",
+    "currency": "KNB"
+  },
+  {
+    "id": 13812,
+    "name": "Susono",
+    "short_name": "sus",
+    "chain": "SUS",
+    "currency": "OPN"
+  },
+  {
+    "id": 14149,
+    "name": "Bitharvest Chain Mainnet",
+    "short_name": "BitharvestMainnet",
+    "chain": "Bitharvest Chain Mainnet",
+    "currency": "BTH"
+  },
+  {
+    "id": 14235,
+    "name": "Bitlazer",
+    "short_name": "bitlazer",
+    "chain": "bitlazer",
+    "currency": "lzrBTC"
+  },
+  {
+    "id": 15259,
+    "name": "Poodl Mainnet",
+    "short_name": "poodle",
+    "chain": "Poodl",
+    "currency": "POODL"
+  },
+  {
+    "id": 15430,
+    "name": "KYMTC Mainnet",
+    "short_name": "KYMTC",
+    "chain": "KYMTC",
+    "currency": "KYMTC"
+  },
+  {
+    "id": 15551,
+    "name": "LoopNetwork Mainnet",
+    "short_name": "loop",
+    "chain": "LoopNetwork",
+    "currency": "LOOP"
+  },
+  {
+    "id": 16000,
+    "name": "MetaDot Mainnet",
+    "short_name": "mtt",
+    "chain": "MTT",
+    "currency": "MTT"
+  },
+  {
+    "id": 16116,
+    "name": "DeFiVerse Mainnet",
+    "short_name": "DFV",
+    "chain": "DeFiVerse",
+    "currency": "OAS"
+  },
+  {
+    "id": 16166,
+    "name": "Cypherium Mainnet",
+    "short_name": "cph",
+    "chain": "CPH",
+    "currency": "CPH"
+  },
+  {
+    "id": 16180,
+    "name": "PLYR PHI",
+    "short_name": "plyr-phi",
+    "chain": "PLYR",
+    "currency": "PLYR"
+  },
+  {
+    "id": 16507,
+    "name": "Genesys Mainnet",
+    "short_name": "Genesys",
+    "chain": "Genesys",
+    "currency": "GSYS"
+  },
+  {
+    "id": 16718,
+    "name": "AirDAO Mainnet",
+    "short_name": "airdao",
+    "chain": "ambnet",
+    "currency": "AMB"
+  },
+  {
+    "id": 17071,
+    "name": "Onchain Points",
+    "short_name": "pop",
+    "chain": "POP",
+    "currency": "POP"
+  },
+  {
+    "id": 17171,
+    "name": "G8Chain Mainnet",
+    "short_name": "G8Cm",
+    "chain": "G8C",
+    "currency": "G8C"
+  },
+  {
+    "id": 17172,
+    "name": "Eclipse Subnet",
+    "short_name": "eclipse",
+    "chain": "ECLIPSE",
+    "currency": "ECLP"
+  },
+  {
+    "id": 17217,
+    "name": "KONET Mainnet",
+    "short_name": "KONET",
+    "chain": "KONET",
+    "currency": "KONET"
+  },
+  {
+    "id": 17735,
+    "name": "Esports Chain",
+    "short_name": "Esports",
+    "chain": "ESPT",
+    "currency": "ESPT"
+  },
+  {
+    "id": 17777,
+    "name": "EOS EVM Network",
+    "short_name": "eos",
+    "chain": "EOS",
+    "currency": "EOS"
+  },
+  {
+    "id": 18122,
+    "name": "Smart Trade Networks",
+    "short_name": "STN",
+    "chain": "Smart Trade Networks",
+    "currency": "STN"
+  },
+  {
+    "id": 18159,
+    "name": "Proof Of Memes",
+    "short_name": "pom",
+    "chain": "POM",
+    "currency": "POM"
+  },
+  {
+    "id": 18686,
+    "name": "MXC zkEVM Moonchain",
+    "short_name": "MXCzkEVM",
+    "chain": "MXC zkEVM",
+    "currency": "MXC"
+  },
+  {
+    "id": 18888,
+    "name": "Titan (TKX)",
+    "short_name": "titan_tkx",
+    "chain": "Titan (TKX)",
+    "currency": "TKX"
+  },
+  {
+    "id": 19011,
+    "name": "HOME Verse Mainnet",
+    "short_name": "HMV",
+    "chain": "HOME Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 19180,
+    "name": "LocaChain Mainnet",
+    "short_name": "locachain",
+    "chain": "LocaChain",
+    "currency": "LCC"
+  },
+  {
+    "id": 19191,
+    "name": "BlockX Mainnet",
+    "short_name": "bcx",
+    "chain": "blockx",
+    "currency": "BCX"
+  },
+  {
+    "id": 19224,
+    "name": "Decentraconnect Social",
+    "short_name": "DCSMs",
+    "chain": "DCSM",
+    "currency": "DCSM"
+  },
+  {
+    "id": 19516,
+    "name": "SEC Mainnet",
+    "short_name": "SECm",
+    "chain": "SEC",
+    "currency": "SEP"
+  },
+  {
+    "id": 19527,
+    "name": "Magnet Network",
+    "short_name": "mgt",
+    "chain": "Magnet",
+    "currency": "DOT"
+  },
+  {
+    "id": 19600,
+    "name": "LBRY Mainnet",
+    "short_name": "LBRY",
+    "chain": "LBRY",
+    "currency": "LBC"
+  },
+  {
+    "id": 19845,
+    "name": "BTCIX Network",
+    "short_name": "btcix",
+    "chain": "BTCIX",
+    "currency": "BTCIX"
+  },
+  {
+    "id": 19991,
+    "name": "Ultra EVM Network",
+    "short_name": "ultra",
+    "chain": "Ultra",
+    "currency": "UOS"
+  },
+  {
+    "id": 20001,
+    "name": "Camelark Mainnet",
+    "short_name": "Camelark",
+    "chain": "ETHW",
+    "currency": "ETHW"
+  },
+  {
+    "id": 20041,
+    "name": "Niza Chain Mainnet",
+    "short_name": "niza",
+    "chain": "NIZA",
+    "currency": "NIZA"
+  },
+  {
+    "id": 20441,
+    "name": "XUSD ONE StableChain Mainnet",
+    "short_name": "xusd",
+    "chain": "XUSD ONE",
+    "currency": "X1"
+  },
+  {
+    "id": 20736,
+    "name": "P12 Chain",
+    "short_name": "p12",
+    "chain": "P12",
+    "currency": "hP2"
+  },
+  {
+    "id": 20765,
+    "name": "Jono11 Subnet",
+    "short_name": "jono11",
+    "chain": "JONO11",
+    "currency": "JONO"
+  },
+  {
+    "id": 21000,
+    "name": "Action Mainnet",
+    "short_name": "ACTN",
+    "chain": "Action",
+    "currency": "ACTN"
+  },
+  {
+    "id": 21004,
+    "name": "C4EI",
+    "short_name": "c4ei",
+    "chain": "C4EI",
+    "currency": "C4EI"
+  },
+  {
+    "id": 21133,
+    "name": "All About Healthy",
+    "short_name": "aah",
+    "chain": "AAH",
+    "currency": "AAH"
+  },
+  {
+    "id": 21210,
+    "name": "1Money Network Mainnet",
+    "short_name": "1money",
+    "chain": "1Money Network",
+    "currency": "USD1"
+  },
+  {
+    "id": 21223,
+    "name": "DCpay Mainnet",
+    "short_name": "DCPm",
+    "chain": "DCpay",
+    "currency": "DCP"
+  },
+  {
+    "id": 21337,
+    "name": "CENNZnet Azalea",
+    "short_name": "cennz-a",
+    "chain": "CENNZnet",
+    "currency": "CPAY"
+  },
+  {
+    "id": 21363,
+    "name": "Lestnet",
+    "short_name": "leth",
+    "chain": "LETH",
+    "currency": "LETH"
+  },
+  {
+    "id": 21816,
+    "name": "omChain Mainnet",
+    "short_name": "omc",
+    "chain": "OML",
+    "currency": "OMC"
+  },
+  {
+    "id": 21912,
+    "name": "BSL Mainnet",
+    "short_name": "onf",
+    "chain": "BSL",
+    "currency": "ONF"
+  },
+  {
+    "id": 22023,
+    "name": "Taycan",
+    "short_name": "SFL",
+    "chain": "Taycan",
+    "currency": "SFL"
+  },
+  {
+    "id": 22222,
+    "name": "Nautilus Mainnet",
+    "short_name": "NAUTCHAIN",
+    "chain": "ETH",
+    "currency": "ZBC"
+  },
+  {
+    "id": 22776,
+    "name": "MAP Protocol",
+    "short_name": "mapo",
+    "chain": "MAPO",
+    "currency": "MAPO"
+  },
+  {
+    "id": 23023,
+    "name": "PremiumBlock",
+    "short_name": "pblk",
+    "chain": "PBLK",
+    "currency": "PBLK"
+  },
+  {
+    "id": 23294,
+    "name": "Oasis Sapphire",
+    "short_name": "sapphire",
+    "chain": "Sapphire",
+    "currency": "ROSE"
+  },
+  {
+    "id": 23451,
+    "name": "DreyerX Mainnet",
+    "short_name": "dreyerx",
+    "chain": "DreyerX",
+    "currency": "DRX"
+  },
+  {
+    "id": 24125,
+    "name": "Nexurachain",
+    "short_name": "XURAm",
+    "chain": "nexurachain",
+    "currency": "XURA"
+  },
+  {
+    "id": 24484,
+    "name": "Webchain",
+    "short_name": "web",
+    "chain": "WEB",
+    "currency": "WEB"
+  },
+  {
+    "id": 24734,
+    "name": "MintMe.com Coin",
+    "short_name": "mintme",
+    "chain": "MINTME",
+    "currency": "MINTME"
+  },
+  {
+    "id": 24816,
+    "name": "Recall",
+    "short_name": "recall",
+    "chain": "Recall",
+    "currency": "RECALL"
+  },
+  {
+    "id": 25186,
+    "name": "LiquidLayer Mainnet",
+    "short_name": "LILA",
+    "chain": "LiquidLayer",
+    "currency": "LILA"
+  },
+  {
+    "id": 25327,
+    "name": "Everclear Mainnet",
+    "short_name": "Everclear",
+    "chain": "Everclear Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 25888,
+    "name": "Hammer Chain Mainnet",
+    "short_name": "GOLDT",
+    "chain": "HammerChain",
+    "currency": "GOLDT"
+  },
+  {
+    "id": 26100,
+    "name": "Ferrum Quantum Portal Network",
+    "short_name": "qpn",
+    "chain": "QPN",
+    "currency": "qpFRM"
+  },
+  {
+    "id": 26483,
+    "name": "DucatusX",
+    "short_name": "ducatusx",
+    "chain": "DUCX",
+    "currency": "DUCX"
+  },
+  {
+    "id": 26600,
+    "name": "Hertz Network Mainnet",
+    "short_name": "HTZ",
+    "chain": "HTZ",
+    "currency": "HTZ"
+  },
+  {
+    "id": 26863,
+    "name": "OasisChain Mainnet",
+    "short_name": "OAC",
+    "chain": "OasisChain",
+    "currency": "OAC"
+  },
+  {
+    "id": 27827,
+    "name": "zeroone Mainnet Subnet",
+    "short_name": "zeroonemai",
+    "chain": "ZEROONEMAI",
+    "currency": "ZERO"
+  },
+  {
+    "id": 28125,
+    "name": "XferChain Mainnet",
+    "short_name": "DPm",
+    "chain": "XferChain Mainnet",
+    "currency": "Dapo"
+  },
+  {
+    "id": 28518,
+    "name": "Vizing Mainnet",
+    "short_name": "Vizing",
+    "chain": "Vizing Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 29223,
+    "name": "Nexa MetaNet",
+    "short_name": "nexameta",
+    "chain": "NEXA",
+    "currency": "NEXA"
+  },
+  {
+    "id": 29548,
+    "name": "MCH Verse Mainnet",
+    "short_name": "MCHV",
+    "chain": "MCH Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 30000,
+    "name": "qChain Mainnet",
+    "short_name": "qchain",
+    "chain": "qChain",
+    "currency": "QCO"
+  },
+  {
+    "id": 30088,
+    "name": "MiYou Mainnet",
+    "short_name": "MiYou",
+    "chain": "MiYou Chain",
+    "currency": "MY"
+  },
+  {
+    "id": 30730,
+    "name": "Movement EVM Legacy",
+    "short_name": "moveleg",
+    "chain": "MOVE",
+    "currency": "MOVE"
+  },
+  {
+    "id": 31102,
+    "name": "Ethersocial Network",
+    "short_name": "esn",
+    "chain": "ESN",
+    "currency": "ESN"
+  },
+  {
+    "id": 31223,
+    "name": "CloudTx Mainnet",
+    "short_name": "CLDTX",
+    "chain": "CLD",
+    "currency": "CLD"
+  },
+  {
+    "id": 31415,
+    "name": "Wirex Pay Mainnet",
+    "short_name": "wpay",
+    "chain": "WirexPay",
+    "currency": "ETH"
+  },
+  {
+    "id": 31612,
+    "name": "Mezo",
+    "short_name": "mezo",
+    "chain": "Mezo",
+    "currency": "BTC"
+  },
+  {
+    "id": 32323,
+    "name": "BasedAI",
+    "short_name": "basedai",
+    "chain": "BasedAI",
+    "currency": "BASED"
+  },
+  {
+    "id": 32382,
+    "name": "Santiment Intelligence Network",
+    "short_name": "SANR",
+    "chain": "Santiment Intelligence Network",
+    "currency": "SANR"
+  },
+  {
+    "id": 32520,
+    "name": "Bitgert Mainnet",
+    "short_name": "Brise",
+    "chain": "Brise",
+    "currency": "Brise"
+  },
+  {
+    "id": 32659,
+    "name": "Fusion Mainnet",
+    "short_name": "fsn",
+    "chain": "FSN",
+    "currency": "FSN"
+  },
+  {
+    "id": 32769,
+    "name": "Zilliqa EVM",
+    "short_name": "zil",
+    "chain": "ZIL",
+    "currency": "ZIL"
+  },
+  {
+    "id": 32770,
+    "name": "Zilliqa 2 EVM proto-mainnet",
+    "short_name": "zq2-proto-mainnet",
+    "chain": "ZIL",
+    "currency": "ZIL"
+  },
+  {
+    "id": 32990,
+    "name": "Zilliqa EVM Isolated Server",
+    "short_name": "zil-isolated-server",
+    "chain": "ZIL",
+    "currency": "ZIL"
+  },
+  {
+    "id": 33033,
+    "name": "Entangle Mainnet",
+    "short_name": "ngl",
+    "chain": "NGL",
+    "currency": "NGL"
+  },
+  {
+    "id": 33111,
+    "name": "Curtis",
+    "short_name": "curtis",
+    "chain": "Curtis",
+    "currency": "APE"
+  },
+  {
+    "id": 33139,
+    "name": "ApeChain",
+    "short_name": "apechain",
+    "chain": "apechain",
+    "currency": "APE"
+  },
+  {
+    "id": 33210,
+    "name": "Cloudverse Subnet",
+    "short_name": "cloudverse",
+    "chain": "CLOUDVERSE",
+    "currency": "XCLOUD"
+  },
+  {
+    "id": 33333,
+    "name": "Aves Mainnet",
+    "short_name": "avs",
+    "chain": "AVS",
+    "currency": "AVS"
+  },
+  {
+    "id": 33401,
+    "name": "SlingShot",
+    "short_name": "slingshot",
+    "chain": "SLING",
+    "currency": "SLING"
+  },
+  {
+    "id": 33979,
+    "name": "Funki",
+    "short_name": "funki",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 34443,
+    "name": "Mode",
+    "short_name": "mode",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 34504,
+    "name": "ZEUS Mainnet",
+    "short_name": "ZEUSX",
+    "chain": "ZEUSX",
+    "currency": "ZEUSX"
+  },
+  {
+    "id": 35011,
+    "name": "J2O Taro",
+    "short_name": "j2o",
+    "chain": "TARO",
+    "currency": "taro"
+  },
+  {
+    "id": 35441,
+    "name": "Q Mainnet",
+    "short_name": "q",
+    "chain": "Q",
+    "currency": "QGOV"
+  },
+  {
+    "id": 38400,
+    "name": "ConnectorManager",
+    "short_name": "cmrpg",
+    "chain": "Rangers",
+    "currency": "cmRPG"
+  },
+  {
+    "id": 38401,
+    "name": "ConnectorManager Robin",
+    "short_name": "ttrpg",
+    "chain": "Rangers",
+    "currency": "ttRPG"
+  },
+  {
+    "id": 39656,
+    "name": "PRM Mainnet",
+    "short_name": "prm",
+    "chain": "prm",
+    "currency": "PRM"
+  },
+  {
+    "id": 39797,
+    "name": "Energi Mainnet",
+    "short_name": "nrg",
+    "chain": "NRG",
+    "currency": "NRG"
+  },
+  {
+    "id": 39815,
+    "name": "OHO Mainnet",
+    "short_name": "oho",
+    "chain": "OHO",
+    "currency": "OHO"
+  },
+  {
+    "id": 40000,
+    "name": "DIV Chain",
+    "short_name": "divc",
+    "chain": "DIVC",
+    "currency": "DIVC"
+  },
+  {
+    "id": 41455,
+    "name": "Aleph Zero EVM",
+    "short_name": "aleph-zero",
+    "chain": "Aleph Zero EVM",
+    "currency": "AZERO"
+  },
+  {
+    "id": 41500,
+    "name": "Opulent-X BETA",
+    "short_name": "ox-beta",
+    "chain": "Opulent-X",
+    "currency": "OXYN"
+  },
+  {
+    "id": 41923,
+    "name": "EDU Chain",
+    "short_name": "edu-chain",
+    "chain": "EDU Chain",
+    "currency": "EDU"
+  },
+  {
+    "id": 42001,
+    "name": "PMON Chain",
+    "short_name": "pmon",
+    "chain": "42001",
+    "currency": "PMON"
+  },
+  {
+    "id": 42026,
+    "name": "Donatuz",
+    "short_name": "donatuz",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 42069,
+    "name": "pegglecoin",
+    "short_name": "PC",
+    "chain": "42069",
+    "currency": "peggle"
+  },
+  {
+    "id": 42161,
+    "name": "Arbitrum One",
+    "short_name": "arb1",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 42170,
+    "name": "Arbitrum Nova",
+    "short_name": "arb-nova",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 42220,
+    "name": "Celo Mainnet",
+    "short_name": "celo",
+    "chain": "CELO",
+    "currency": "CELO"
+  },
+  {
+    "id": 42262,
+    "name": "Oasis Emerald",
+    "short_name": "emerald",
+    "chain": "Emerald",
+    "currency": "ROSE"
+  },
+  {
+    "id": 42355,
+    "name": "GoldXChain Mainnet",
+    "short_name": "goldx",
+    "chain": "GoldX",
+    "currency": "GOLDX"
+  },
+  {
+    "id": 42420,
+    "name": "Asset Chain Mainnet",
+    "short_name": "assetchain",
+    "chain": "Asset Chain",
+    "currency": "RWA"
+  },
+  {
+    "id": 42766,
+    "name": "ZKFair Mainnet",
+    "short_name": "ZKFair-Mainnet",
+    "chain": "ZKFair",
+    "currency": "USDC"
+  },
+  {
+    "id": 42793,
+    "name": "Etherlink Mainnet",
+    "short_name": "etlk",
+    "chain": "Etherlink",
+    "currency": "XTZ"
+  },
+  {
+    "id": 43110,
+    "name": "Athereum",
+    "short_name": "avaeth",
+    "chain": "ATH",
+    "currency": "ATH"
+  },
+  {
+    "id": 43111,
+    "name": "Hemi",
+    "short_name": "hemi",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 43114,
+    "name": "Avalanche C-Chain",
+    "short_name": "avax",
+    "chain": "AVAX",
+    "currency": "AVAX"
+  },
+  {
+    "id": 43419,
+    "name": "GUNZ",
+    "short_name": "gunz-mainnet",
+    "chain": "GUNZ",
+    "currency": "GUN"
+  },
+  {
+    "id": 44444,
+    "name": "Frenchain",
+    "short_name": "FREN",
+    "chain": "fren",
+    "currency": "FREN"
+  },
+  {
+    "id": 44445,
+    "name": "Quantum Network",
+    "short_name": "QTM",
+    "chain": "Quantum",
+    "currency": "QTM"
+  },
+  {
+    "id": 45000,
+    "name": "Autobahn Network",
+    "short_name": "AutobahnNetwork",
+    "chain": "TXL",
+    "currency": "TXL"
+  },
+  {
+    "id": 45003,
+    "name": "Juneo JUNE-Chain",
+    "short_name": "JUNE",
+    "chain": "Juneo JUNE-Chain",
+    "currency": "JUNE"
+  },
+  {
+    "id": 45004,
+    "name": "Juneo DAI1-Chain",
+    "short_name": "DAI1",
+    "chain": "Juneo DAI1-Chain",
+    "currency": "DAI1"
+  },
+  {
+    "id": 45005,
+    "name": "Juneo USDT1-Chain",
+    "short_name": "USDT1",
+    "chain": "Juneo USDT1-Chain",
+    "currency": "USDT1"
+  },
+  {
+    "id": 45006,
+    "name": "Juneo USD1-Chain",
+    "short_name": "USD1",
+    "chain": "Juneo USD1-Chain",
+    "currency": "USD1"
+  },
+  {
+    "id": 45007,
+    "name": "Juneo mBTC1-Chain",
+    "short_name": "mBTC1",
+    "chain": "Juneo mBTC1-Chain",
+    "currency": "mBTC1"
+  },
+  {
+    "id": 45008,
+    "name": "Juneo GLD1-Chain",
+    "short_name": "GLD1",
+    "chain": "Juneo GLD1-Chain",
+    "currency": "GLD1"
+  },
+  {
+    "id": 45009,
+    "name": "Juneo LTC1-Chain",
+    "short_name": "LTC1",
+    "chain": "Juneo LTC1-Chain",
+    "currency": "LTC1"
+  },
+  {
+    "id": 45010,
+    "name": "Juneo DOGE1-Chain",
+    "short_name": "DOGE1",
+    "chain": "Juneo DOGE1-Chain",
+    "currency": "DOGE1"
+  },
+  {
+    "id": 45011,
+    "name": "Juneo EUR1-Chain",
+    "short_name": "EUR1",
+    "chain": "Juneo EUR1-Chain",
+    "currency": "EUR1"
+  },
+  {
+    "id": 45012,
+    "name": "Juneo SGD1-Chain",
+    "short_name": "SGD1",
+    "chain": "Juneo SGD1-Chain",
+    "currency": "SGD1"
+  },
+  {
+    "id": 45013,
+    "name": "Juneo BCH1-Chain",
+    "short_name": "BCH1",
+    "chain": "Juneo BCH1-Chain",
+    "currency": "BCH1"
+  },
+  {
+    "id": 45014,
+    "name": "Juneo LINK1-Chain",
+    "short_name": "LINK1",
+    "chain": "Juneo LINK1-Chain",
+    "currency": "LINK1"
+  },
+  {
+    "id": 45454,
+    "name": "Swamps L2",
+    "short_name": "SWP",
+    "chain": "SWP",
+    "currency": "SWP"
+  },
+  {
+    "id": 45510,
+    "name": "Deelance Mainnet",
+    "short_name": "dee",
+    "chain": "DEE",
+    "currency": "DEE"
+  },
+  {
+    "id": 45513,
+    "name": "Blessnet",
+    "short_name": "bless",
+    "chain": "ETH",
+    "currency": "BLESS"
+  },
+  {
+    "id": 47763,
+    "name": "Neo X Mainnet",
+    "short_name": "neox-mainnet",
+    "chain": "Neo X",
+    "currency": "GAS"
+  },
+  {
+    "id": 47803,
+    "name": "ReDeFi Layer 1",
+    "short_name": "bax",
+    "chain": "ReDeFi",
+    "currency": "BAX"
+  },
+  {
+    "id": 47805,
+    "name": "REI Network",
+    "short_name": "REI",
+    "chain": "REI",
+    "currency": "REI"
+  },
+  {
+    "id": 48900,
+    "name": "Zircuit Mainnet",
+    "short_name": "zircuit-mainnet",
+    "chain": "Zircuit Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 50000,
+    "name": "Citronus",
+    "short_name": "citro",
+    "chain": "Citronus",
+    "currency": "CITRO"
+  },
+  {
+    "id": 50001,
+    "name": "Liveplex OracleEVM",
+    "short_name": "LOE",
+    "chain": "Liveplex OracleEVM Network",
+    "currency": "ETH"
+  },
+  {
+    "id": 50005,
+    "name": "Yooldo Verse Mainnet",
+    "short_name": "YVM",
+    "chain": "Yooldo Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 50104,
+    "name": "Sophon",
+    "short_name": "sophon",
+    "chain": "Sophon",
+    "currency": "SOPH"
+  },
+  {
+    "id": 50888,
+    "name": "Erbie Mainnet",
+    "short_name": "Erbie",
+    "chain": "Erbie",
+    "currency": "ERB"
+  },
+  {
+    "id": 51712,
+    "name": "Sardis Mainnet",
+    "short_name": "SRDXm",
+    "chain": "SRDX",
+    "currency": "SRDX"
+  },
+  {
+    "id": 52014,
+    "name": "Electroneum Mainnet",
+    "short_name": "etn-mainnet",
+    "chain": "Electroneum",
+    "currency": "ETN"
+  },
+  {
+    "id": 53277,
+    "name": "DOID",
+    "short_name": "DOID",
+    "chain": "DOID",
+    "currency": "DOID"
+  },
+  {
+    "id": 53456,
+    "name": "BirdLayer",
+    "short_name": "birdlayer",
+    "chain": "BirdLayer",
+    "currency": "ETH"
+  },
+  {
+    "id": 53935,
+    "name": "DFK Chain",
+    "short_name": "DFK",
+    "chain": "DFK",
+    "currency": "JEWEL"
+  },
+  {
+    "id": 54176,
+    "name": "OverProtocol Mainnet",
+    "short_name": "overprotocol",
+    "chain": "OverProtocol",
+    "currency": "OVER"
+  },
+  {
+    "id": 55004,
+    "name": "Titan",
+    "short_name": "teth",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 55244,
+    "name": "Superposition",
+    "short_name": "spn",
+    "chain": "Superposition",
+    "currency": "ETH"
+  },
+  {
+    "id": 55555,
+    "name": "REI Chain Mainnet",
+    "short_name": "reichain",
+    "chain": "REI",
+    "currency": "REI"
+  },
+  {
+    "id": 55614,
+    "name": "Flamma Mainnet",
+    "short_name": "FlammaMainnet",
+    "chain": "Flamma",
+    "currency": "FLA"
+  },
+  {
+    "id": 56026,
+    "name": "Lambda Chain Mainnet",
+    "short_name": "lambda",
+    "chain": "Lambda Chain",
+    "currency": "ETH"
+  },
+  {
+    "id": 56288,
+    "name": "Boba BNB Mainnet",
+    "short_name": "BobaBnb",
+    "chain": "Boba BNB Mainnet",
+    "currency": "BOBA"
+  },
+  {
+    "id": 56789,
+    "name": "VELO Labs Mainnet",
+    "short_name": "VELO",
+    "chain": "NOVA chain",
+    "currency": "NOVA"
+  },
+  {
+    "id": 57073,
+    "name": "Ink",
+    "short_name": "ink",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 57451,
+    "name": "COINSEC Network",
+    "short_name": "coinsecnetwork",
+    "chain": "coinsecnetwork",
+    "currency": "SEC"
+  },
+  {
+    "id": 59144,
+    "name": "Linea",
+    "short_name": "linea",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 59971,
+    "name": "Genesys Code Mainnet",
+    "short_name": "gcode",
+    "chain": "GCODE",
+    "currency": "GCODE"
+  },
+  {
+    "id": 60808,
+    "name": "BOB",
+    "short_name": "bob",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 61022,
+    "name": "Orange Chain Mainnet",
+    "short_name": "Orange-Chain-Mainnet",
+    "chain": "Orange Chain",
+    "currency": "BTC"
+  },
+  {
+    "id": 61166,
+    "name": "Treasure",
+    "short_name": "treasure",
+    "chain": "Treasure",
+    "currency": "MAGIC"
+  },
+  {
+    "id": 61406,
+    "name": "KaiChain",
+    "short_name": "kec",
+    "chain": "KaiChain",
+    "currency": "KEC"
+  },
+  {
+    "id": 61803,
+    "name": "Etica Mainnet",
+    "short_name": "Etica",
+    "chain": "Etica Protocol (ETI/EGAZ)",
+    "currency": "EGAZ"
+  },
+  {
+    "id": 61916,
+    "name": "DoKEN Super Chain Mainnet",
+    "short_name": "DoKEN",
+    "chain": "DoKEN Super Chain",
+    "currency": "DKN"
+  },
+  {
+    "id": 62050,
+    "name": "Optopia Mainnet",
+    "short_name": "Optopia",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 62621,
+    "name": "MultiVAC Mainnet",
+    "short_name": "mtv",
+    "chain": "MultiVAC",
+    "currency": "MTV"
+  },
+  {
+    "id": 63000,
+    "name": "eSync Network Mainnet",
+    "short_name": "esync-mainnet",
+    "chain": "ECS",
+    "currency": "ECS"
+  },
+  {
+    "id": 63157,
+    "name": "Geist Mainnet",
+    "short_name": "geist",
+    "chain": "Geist",
+    "currency": "GHST"
+  },
+  {
+    "id": 65357,
+    "name": "Vecno Mainnet",
+    "short_name": "ve",
+    "chain": "VE",
+    "currency": "VE"
+  },
+  {
+    "id": 65450,
+    "name": "Scolcoin Mainnet",
+    "short_name": "SRC",
+    "chain": "SCOLWEI",
+    "currency": "SCOL"
+  },
+  {
+    "id": 65535,
+    "name": "CyberChain Mainnet",
+    "short_name": "xcc",
+    "chain": "XCC",
+    "currency": "XCC"
+  },
+  {
+    "id": 65536,
+    "name": "Automata Mainnet",
+    "short_name": "automatamainnet",
+    "chain": "Automata Mainnet",
+    "currency": "ATA"
+  },
+  {
+    "id": 67588,
+    "name": "Cosmic Chain",
+    "short_name": "Cosmic",
+    "chain": "COSMIC",
+    "currency": "COSMIC"
+  },
+  {
+    "id": 68770,
+    "name": "DM2 Verse Mainnet",
+    "short_name": "dm2",
+    "chain": "DM2 Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 69000,
+    "name": "Animechain Mainnet",
+    "short_name": "anime",
+    "chain": "ETH",
+    "currency": "ANIME"
+  },
+  {
+    "id": 70000,
+    "name": "Thinkium Mainnet Chain 0",
+    "short_name": "TKM0",
+    "chain": "Thinkium",
+    "currency": "TKM"
+  },
+  {
+    "id": 70001,
+    "name": "Thinkium Mainnet Chain 1",
+    "short_name": "TKM1",
+    "chain": "Thinkium",
+    "currency": "TKM"
+  },
+  {
+    "id": 70002,
+    "name": "Thinkium Mainnet Chain 2",
+    "short_name": "TKM2",
+    "chain": "Thinkium",
+    "currency": "TKM"
+  },
+  {
+    "id": 70103,
+    "name": "Thinkium Mainnet Chain 103",
+    "short_name": "TKM103",
+    "chain": "Thinkium",
+    "currency": "TKM"
+  },
+  {
+    "id": 70700,
+    "name": "Proof of Play - Apex",
+    "short_name": "pop-apex",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 70701,
+    "name": "Proof of Play - Boss",
+    "short_name": "pop-boss",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 71111,
+    "name": "GuapcoinX",
+    "short_name": "GuapX",
+    "chain": "GuapcoinX",
+    "currency": "GuapX"
+  },
+  {
+    "id": 71402,
+    "name": "Godwoken Mainnet",
+    "short_name": "gw-mainnet-v1",
+    "chain": "GWT",
+    "currency": "pCKB"
+  },
+  {
+    "id": 72888,
+    "name": "CAGA mainnet",
+    "short_name": "caga-mainnet",
+    "chain": "CAGA",
+    "currency": "CAGA"
+  },
+  {
+    "id": 72992,
+    "name": "Grok Chain Mainnet",
+    "short_name": "GrokChain",
+    "chain": "Grok",
+    "currency": "GROC"
+  },
+  {
+    "id": 73115,
+    "name": "ICB Network",
+    "short_name": "ICBX",
+    "chain": "ICB",
+    "currency": "ICBX"
+  },
+  {
+    "id": 73927,
+    "name": "Mixin Virtual Machine",
+    "short_name": "mvm",
+    "chain": "MVM",
+    "currency": "ETH"
+  },
+  {
+    "id": 75000,
+    "name": "ResinCoin Mainnet",
+    "short_name": "resin",
+    "chain": "RESIN",
+    "currency": "RESIN"
+  },
+  {
+    "id": 75512,
+    "name": "GEEK Verse Mainnet",
+    "short_name": "GEEK",
+    "chain": "GEEK",
+    "currency": "OAS"
+  },
+  {
+    "id": 77001,
+    "name": "BORAchain mainnet",
+    "short_name": "BORAchain",
+    "chain": "BORA",
+    "currency": "BORA"
+  },
+  {
+    "id": 77612,
+    "name": "Vention Smart Chain Mainnet",
+    "short_name": "vscm",
+    "chain": "VSC",
+    "currency": "VNT"
+  },
+  {
+    "id": 77677,
+    "name": "Cycle Network Mainnet Sailboat",
+    "short_name": "cycles",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 77777,
+    "name": "Toronet Mainnet",
+    "short_name": "Toronet",
+    "chain": "Toronet",
+    "currency": "TOROE"
+  },
+  {
+    "id": 78281,
+    "name": "Dragonfly Mainnet (Hexapod)",
+    "short_name": "dfly",
+    "chain": "Dragonfly",
+    "currency": "DFLY"
+  },
+  {
+    "id": 78430,
+    "name": "Amplify Subnet",
+    "short_name": "amplify",
+    "chain": "AMPLIFY",
+    "currency": "AMP"
+  },
+  {
+    "id": 78431,
+    "name": "Bulletin Subnet",
+    "short_name": "bulletin",
+    "chain": "BULLETIN",
+    "currency": "BLT"
+  },
+  {
+    "id": 78432,
+    "name": "Conduit Subnet",
+    "short_name": "conduit",
+    "chain": "CONDUIT",
+    "currency": "CON"
+  },
+  {
+    "id": 80069,
+    "name": "Berachain Bepolia",
+    "short_name": "berachain-bepolia",
+    "chain": "Berachain",
+    "currency": "BERA"
+  },
+  {
+    "id": 80094,
+    "name": "Berachain",
+    "short_name": "berachain",
+    "chain": "Berachain",
+    "currency": "BERA"
+  },
+  {
+    "id": 80096,
+    "name": "Hizoco mainnet",
+    "short_name": "hzc",
+    "chain": "HZC",
+    "currency": "HZC"
+  },
+  {
+    "id": 80451,
+    "name": "Geo Genesis",
+    "short_name": "geo",
+    "chain": "Geo Genesis",
+    "currency": "GRT"
+  },
+  {
+    "id": 80931,
+    "name": "Forta Chain",
+    "short_name": "forta",
+    "chain": "Forta Chain",
+    "currency": "FORT"
+  },
+  {
+    "id": 81041,
+    "name": "Nordek Mainnet",
+    "short_name": "nordek",
+    "chain": "Nordek",
+    "currency": "NRK"
+  },
+  {
+    "id": 81342,
+    "name": "Amana Mixnet",
+    "short_name": "amanamix",
+    "chain": "MEER",
+    "currency": "MEER-M"
+  },
+  {
+    "id": 81343,
+    "name": "Amana Privnet",
+    "short_name": "amanapriv",
+    "chain": "MEER",
+    "currency": "MEER-P"
+  },
+  {
+    "id": 81352,
+    "name": "Flana Mixnet",
+    "short_name": "flanamix",
+    "chain": "MEER",
+    "currency": "MEER-M"
+  },
+  {
+    "id": 81353,
+    "name": "Flana Privnet",
+    "short_name": "flanapriv",
+    "chain": "MEER",
+    "currency": "MEER-P"
+  },
+  {
+    "id": 81362,
+    "name": "Mizana Mixnet",
+    "short_name": "mizanamix",
+    "chain": "MEER",
+    "currency": "MEER-M"
+  },
+  {
+    "id": 81363,
+    "name": "Mizana Privnet",
+    "short_name": "mizanapriv",
+    "chain": "MEER",
+    "currency": "MEER-P"
+  },
+  {
+    "id": 81457,
+    "name": "Blast",
+    "short_name": "blastmainnet",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 81720,
+    "name": "Quantum Chain Mainnet",
+    "short_name": "qnet",
+    "chain": "QNET",
+    "currency": "QNET"
+  },
+  {
+    "id": 82614,
+    "name": "VEMP Horizon",
+    "short_name": "vemp-horizon",
+    "chain": "vemp-horizon",
+    "currency": "VEMP"
+  },
+  {
+    "id": 83278,
+    "name": "Esa",
+    "short_name": "Esa",
+    "chain": "Esa",
+    "currency": "Esa"
+  },
+  {
+    "id": 83872,
+    "name": "ZEDXION",
+    "short_name": "ZEDX",
+    "chain": "ZEDXION",
+    "currency": "ZEDX"
+  },
+  {
+    "id": 84841,
+    "name": "O Chain",
+    "short_name": "O",
+    "chain": "O",
+    "currency": "O"
+  },
+  {
+    "id": 84886,
+    "name": "Aerie Network",
+    "short_name": "Aerie",
+    "chain": "Aerie",
+    "currency": "AER"
+  },
+  {
+    "id": 85449,
+    "name": "CYBERTRUST",
+    "short_name": "Cyber",
+    "chain": "CYBER",
+    "currency": "CYBER"
+  },
+  {
+    "id": 88559,
+    "name": "InoAi",
+    "short_name": "INO",
+    "chain": "INOAI",
+    "currency": "INO"
+  },
+  {
+    "id": 88800,
+    "name": "ZKasino Mainnet",
+    "short_name": "ZKasino",
+    "chain": "ZKasino",
+    "currency": "ZKAS"
+  },
+  {
+    "id": 88811,
+    "name": "Unit Zero Mainnet",
+    "short_name": "unit0-mainnet",
+    "chain": "Unit Zero",
+    "currency": "UNIT0"
+  },
+  {
+    "id": 88819,
+    "name": "Unit Zero Stagenet",
+    "short_name": "unit0-stagenet",
+    "chain": "Unit Zero",
+    "currency": "UNIT0"
+  },
+  {
+    "id": 88888,
+    "name": "Chiliz Chain Mainnet",
+    "short_name": "chzmainnet",
+    "chain": "CHZ",
+    "currency": "CHZ"
+  },
+  {
+    "id": 88899,
+    "name": "Unite",
+    "short_name": "unite",
+    "chain": "UNITE",
+    "currency": "UNITE"
+  },
+  {
+    "id": 90002,
+    "name": "UBIT SMARTCHAIN MAINNET",
+    "short_name": "UBITSCAN",
+    "chain": "UBIT SMARTCHAIN",
+    "currency": "USC"
+  },
+  {
+    "id": 91111,
+    "name": "Henez Chain Mainnet",
+    "short_name": "henez",
+    "chain": "henez",
+    "currency": "ETH"
+  },
+  {
+    "id": 91120,
+    "name": "MetaDAP Enterprise Mainnet",
+    "short_name": "MetaDAP",
+    "chain": "MetaDAP",
+    "currency": "DAP"
+  },
+  {
+    "id": 92278,
+    "name": "Miracle Chain",
+    "short_name": "MIRACLE",
+    "chain": "MIRACLE",
+    "currency": "MPT"
+  },
+  {
+    "id": 94524,
+    "name": "XCHAIN",
+    "short_name": "xc",
+    "chain": "XCHAIN",
+    "currency": "ETH"
+  },
+  {
+    "id": 95432,
+    "name": "SRICHAIN",
+    "short_name": "sriscan",
+    "chain": "SRICHAIN",
+    "currency": "SRIX"
+  },
+  {
+    "id": 96369,
+    "name": "Lux Mainnet",
+    "short_name": "lux",
+    "chain": "Lux",
+    "currency": "LUX"
+  },
+  {
+    "id": 96370,
+    "name": "Lumoz Chain Mainnet",
+    "short_name": "Lumoz-Chain-Mainnet",
+    "chain": "ETH",
+    "currency": "MOZ"
+  },
+  {
+    "id": 97055,
+    "name": "Tetron Smart Chain",
+    "short_name": "Tetron",
+    "chain": "Tetron Mainnet",
+    "currency": "TSC"
+  },
+  {
+    "id": 97453,
+    "name": "Sidra Chain",
+    "short_name": "sidra",
+    "chain": "SIDRA",
+    "currency": "SDA"
+  },
+  {
+    "id": 97766,
+    "name": "MetaBenz CHAIN",
+    "short_name": "metabenzscan",
+    "chain": "MetaBenz CHAIN",
+    "currency": "MBC"
+  },
+  {
+    "id": 98865,
+    "name": "Plume (Legacy)",
+    "short_name": "plume",
+    "chain": "PLUME Legacy",
+    "currency": "ETH"
+  },
+  {
+    "id": 98866,
+    "name": "Plume Mainnet",
+    "short_name": "plume-mainnet",
+    "chain": "PLUME",
+    "currency": "PLUME"
+  },
+  {
+    "id": 98881,
+    "name": "Ebi Chain",
+    "short_name": "ebi",
+    "chain": "Ebi",
+    "currency": "ETH"
+  },
+  {
+    "id": 99999,
+    "name": "UB Smart Chain",
+    "short_name": "usc",
+    "chain": "USC",
+    "currency": "UBC"
+  },
+  {
+    "id": 100000,
+    "name": "QuarkChain Mainnet Root",
+    "short_name": "qkc-r",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100001,
+    "name": "QuarkChain Mainnet Shard 0",
+    "short_name": "qkc-s0",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100002,
+    "name": "QuarkChain Mainnet Shard 1",
+    "short_name": "qkc-s1",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100003,
+    "name": "QuarkChain Mainnet Shard 2",
+    "short_name": "qkc-s2",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100004,
+    "name": "QuarkChain Mainnet Shard 3",
+    "short_name": "qkc-s3",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100005,
+    "name": "QuarkChain Mainnet Shard 4",
+    "short_name": "qkc-s4",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100006,
+    "name": "QuarkChain Mainnet Shard 5",
+    "short_name": "qkc-s5",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100007,
+    "name": "QuarkChain Mainnet Shard 6",
+    "short_name": "qkc-s6",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100008,
+    "name": "QuarkChain Mainnet Shard 7",
+    "short_name": "qkc-s7",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 100009,
+    "name": "VeChain",
+    "short_name": "vechain",
+    "chain": "VeChain",
+    "currency": "VET"
+  },
+  {
+    "id": 100011,
+    "name": "QuarkChain L2 Mainnet",
+    "short_name": "qkc-l2",
+    "chain": "QuarkChain",
+    "currency": "QKC"
+  },
+  {
+    "id": 101003,
+    "name": "Socotra JUNE-Chain",
+    "short_name": "Socotra-JUNE",
+    "chain": "Socotra JUNE-Chain",
+    "currency": "JUNE"
+  },
+  {
+    "id": 101010,
+    "name": "Global Trust Network",
+    "short_name": "stabilityprotocol",
+    "chain": "GTN",
+    "currency": "FREE"
+  },
+  {
+    "id": 101088,
+    "name": "Xitcoin",
+    "short_name": "Xitcoin",
+    "chain": "XITCOIN",
+    "currency": "$XTC"
+  },
+  {
+    "id": 102030,
+    "name": "Creditcoin",
+    "short_name": "ctc",
+    "chain": "CTC",
+    "currency": "CTC"
+  },
+  {
+    "id": 103090,
+    "name": "Crystaleum",
+    "short_name": "CRFI",
+    "chain": "crystal",
+    "currency": "\u25c8"
+  },
+  {
+    "id": 104566,
+    "name": "KaspaClassic Mainnet",
+    "short_name": "cas",
+    "chain": "KaspaClassic",
+    "currency": "CAS"
+  },
+  {
+    "id": 105105,
+    "name": "Stratis Mainnet",
+    "short_name": "stratis",
+    "chain": "Stratis",
+    "currency": "STRAX"
+  },
+  {
+    "id": 108801,
+    "name": "BROChain Mainnet",
+    "short_name": "bro",
+    "chain": "BRO",
+    "currency": "BRO"
+  },
+  {
+    "id": 110110,
+    "name": "Mars Credit",
+    "short_name": "mars",
+    "chain": "MARS",
+    "currency": "MARS"
+  },
+  {
+    "id": 111111,
+    "name": "Siberium Network",
+    "short_name": "sbr",
+    "chain": "SBR",
+    "currency": "SIBR"
+  },
+  {
+    "id": 111188,
+    "name": "re.al",
+    "short_name": "re-al",
+    "chain": "re.al",
+    "currency": "reETH"
+  },
+  {
+    "id": 112358,
+    "name": "Metachain One Mainnet",
+    "short_name": "metao",
+    "chain": "METAO",
+    "currency": "METAO"
+  },
+  {
+    "id": 121224,
+    "name": "Fushuma",
+    "short_name": "fushuma",
+    "chain": "Fushuma",
+    "currency": "FUMA"
+  },
+  {
+    "id": 123321,
+    "name": "Gemchain",
+    "short_name": "gemchain",
+    "chain": "Gemchain",
+    "currency": "GEM"
+  },
+  {
+    "id": 131419,
+    "name": "ETND Chain Mainnets",
+    "short_name": "ETND",
+    "chain": "ETND",
+    "currency": "ETND"
+  },
+  {
+    "id": 142857,
+    "name": "ICPlaza Mainnet",
+    "short_name": "ICPlaza",
+    "chain": "ICPlaza",
+    "currency": "ict"
+  },
+  {
+    "id": 153153,
+    "name": "Odyssey Chain Mainnet",
+    "short_name": "Odyssey",
+    "chain": "DIONE",
+    "currency": "DIONE"
+  },
+  {
+    "id": 158245,
+    "name": "CryptoX",
+    "short_name": "cryptox",
+    "chain": "XCOIN",
+    "currency": "XCOIN"
+  },
+  {
+    "id": 158345,
+    "name": "XCOIN",
+    "short_name": "xcoin",
+    "chain": "XCOIN",
+    "currency": "XCOIN"
+  },
+  {
+    "id": 161212,
+    "name": "PlayFi Mainnet",
+    "short_name": "playfi",
+    "chain": "PLAY",
+    "currency": "PLAY"
+  },
+  {
+    "id": 161803,
+    "name": "Eventum Mainnet",
+    "short_name": "Eventum",
+    "chain": "Eventum",
+    "currency": "ETH"
+  },
+  {
+    "id": 165279,
+    "name": "Eclat Mainnet",
+    "short_name": "ECLAT",
+    "chain": "Eclat",
+    "currency": "ECLAT"
+  },
+  {
+    "id": 167000,
+    "name": "Taiko Alethia",
+    "short_name": "tko-mainnet",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 167009,
+    "name": "Taiko Hekla",
+    "short_name": "tko-hekla",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 168168,
+    "name": "Zchains",
+    "short_name": "zchains",
+    "chain": "Zchains",
+    "currency": "ZCD"
+  },
+  {
+    "id": 168169,
+    "name": "MUD Chain",
+    "short_name": "MUD",
+    "chain": "MUD",
+    "currency": "MUD"
+  },
+  {
+    "id": 171717,
+    "name": "Wadzchain Mainnet",
+    "short_name": "wadzchain-mainnet",
+    "chain": "Wadzchain-Mainnet",
+    "currency": "WCO"
+  },
+  {
+    "id": 188710,
+    "name": "Bitica Chain Mainnet",
+    "short_name": "bdcc",
+    "chain": "BDCC",
+    "currency": "BDCC"
+  },
+  {
+    "id": 191919,
+    "name": "Altblockscan Mainnet",
+    "short_name": "altb",
+    "chain": "ALTB",
+    "currency": "ALTB"
+  },
+  {
+    "id": 193939,
+    "name": "R0AR Chain",
+    "short_name": "R0AR-Chain",
+    "chain": "R0AR Chain",
+    "currency": "ETH"
+  },
+  {
+    "id": 200200,
+    "name": "Zoo Mainnet",
+    "short_name": "zoo",
+    "chain": "Zoo",
+    "currency": "ZOO"
+  },
+  {
+    "id": 200625,
+    "name": "Akroma",
+    "short_name": "aka",
+    "chain": "AKA",
+    "currency": "AKA"
+  },
+  {
+    "id": 200901,
+    "name": "Bitlayer Mainnet",
+    "short_name": "btr",
+    "chain": "Bitlayer",
+    "currency": "BTC"
+  },
+  {
+    "id": 201018,
+    "name": "Alaya Mainnet",
+    "short_name": "alaya",
+    "chain": "Alaya",
+    "currency": "atp"
+  },
+  {
+    "id": 201804,
+    "name": "Mythical Chain",
+    "short_name": "myth",
+    "chain": "MYTH",
+    "currency": "MYTH"
+  },
+  {
+    "id": 202202,
+    "name": "Bethel Sydney",
+    "short_name": "bethel-sydney",
+    "chain": "Bethel",
+    "currency": "BECX"
+  },
+  {
+    "id": 202209,
+    "name": "Alterscope",
+    "short_name": "Alterscope",
+    "chain": "Alterscope",
+    "currency": "RISK"
+  },
+  {
+    "id": 202424,
+    "name": "Blockfit",
+    "short_name": "Blockfit",
+    "chain": "202424",
+    "currency": "BFIT"
+  },
+  {
+    "id": 204005,
+    "name": "X1 Network",
+    "short_name": "x1-testnet",
+    "chain": "X1",
+    "currency": "XN"
+  },
+  {
+    "id": 210209,
+    "name": "Sorian",
+    "short_name": "sorian",
+    "chain": "SOR",
+    "currency": "SOR"
+  },
+  {
+    "id": 210425,
+    "name": "PlatON Mainnet",
+    "short_name": "platon",
+    "chain": "PlatON",
+    "currency": "lat"
+  },
+  {
+    "id": 212013,
+    "name": "Heima",
+    "short_name": "heima",
+    "chain": "Heima",
+    "currency": "HEI"
+  },
+  {
+    "id": 220315,
+    "name": "Mas Mainnet",
+    "short_name": "mas",
+    "chain": "MAS",
+    "currency": "MAS"
+  },
+  {
+    "id": 221230,
+    "name": "Reapchain Mainnet",
+    "short_name": "reap",
+    "chain": "REAP",
+    "currency": "REAP"
+  },
+  {
+    "id": 222222,
+    "name": "Hydration",
+    "short_name": "hdx",
+    "chain": "HDX",
+    "currency": "WETH"
+  },
+  {
+    "id": 222555,
+    "name": "DeepL Mainnet",
+    "short_name": "deepl",
+    "chain": "DEEPL",
+    "currency": "DEEPL"
+  },
+  {
+    "id": 224168,
+    "name": "Taf ECO Chain Mainnet",
+    "short_name": "TAFECO",
+    "chain": "Taf ECO Chain",
+    "currency": "TAFECO"
+  },
+  {
+    "id": 224400,
+    "name": "CONET Mainnet",
+    "short_name": "conet-mainnet",
+    "chain": "CONET Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 224433,
+    "name": "CONET Cancun",
+    "short_name": "conet-cancun",
+    "chain": "CONET Cancun",
+    "currency": "CONET"
+  },
+  {
+    "id": 229772,
+    "name": "Abyss Protocol",
+    "short_name": "abyss",
+    "chain": "Abyss Protocol Testnet",
+    "currency": "aETH"
+  },
+  {
+    "id": 246529,
+    "name": "ARTIS sigma1",
+    "short_name": "ats",
+    "chain": "ARTIS",
+    "currency": "ATS"
+  },
+  {
+    "id": 256256,
+    "name": "CMP-Mainnet",
+    "short_name": "cmp-mainnet",
+    "chain": "CMP",
+    "currency": "CMP"
+  },
+  {
+    "id": 272247,
+    "name": "Nxy Area 51",
+    "short_name": "nxytest",
+    "chain": "NXY",
+    "currency": "NXY"
+  },
+  {
+    "id": 272520,
+    "name": "Nxy Oasis",
+    "short_name": "nxy",
+    "chain": "NXY",
+    "currency": "NXY"
+  },
+  {
+    "id": 281121,
+    "name": "Social Smart Chain Mainnet",
+    "short_name": "SoChain",
+    "chain": "SoChain",
+    "currency": "$OC"
+  },
+  {
+    "id": 281123,
+    "name": "Athene Parthenon",
+    "short_name": "athene-parthenon",
+    "chain": "athene-parthenon",
+    "currency": "ETH"
+  },
+  {
+    "id": 309075,
+    "name": "One World Chain Mainnet",
+    "short_name": "OWCTm",
+    "chain": "One World Chain",
+    "currency": "OWCT"
+  },
+  {
+    "id": 322202,
+    "name": "Parex Mainnet",
+    "short_name": "parex",
+    "chain": "Parex",
+    "currency": "PRX"
+  },
+  {
+    "id": 328527,
+    "name": "Nal Mainnet",
+    "short_name": "nal",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 330844,
+    "name": "TTcoin Smart Chain Mainnet",
+    "short_name": "tc",
+    "chain": "TSC",
+    "currency": "TC"
+  },
+  {
+    "id": 333313,
+    "name": "Bloom Genesis Mainnet",
+    "short_name": "BGBC",
+    "chain": "Bloom",
+    "currency": "BGBC"
+  },
+  {
+    "id": 333999,
+    "name": "Polis Mainnet",
+    "short_name": "olympus",
+    "chain": "Olympus",
+    "currency": "POLIS"
+  },
+  {
+    "id": 336666,
+    "name": "UPchain Mainnet",
+    "short_name": "UPchain-mainnet",
+    "chain": "UPchain",
+    "currency": "UBTC"
+  },
+  {
+    "id": 355110,
+    "name": "Bitfinity Network Mainnet",
+    "short_name": "bitfinity-mainnet",
+    "chain": "BTF",
+    "currency": "BTF"
+  },
+  {
+    "id": 360890,
+    "name": "LAVITA Mainnet",
+    "short_name": "lavita-mainnet",
+    "chain": "LAVITA",
+    "currency": "vTFUEL"
+  },
+  {
+    "id": 363636,
+    "name": "Digit Soul Smart Chain 2",
+    "short_name": "DS2",
+    "chain": "DS2",
+    "currency": "DGC"
+  },
+  {
+    "id": 381931,
+    "name": "Metal C-Chain",
+    "short_name": "metal",
+    "chain": "Metal",
+    "currency": "METAL"
+  },
+  {
+    "id": 381932,
+    "name": "Metal Tahoe C-Chain",
+    "short_name": "Tahoe",
+    "chain": "Metal",
+    "currency": "METAL"
+  },
+  {
+    "id": 383353,
+    "name": "CheeseChain",
+    "short_name": "CheeseChain",
+    "chain": "CHEESE",
+    "currency": "CHEESE"
+  },
+  {
+    "id": 404040,
+    "name": "Tipboxcoin Mainnet",
+    "short_name": "TPBXm",
+    "chain": "TPBX",
+    "currency": "TPBX"
+  },
+  {
+    "id": 420000,
+    "name": "Infinaeon",
+    "short_name": "Infinaeon",
+    "chain": "Infinaeon",
+    "currency": "ETH"
+  },
+  {
+    "id": 420042,
+    "name": "Vector Smart Chain",
+    "short_name": "vsg",
+    "chain": "VSC",
+    "currency": "VSG"
+  },
+  {
+    "id": 420420,
+    "name": "Kekchain",
+    "short_name": "KEK",
+    "chain": "kek",
+    "currency": "KEK"
+  },
+  {
+    "id": 431140,
+    "name": "Markr Go",
+    "short_name": "markr-go",
+    "chain": "Unified",
+    "currency": "AVAX"
+  },
+  {
+    "id": 432204,
+    "name": "Dexalot Subnet",
+    "short_name": "dexalot",
+    "chain": "DEXALOT",
+    "currency": "ALOT"
+  },
+  {
+    "id": 440017,
+    "name": "Graphite Mainnet",
+    "short_name": "graphite",
+    "chain": "Graphite",
+    "currency": "@G"
+  },
+  {
+    "id": 473861,
+    "name": "Ultra Pro Mainnet",
+    "short_name": "ultrapro",
+    "chain": "ultrapro",
+    "currency": "UPRO"
+  },
+  {
+    "id": 474142,
+    "name": "OpenChain Mainnet",
+    "short_name": "oc",
+    "chain": "OpenChain",
+    "currency": "OPC"
+  },
+  {
+    "id": 504441,
+    "name": "Playdapp Network",
+    "short_name": "PDA",
+    "chain": "PDA",
+    "currency": "PDA"
+  },
+  {
+    "id": 513100,
+    "name": "EthereumFair",
+    "short_name": "ethf",
+    "chain": "ETHF",
+    "currency": "ETHF"
+  },
+  {
+    "id": 526916,
+    "name": "DoCoin Community Chain",
+    "short_name": "DoCoin",
+    "chain": "DoCoin",
+    "currency": "DCT"
+  },
+  {
+    "id": 534352,
+    "name": "Scroll",
+    "short_name": "scr",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 534849,
+    "name": "Shinarium Beta",
+    "short_name": "shi",
+    "chain": "Shinarium",
+    "currency": "SHI"
+  },
+  {
+    "id": 535037,
+    "name": "BeanEco SmartChain",
+    "short_name": "BESC",
+    "chain": "BESC",
+    "currency": "BESC"
+  },
+  {
+    "id": 543210,
+    "name": "ZERO Network",
+    "short_name": "zero-network",
+    "chain": "ZERONetwork",
+    "currency": "ETH"
+  },
+  {
+    "id": 555888,
+    "name": "DustBoy IoT",
+    "short_name": "DustBoy_IoT",
+    "chain": "DUSTBOY",
+    "currency": "DST"
+  },
+  {
+    "id": 622277,
+    "name": "Hypra Mainnet",
+    "short_name": "hyp",
+    "chain": "HYP",
+    "currency": "HYP"
+  },
+  {
+    "id": 641230,
+    "name": "Bear Network Chain Mainnet",
+    "short_name": "BRNKC",
+    "chain": "BRNKC",
+    "currency": "BRNKC"
+  },
+  {
+    "id": 651940,
+    "name": "ALL Mainnet",
+    "short_name": "ALL",
+    "chain": "ALL",
+    "currency": "ALL"
+  },
+  {
+    "id": 660279,
+    "name": "Xai Mainnet",
+    "short_name": "xai",
+    "chain": "XAI",
+    "currency": "XAI"
+  },
+  {
+    "id": 668668,
+    "name": "Conwai Mainnet",
+    "short_name": "cnw",
+    "chain": "CNW",
+    "currency": "CNW"
+  },
+  {
+    "id": 686868,
+    "name": "Won Network",
+    "short_name": "WonChain",
+    "chain": "WON",
+    "currency": "WON"
+  },
+  {
+    "id": 698369,
+    "name": "Primea Network Mainnet",
+    "short_name": "goldpn",
+    "chain": "Primea Network Mainnet",
+    "currency": "GOLDPN"
+  },
+  {
+    "id": 706883,
+    "name": "Fidesinnova",
+    "short_name": "Fidesinnova",
+    "chain": "Fidesinnova",
+    "currency": "FDS"
+  },
+  {
+    "id": 710420,
+    "name": "Tiltyard Mainnet Subnet",
+    "short_name": "tiltyardmainnet",
+    "chain": "TILTYARD",
+    "currency": "TILT"
+  },
+  {
+    "id": 715131,
+    "name": "Zether Mainnet",
+    "short_name": "zth",
+    "chain": "Zether",
+    "currency": "ZTH"
+  },
+  {
+    "id": 721529,
+    "name": "ERAM Mainnet",
+    "short_name": "ERAM",
+    "chain": "ERAM",
+    "currency": "ERAM"
+  },
+  {
+    "id": 752025,
+    "name": "Ternoa",
+    "short_name": "ternoa-mainnet",
+    "chain": "Ternoa",
+    "currency": "CAPS"
+  },
+  {
+    "id": 756689,
+    "name": "PAYSCAN CHAIN",
+    "short_name": "payscan",
+    "chain": "PAYSCAN CHAIN",
+    "currency": "PYZ"
+  },
+  {
+    "id": 761412,
+    "name": "Miexs Smartchain",
+    "short_name": "Miexs",
+    "chain": "MiexsSmartchain",
+    "currency": "MIX"
+  },
+  {
+    "id": 776877,
+    "name": "Modularium",
+    "short_name": "mdlrm",
+    "chain": "EVMCC",
+    "currency": "MDM"
+  },
+  {
+    "id": 777777,
+    "name": "Winr Protocol Mainnet",
+    "short_name": "winr",
+    "chain": "WINR",
+    "currency": "WINR"
+  },
+  {
+    "id": 777888,
+    "name": "Oone Chain Mainnet",
+    "short_name": "oone",
+    "chain": "OONE",
+    "currency": "OONE"
+  },
+  {
+    "id": 786786,
+    "name": "Zebro Smart Chain",
+    "short_name": "zebro",
+    "chain": "ZEBRO",
+    "currency": "ZEBRO"
+  },
+  {
+    "id": 789789,
+    "name": "Emeraldz",
+    "short_name": "emed",
+    "chain": "EMED",
+    "currency": "EMED"
+  },
+  {
+    "id": 800001,
+    "name": "OctaSpace",
+    "short_name": "octa",
+    "chain": "OCTA",
+    "currency": "OCTA"
+  },
+  {
+    "id": 810180,
+    "name": "zkLink Nova Mainnet",
+    "short_name": "zklink-nova",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 812397,
+    "name": "SG Verse Mainnet",
+    "short_name": "SGV",
+    "chain": "SG Verse",
+    "currency": "OAS"
+  },
+  {
+    "id": 827431,
+    "name": "CURVE Mainnet",
+    "short_name": "CURVEm",
+    "chain": "CURVE",
+    "currency": "CURVE"
+  },
+  {
+    "id": 846000,
+    "name": "4GoodNetwork",
+    "short_name": "bloqs4good",
+    "chain": "4GN",
+    "currency": "APTA"
+  },
+  {
+    "id": 855456,
+    "name": "Dodao",
+    "short_name": "dodao",
+    "chain": "EVMCC",
+    "currency": "DODAO"
+  },
+  {
+    "id": 879151,
+    "name": "BlocX Mainnet",
+    "short_name": "blx",
+    "chain": "BLX",
+    "currency": "BLX"
+  },
+  {
+    "id": 888882,
+    "name": "REXX Mainnet",
+    "short_name": "REXX",
+    "chain": "REXX",
+    "currency": "REXX"
+  },
+  {
+    "id": 888888,
+    "name": "Vision - Mainnet",
+    "short_name": "vision",
+    "chain": "Vision",
+    "currency": "VS"
+  },
+  {
+    "id": 900000,
+    "name": "Posichain Mainnet Shard 0",
+    "short_name": "psc-s0",
+    "chain": "PSC",
+    "currency": "POSI"
+  },
+  {
+    "id": 912559,
+    "name": "Astria EVM Dusknet",
+    "short_name": "ria-dev",
+    "chain": "RIA",
+    "currency": "RIA"
+  },
+  {
+    "id": 918273,
+    "name": "Owshen Mainnet",
+    "short_name": "owshen-mainnet",
+    "chain": "ETH",
+    "currency": "DIVE"
+  },
+  {
+    "id": 955081,
+    "name": "Jono12 Subnet",
+    "short_name": "jono12",
+    "chain": "JONO12",
+    "currency": "JONO"
+  },
+  {
+    "id": 955305,
+    "name": "Eluvio Content Fabric",
+    "short_name": "elv",
+    "chain": "Eluvio",
+    "currency": "ELV"
+  },
+  {
+    "id": 978658,
+    "name": "Treasure Topaz",
+    "short_name": "treasure-topaz",
+    "chain": "Treasure Topaz",
+    "currency": "MAGIC"
+  },
+  {
+    "id": 984122,
+    "name": "Forma",
+    "short_name": "forma",
+    "chain": "Forma",
+    "currency": "TIA"
+  },
+  {
+    "id": 984123,
+    "name": "Forma Sketchpad",
+    "short_name": "sketchpad",
+    "chain": "Forma",
+    "currency": "TIA"
+  },
+  {
+    "id": 988207,
+    "name": "Ecrox Chain Mainnet",
+    "short_name": "ecrox",
+    "chain": "Ecrox Chain",
+    "currency": "ECROX"
+  },
+  {
+    "id": 999999,
+    "name": "AmChain",
+    "short_name": "AMC",
+    "chain": "AmChain",
+    "currency": "AMC"
+  },
+  {
+    "id": 1127469,
+    "name": "Tiltyard Subnet",
+    "short_name": "tiltyard",
+    "chain": "TILTYARD",
+    "currency": "TILTG"
+  },
+  {
+    "id": 1234567,
+    "name": "Sharecle Mainnet",
+    "short_name": "shr",
+    "chain": "SHARECLE",
+    "currency": "SHR"
+  },
+  {
+    "id": 1313114,
+    "name": "Etho Protocol",
+    "short_name": "etho",
+    "chain": "ETHO",
+    "currency": "ETHO"
+  },
+  {
+    "id": 1313500,
+    "name": "Xerom",
+    "short_name": "xero",
+    "chain": "XERO",
+    "currency": "XERO"
+  },
+  {
+    "id": 1337802,
+    "name": "Kiln",
+    "short_name": "kiln",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 1337803,
+    "name": "Zhejiang",
+    "short_name": "zhejiang",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 2099156,
+    "name": "Plian Mainnet Main",
+    "short_name": "plian-mainnet",
+    "chain": "Plian",
+    "currency": "PI"
+  },
+  {
+    "id": 2222222,
+    "name": "Coinweb BNB shard",
+    "short_name": "cweb-bnb",
+    "chain": "CWEB BNB",
+    "currency": "CWEB"
+  },
+  {
+    "id": 2611555,
+    "name": "DPU Chain",
+    "short_name": "DPU",
+    "chain": "DPU",
+    "currency": "DGC"
+  },
+  {
+    "id": 2632500,
+    "name": "COTI",
+    "short_name": "coti",
+    "chain": "COTI",
+    "currency": "COTI"
+  },
+  {
+    "id": 2702128,
+    "name": "Xterio Chain (ETH)",
+    "short_name": "xterio",
+    "chain": "Xterio",
+    "currency": "ETH"
+  },
+  {
+    "id": 3132023,
+    "name": "Sahara AI",
+    "short_name": "sahara",
+    "chain": "Sahara",
+    "currency": "SAHARA"
+  },
+  {
+    "id": 4000003,
+    "name": "AltLayer Zero Gas Network",
+    "short_name": "alt-zerogas",
+    "chain": "ETH",
+    "currency": "ZERO"
+  },
+  {
+    "id": 4278608,
+    "name": "Arcadia Mainnet",
+    "short_name": "aip",
+    "chain": "Arcadia",
+    "currency": "AIP"
+  },
+  {
+    "id": 4281033,
+    "name": "Worlds Caldera",
+    "short_name": "worldscal",
+    "chain": "WCal",
+    "currency": "ETH"
+  },
+  {
+    "id": 5112023,
+    "name": "NumBlock Chain",
+    "short_name": "NUMB",
+    "chain": "NumBlock",
+    "currency": "NUMB"
+  },
+  {
+    "id": 5555555,
+    "name": "Imversed Mainnet",
+    "short_name": "imversed",
+    "chain": "Imversed",
+    "currency": "IMV"
+  },
+  {
+    "id": 6666665,
+    "name": "Safe(AnWang) Mainnet",
+    "short_name": "SafeMainnet",
+    "chain": "Safe(AnWang)",
+    "currency": "SAFE"
+  },
+  {
+    "id": 7225878,
+    "name": "Saakuru Mainnet",
+    "short_name": "saakuru",
+    "chain": "Saakuru",
+    "currency": "OAS"
+  },
+  {
+    "id": 7355310,
+    "name": "OpenVessel",
+    "short_name": "vsl",
+    "chain": "VSL",
+    "currency": "VETH"
+  },
+  {
+    "id": 7762959,
+    "name": "Musicoin",
+    "short_name": "music",
+    "chain": "MUSIC",
+    "currency": "MUSIC"
+  },
+  {
+    "id": 7777777,
+    "name": "Zora",
+    "short_name": "zora",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 8007736,
+    "name": "Plian Mainnet Subchain 1",
+    "short_name": "plian-mainnet-l2",
+    "chain": "Plian",
+    "currency": "PI"
+  },
+  {
+    "id": 8008135,
+    "name": "Fhenix Helium",
+    "short_name": "fhe-helium",
+    "chain": "tFHE",
+    "currency": "tFHE"
+  },
+  {
+    "id": 8080808,
+    "name": "Hokum",
+    "short_name": "hokum",
+    "chain": "Hokum",
+    "currency": "ETH"
+  },
+  {
+    "id": 8794598,
+    "name": "HAPchain",
+    "short_name": "hap",
+    "chain": "HAPchain",
+    "currency": "HAP"
+  },
+  {
+    "id": 8888888,
+    "name": "Quarix",
+    "short_name": "quarix",
+    "chain": "Quarix",
+    "currency": "QARE"
+  },
+  {
+    "id": 9322252,
+    "name": "XCAP",
+    "short_name": "xcap",
+    "chain": "XCAP",
+    "currency": "GAS"
+  },
+  {
+    "id": 9999999,
+    "name": "Fluence",
+    "short_name": "fluence",
+    "chain": "Fluence",
+    "currency": "FLT"
+  },
+  {
+    "id": 10058111,
+    "name": "Spotlight",
+    "short_name": "spotlight",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 10101010,
+    "name": "Soverun Mainnet",
+    "short_name": "SVRNm",
+    "chain": "SVRN",
+    "currency": "SVRN"
+  },
+  {
+    "id": 10241024,
+    "name": "AlienX Mainnet",
+    "short_name": "AlienX",
+    "chain": "AlienX Mainnet",
+    "currency": "ETH"
+  },
+  {
+    "id": 12020498,
+    "name": "Lummio Network",
+    "short_name": "lummio",
+    "chain": "Lummio Network",
+    "currency": "LRPO"
+  },
+  {
+    "id": 13371337,
+    "name": "PepChain Churchill",
+    "short_name": "tpep",
+    "chain": "PEP",
+    "currency": "TPEP"
+  },
+  {
+    "id": 14288640,
+    "name": "Anduschain Mainnet",
+    "short_name": "anduschain-mainnet",
+    "chain": "anduschain",
+    "currency": "DEB"
+  },
+  {
+    "id": 16969696,
+    "name": "Privix Chain Mainnet",
+    "short_name": "mpsc",
+    "chain": "PRIVIX",
+    "currency": "PRIVIX"
+  },
+  {
+    "id": 18071918,
+    "name": "Mande Network Mainnet",
+    "short_name": "Mande",
+    "chain": "Mande",
+    "currency": "MAND"
+  },
+  {
+    "id": 18289463,
+    "name": "IOLite",
+    "short_name": "ilt",
+    "chain": "ILT",
+    "currency": "ILT"
+  },
+  {
+    "id": 19880818,
+    "name": "DeepBrainChain Mainnet",
+    "short_name": "DBC",
+    "chain": "DeepBrainChain",
+    "currency": "DBC"
+  },
+  {
+    "id": 20180430,
+    "name": "SmartMesh Mainnet",
+    "short_name": "spectrum",
+    "chain": "Spectrum",
+    "currency": "SMT"
+  },
+  {
+    "id": 20181205,
+    "name": "quarkblockchain",
+    "short_name": "qki",
+    "chain": "QKI",
+    "currency": "QKI"
+  },
+  {
+    "id": 20201022,
+    "name": "Pego Network",
+    "short_name": "pg",
+    "chain": "PEGO",
+    "currency": "PG"
+  },
+  {
+    "id": 20240603,
+    "name": "DBK Chain",
+    "short_name": "dbkchain",
+    "chain": "DBK Chain",
+    "currency": "ETH"
+  },
+  {
+    "id": 20250217,
+    "name": "Xphere Mainnet",
+    "short_name": "xp",
+    "chain": "Xphere",
+    "currency": "XP"
+  },
+  {
+    "id": 20250825,
+    "name": "Vcitychain Mainnet",
+    "short_name": "vcity",
+    "chain": "Vcitychain",
+    "currency": "VCITY"
+  },
+  {
+    "id": 20256789,
+    "name": "ETP Mainnet",
+    "short_name": "ETP",
+    "chain": "ETP",
+    "currency": "ETP"
+  },
+  {
+    "id": 21000000,
+    "name": "Corn",
+    "short_name": "corn",
+    "chain": "BTCN",
+    "currency": "BTCN"
+  },
+  {
+    "id": 22052002,
+    "name": "Excelon Mainnet",
+    "short_name": "xlon",
+    "chain": "XLON",
+    "currency": "xlon"
+  },
+  {
+    "id": 24132016,
+    "name": "XMTP",
+    "short_name": "xmtp",
+    "chain": "ETH",
+    "currency": "USDC"
+  },
+  {
+    "id": 27082022,
+    "name": "Excoincial Chain Mainnet",
+    "short_name": "exl",
+    "chain": "EXL",
+    "currency": "EXL"
+  },
+  {
+    "id": 28945486,
+    "name": "Auxilium Network Mainnet",
+    "short_name": "auxi",
+    "chain": "AUX",
+    "currency": "AUX"
+  },
+  {
+    "id": 29032022,
+    "name": "Flachain Mainnet",
+    "short_name": "fla",
+    "chain": "FLX",
+    "currency": "FLA"
+  },
+  {
+    "id": 34949059,
+    "name": "citronus-citro",
+    "short_name": "citronus-citro",
+    "chain": "citronus-citro",
+    "currency": "CITRO"
+  },
+  {
+    "id": 35855456,
+    "name": "Joys Digital Mainnet",
+    "short_name": "JOYS",
+    "chain": "JOYS",
+    "currency": "JOYS"
+  },
+  {
+    "id": 39916801,
+    "name": "Kingdom Chain",
+    "short_name": "kchain",
+    "chain": "KingdomChain",
+    "currency": "KOZI"
+  },
+  {
+    "id": 61717561,
+    "name": "Aquachain",
+    "short_name": "aqua",
+    "chain": "AQUA",
+    "currency": "AQUA"
+  },
+  {
+    "id": 79479957,
+    "name": "SX Toronto Rollup",
+    "short_name": "SXR-Testnet",
+    "chain": "SX",
+    "currency": "SX"
+  },
+  {
+    "id": 88888888,
+    "name": "T.E.A.M Blockchain",
+    "short_name": "team",
+    "chain": "TEAM",
+    "currency": "$TEAM"
+  },
+  {
+    "id": 89346162,
+    "name": "Reya Cronos",
+    "short_name": "reya-cronos",
+    "chain": "reya-cronos",
+    "currency": "ETH"
+  },
+  {
+    "id": 97912060,
+    "name": "ChadChain",
+    "short_name": "chad",
+    "chain": "CHAD",
+    "currency": "CHAD"
+  },
+  {
+    "id": 100000000,
+    "name": "Ethos",
+    "short_name": "ETHOS",
+    "chain": "ETHOS",
+    "currency": "ETHOS"
+  },
+  {
+    "id": 108160679,
+    "name": "Oraichain Mainnet",
+    "short_name": "Oraichain",
+    "chain": "Oraichain",
+    "currency": "ORAI"
+  },
+  {
+    "id": 192837465,
+    "name": "Gather Mainnet Network",
+    "short_name": "GTH",
+    "chain": "GTH",
+    "currency": "GTH"
+  },
+  {
+    "id": 245022934,
+    "name": "Neon EVM Mainnet",
+    "short_name": "neonevm-mainnet",
+    "chain": "Solana",
+    "currency": "NEON"
+  },
+  {
+    "id": 253368190,
+    "name": "Flame",
+    "short_name": "flame",
+    "chain": "Flame",
+    "currency": "TIA"
+  },
+  {
+    "id": 278611351,
+    "name": "Razor Skale Chain",
+    "short_name": "razor",
+    "chain": "Razor Schain",
+    "currency": "SFUEL"
+  },
+  {
+    "id": 311752642,
+    "name": "OneLedger Mainnet",
+    "short_name": "oneledger",
+    "chain": "OLT",
+    "currency": "OLT"
+  },
+  {
+    "id": 333000333,
+    "name": "Meld",
+    "short_name": "meld",
+    "chain": "MELD",
+    "currency": "gMELD"
+  },
+  {
+    "id": 420420419,
+    "name": "Asset Hub",
+    "short_name": "AH",
+    "chain": "DOT",
+    "currency": "DOT"
+  },
+  {
+    "id": 420420421,
+    "name": "Westend Asset Hub",
+    "short_name": "wst",
+    "chain": "WST",
+    "currency": "WND"
+  },
+  {
+    "id": 661898459,
+    "name": "Smart Mainnet",
+    "short_name": "smart",
+    "chain": "SMART",
+    "currency": "SMART"
+  },
+  {
+    "id": 666666666,
+    "name": "Degen Chain",
+    "short_name": "degen-chain",
+    "chain": "Degen",
+    "currency": "DEGEN"
+  },
+  {
+    "id": 728126428,
+    "name": "Tron Mainnet",
+    "short_name": "tron",
+    "chain": "TRON",
+    "currency": "TRX"
+  },
+  {
+    "id": 888888888,
+    "name": "Ancient8",
+    "short_name": "ancient8",
+    "chain": "Ancient8",
+    "currency": "ETH"
+  },
+  {
+    "id": 889910246,
+    "name": "PTCESCAN Mainnet",
+    "short_name": "POLYTECH",
+    "chain": "PTCE",
+    "currency": "PTCE"
+  },
+  {
+    "id": 994873017,
+    "name": "Lumia Mainnet",
+    "short_name": "lumia-mainnet",
+    "chain": "ETH",
+    "currency": "LUMIA"
+  },
+  {
+    "id": 1122334455,
+    "name": "IPOS Network",
+    "short_name": "ipos",
+    "chain": "IPOS",
+    "currency": "IPOS"
+  },
+  {
+    "id": 1146703430,
+    "name": "CyberdeckNet",
+    "short_name": "cyb",
+    "chain": "cyberdeck",
+    "currency": "CYB"
+  },
+  {
+    "id": 1273227453,
+    "name": "HUMAN Protocol",
+    "short_name": "human-mainnet",
+    "chain": "wan-red-ain",
+    "currency": "sFUEL"
+  },
+  {
+    "id": 1278060416,
+    "name": "OFFICIAL VASYL",
+    "short_name": "Vasyl",
+    "chain": "Official-Vasyl",
+    "currency": "VASYL"
+  },
+  {
+    "id": 1313161554,
+    "name": "Aurora Mainnet",
+    "short_name": "aurora",
+    "chain": "NEAR",
+    "currency": "ETH"
+  },
+  {
+    "id": 1313161556,
+    "name": "Aurora Betanet",
+    "short_name": "aurora-betanet",
+    "chain": "NEAR",
+    "currency": "ETH"
+  },
+  {
+    "id": 1313161560,
+    "name": "PowerGold",
+    "short_name": "powergold",
+    "chain": "NEAR",
+    "currency": "ETH"
+  },
+  {
+    "id": 1313161567,
+    "name": "Turbo",
+    "short_name": "turbo",
+    "chain": "NEAR",
+    "currency": "TURBO"
+  },
+  {
+    "id": 1313161573,
+    "name": "Tuxappcoin",
+    "short_name": "tuxa",
+    "chain": "NEAR",
+    "currency": "TUXA"
+  },
+  {
+    "id": 1350216234,
+    "name": "SKALE Titan Hub",
+    "short_name": "titan-mainnet",
+    "chain": "parallel-stormy-spica",
+    "currency": "sFUEL"
+  },
+  {
+    "id": 1380012617,
+    "name": "RARI Chain Mainnet",
+    "short_name": "rari-mainnet",
+    "chain": "RARI",
+    "currency": "ETH"
+  },
+  {
+    "id": 1380996178,
+    "name": "RaptorChain",
+    "short_name": "rptr",
+    "chain": "RPTR",
+    "currency": "RPTR"
+  },
+  {
+    "id": 1482601649,
+    "name": "SKALE Nebula Hub",
+    "short_name": "nebula-mainnet",
+    "chain": "green-giddy-denebola",
+    "currency": "sFUEL"
+  },
+  {
+    "id": 1511670449,
+    "name": "GPT Mainnet",
+    "short_name": "GPT",
+    "chain": "GPT Protocol",
+    "currency": "GPT"
+  },
+  {
+    "id": 1564830818,
+    "name": "SKALE Calypso Hub",
+    "short_name": "calypso-mainnet",
+    "chain": "honorable-steel-rasalhague",
+    "currency": "sFUEL"
+  },
+  {
+    "id": 1666600000,
+    "name": "Harmony Mainnet Shard 0",
+    "short_name": "hmy-s0",
+    "chain": "Harmony",
+    "currency": "ONE"
+  },
+  {
+    "id": 1666600001,
+    "name": "Harmony Mainnet Shard 1",
+    "short_name": "hmy-s1",
+    "chain": "Harmony",
+    "currency": "ONE"
+  },
+  {
+    "id": 1702448187,
+    "name": "WITNESS CHAIN",
+    "short_name": "Witness",
+    "chain": "Witness-Chain",
+    "currency": "ETH"
+  },
+  {
+    "id": 2021121117,
+    "name": "DataHopper",
+    "short_name": "hop",
+    "chain": "HOP",
+    "currency": "HOP"
+  },
+  {
+    "id": 2046399126,
+    "name": "SKALE Europa Hub",
+    "short_name": "europa",
+    "chain": "europa",
+    "currency": "sFUEL"
+  },
+  {
+    "id": 2494104990,
+    "name": "Tron Shasta",
+    "short_name": "tron-shasta",
+    "chain": "TRON",
+    "currency": "TRX"
+  },
+  {
+    "id": 3125659152,
+    "name": "Pirl",
+    "short_name": "pirl",
+    "chain": "PIRL",
+    "currency": "PIRL"
+  },
+  {
+    "id": 3416255149,
+    "name": "Ultima Mainnet",
+    "short_name": "ultima",
+    "chain": "ULTIMA",
+    "currency": "ULTIMA"
+  },
+  {
+    "id": 7078815900,
+    "name": "Mekong",
+    "short_name": "mekong",
+    "chain": "ETH",
+    "currency": "ETH"
+  },
+  {
+    "id": 8691942025,
+    "name": "ONFA Chain",
+    "short_name": "onfa",
+    "chain": "onfa",
+    "currency": "OFC"
+  },
+  {
+    "id": 11297108109,
+    "name": "Palm",
+    "short_name": "palm",
+    "chain": "Palm",
+    "currency": "PALM"
+  },
+  {
+    "id": 111222333444,
+    "name": "Alphabet Mainnet",
+    "short_name": "alphabet",
+    "chain": "Alphabet Network",
+    "currency": "ALT"
+  },
+  {
+    "id": 123420000220,
+    "name": "Fluence Stage",
+    "short_name": "fluence-stage",
+    "chain": "Fluence Stage (Testnet)",
+    "currency": "tFLT"
+  },
+  {
+    "id": 123420000558,
+    "name": "PIN",
+    "short_name": "PIN",
+    "chain": "PIN",
+    "currency": "ETH"
+  },
+  {
+    "id": 123420000588,
+    "name": "volmex",
+    "short_name": "volmex",
+    "chain": "volmex",
+    "currency": "ETH"
+  },
+  {
+    "id": 123420001114,
+    "name": "Basecamp",
+    "short_name": "Basecamp",
+    "chain": "CAMP",
+    "currency": "CAMP"
+  },
+  {
+    "id": 197710212030,
+    "name": "Ntity Mainnet",
+    "short_name": "ntt",
+    "chain": "Ntity",
+    "currency": "NTT"
+  },
+  {
+    "id": 383414847825,
+    "name": "Zeniq",
+    "short_name": "zeniq",
+    "chain": "ZENIQ",
+    "currency": "ZENIQ"
+  },
+  {
+    "id": 666301171999,
+    "name": "PDC Mainnet",
+    "short_name": "ipdc",
+    "chain": "IPDC",
+    "currency": "PDC"
+  },
+  {
+    "id": 666301179999,
+    "name": "SmartPay Mobile Money",
+    "short_name": "SmartPay",
+    "chain": "Mobile Money",
+    "currency": "SMM"
+  },
+  {
+    "id": 6022140761023,
+    "name": "Molereum Network",
+    "short_name": "mole",
+    "chain": "ETH",
+    "currency": "MOLE"
+  },
+  {
+    "id": 428962654539583,
+    "name": "Yominet",
+    "short_name": "yomi",
+    "chain": "YOMINET",
+    "currency": "ETH"
+  },
+  {
+    "id": 2716446429837000,
+    "name": "DCHAIN",
+    "short_name": "dchainmainnet",
+    "chain": "dchainmainnet",
+    "currency": "ETH"
+  }
+]
