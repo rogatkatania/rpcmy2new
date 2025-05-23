@@ -1,10 +1,18 @@
 const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
-const ethers = require('ethers');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const cors = require('cors');
+
+// Попытка импорта ethers с обработкой ошибок
+let ethers = null;
+try {
+  ethers = require('ethers');
+  console.log('Ethers успешно импортирован, версия:', ethers.version || 'неизвестна');
+} catch (error) {
+  console.error('Ошибка при импорте ethers:', error.message);
+}
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -13,7 +21,11 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Добавляем CORS middleware для всех запросов
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 // Загружаем алиасы chain_id из JSON-файла
 let chainIdAliasesMap = new Map();
@@ -551,8 +563,12 @@ function getAddressFromPrivateKey(privateKey) {
     }
     
     // Создаем кошелек из приватного ключа
-    const wallet = new ethers.Wallet(privateKey);
-    return wallet.address;
+    if (ethers && ethers.Wallet) {
+      const wallet = new ethers.Wallet(privateKey);
+      return wallet.address;
+    } else {
+      throw new Error('Ethers.js не доступен для создания кошелька');
+    }
   } catch (error) {
     throw new Error(`Ошибка при получении адреса из приватного ключа: ${error.message}`);
   }
@@ -562,8 +578,12 @@ function getAddressFromPrivateKey(privateKey) {
 function getAddressFromMnemonic(mnemonic) {
   try {
     // Создаем кошелек из мнемоники
-    const wallet = ethers.Wallet.fromMnemonic(mnemonic);
-    return wallet.address;
+    if (ethers && ethers.Wallet && ethers.Wallet.fromMnemonic) {
+      const wallet = ethers.Wallet.fromMnemonic(mnemonic);
+      return wallet.address;
+    } else {
+      throw new Error('Ethers.js не доступен для создания кошелька из мнемоники');
+    }
   } catch (error) {
     throw new Error(`Ошибка при получении адреса из мнемоники: ${error.message}`);
   }
@@ -698,10 +718,21 @@ async function getCurrencyRates() {
 function hexToDecimal(hex) {
   if (!hex) return "0";
   try {
-    return ethers.BigNumber.from(hex).toString();
+    // Проверяем, доступен ли ethers
+    if (ethers && ethers.BigNumber) {
+      return ethers.BigNumber.from(hex).toString();
+    } else {
+      // Ручная конвертация hex в decimal
+      return parseInt(hex, 16).toString();
+    }
   } catch (error) {
     console.error(`Ошибка при конвертации hex в decimal: ${error.message}`);
-    return "0";
+    // Ручная конвертация hex в decimal
+    try {
+      return parseInt(hex, 16).toString();
+    } catch (e) {
+      return "0";
+    }
   }
 }
 
@@ -709,10 +740,21 @@ function hexToDecimal(hex) {
 function decimalToHex(decimal) {
   if (!decimal) return "0x0";
   try {
-    return ethers.BigNumber.from(decimal).toHexString();
+    // Проверяем, доступен ли ethers
+    if (ethers && ethers.BigNumber) {
+      return ethers.BigNumber.from(decimal).toHexString();
+    } else {
+      // Ручная конвертация decimal в hex
+      return "0x" + parseInt(decimal).toString(16);
+    }
   } catch (error) {
     console.error(`Ошибка при конвертации decimal в hex: ${error.message}`);
-    return "0x0";
+    // Ручная конвертация decimal в hex
+    try {
+      return "0x" + parseInt(decimal).toString(16);
+    } catch (e) {
+      return "0x0";
+    }
   }
 }
 
@@ -720,10 +762,25 @@ function decimalToHex(decimal) {
 function weiToEther(wei) {
   if (!wei) return "0";
   try {
-    return ethers.utils.formatEther(wei);
+    // Проверяем, доступен ли ethers
+    if (ethers && ethers.utils && ethers.utils.formatEther) {
+      return ethers.utils.formatEther(wei);
+    } else {
+      // Ручная конвертация wei в ether (1 ether = 10^18 wei)
+      const weiValue = typeof wei === 'string' ? wei : wei.toString();
+      const etherValue = parseFloat(weiValue) / Math.pow(10, 18);
+      return etherValue.toString();
+    }
   } catch (error) {
     console.error(`Ошибка при конвертации wei в ether: ${error.message}`);
-    return "0";
+    // Ручная конвертация wei в ether
+    try {
+      const weiValue = typeof wei === 'string' ? wei : wei.toString();
+      const etherValue = parseFloat(weiValue) / Math.pow(10, 18);
+      return etherValue.toString();
+    } catch (e) {
+      return "0";
+    }
   }
 }
 
@@ -731,43 +788,63 @@ function weiToEther(wei) {
 function etherToWei(ether) {
   if (!ether) return "0";
   try {
-    return ethers.utils.parseEther(ether).toString();
+    // Проверяем, доступен ли ethers
+    if (ethers && ethers.utils && ethers.utils.parseEther) {
+      return ethers.utils.parseEther(ether).toString();
+    } else {
+      // Ручная конвертация ether в wei (1 ether = 10^18 wei)
+      const etherValue = parseFloat(ether);
+      const weiValue = etherValue * Math.pow(10, 18);
+      return weiValue.toString();
+    }
   } catch (error) {
     console.error(`Ошибка при конвертации ether в wei: ${error.message}`);
-    return "0";
+    // Ручная конвертация ether в wei
+    try {
+      const etherValue = parseFloat(ether);
+      const weiValue = etherValue * Math.pow(10, 18);
+      return weiValue.toString();
+    } catch (e) {
+      return "0";
+    }
   }
 }
 
 // Функция для отправки транзакции
 async function sendTransaction(privateKey, to, value, gasPrice, rpcUrl) {
   try {
-    // Создаем провайдер и кошелек
-    const provider = new ethers.providers.JsonRpcProvider(rpcUrl);
-    const wallet = new ethers.Wallet(privateKey, provider);
-    
-    // Создаем транзакцию
-    const tx = {
-      to: to,
-      value: ethers.BigNumber.from(value)
-    };
-    
-    // Если указана цена газа, добавляем ее
-    if (gasPrice) {
-      tx.gasPrice = ethers.BigNumber.from(gasPrice);
+    // Проверяем, доступен ли ethers
+    if (ethers && ethers.providers && ethers.Wallet) {
+      // Создаем провайдер и кошелек
+      const provider = new ethers.providers.JsonRpcProvider(rpcUrl);
+      const wallet = new ethers.Wallet(privateKey, provider);
+      
+      // Создаем транзакцию
+      const tx = {
+        to: to,
+        value: ethers.BigNumber.from(value)
+      };
+      
+      // Если указана цена газа, добавляем ее
+      if (gasPrice) {
+        tx.gasPrice = ethers.BigNumber.from(gasPrice);
+      }
+      
+      // Отправляем транзакцию
+      const txResponse = await wallet.sendTransaction(tx);
+      
+      // Ждем подтверждения
+      const receipt = await txResponse.wait();
+      
+      return {
+        hash: txResponse.hash,
+        blockNumber: receipt.blockNumber,
+        gasUsed: receipt.gasUsed.toString(),
+        status: receipt.status === 1 ? 'success' : 'failed'
+      };
+    } else {
+      throw new Error('Ethers.js не доступен для отправки транзакций');
     }
-    
-    // Отправляем транзакцию
-    const txResponse = await wallet.sendTransaction(tx);
-    
-    // Ждем подтверждения
-    const receipt = await txResponse.wait();
-    
-    return {
-      hash: txResponse.hash,
-      blockNumber: receipt.blockNumber,
-      gasUsed: receipt.gasUsed.toString(),
-      status: receipt.status === 1 ? 'success' : 'failed'
-    };
   } catch (error) {
     throw new Error(`Ошибка при отправке транзакции: ${error.message}`);
   }
@@ -775,28 +852,52 @@ async function sendTransaction(privateKey, to, value, gasPrice, rpcUrl) {
 
 // Проверка валидности Ethereum адреса
 function isValidEthereumAddress(address) {
-  if (!address) return false;
+  console.log(`Проверка адреса: ${address}`);
+  
+  if (!address) {
+    console.log('Адрес не указан');
+    return false;
+  }
   
   try {
-    // Собственная реализация проверки адреса на случай проблем с ethers
+    // Собственная реализация проверки адреса
+    // 1. Проверка формата: должен начинаться с 0x и содержать 42 символа (включая 0x)
     const addressRegex = /^0x[0-9a-fA-F]{40}$/;
     if (!addressRegex.test(address)) {
+      console.log('Адрес не соответствует формату 0x + 40 шестнадцатеричных символов');
       return false;
     }
     
-    // Если ethers доступен, используем его для проверки
-    if (ethers && ethers.utils && typeof ethers.utils.isAddress === 'function') {
-      return ethers.utils.isAddress(address);
+    // 2. Проверка контрольной суммы (если адрес содержит как верхний, так и нижний регистр)
+    // Если адрес содержит только символы в нижнем регистре или только в верхнем регистре,
+    // то это адрес без контрольной суммы, и мы его принимаем
+    if (/[A-F]/.test(address) && /[a-f]/.test(address)) {
+      // Адрес содержит символы в разных регистрах, проверяем контрольную сумму
+      
+      // Если ethers доступен, используем его для проверки
+      if (ethers && ethers.utils && typeof ethers.utils.isAddress === 'function') {
+        const isValid = ethers.utils.isAddress(address);
+        console.log(`Проверка через ethers.utils.isAddress: ${isValid}`);
+        return isValid;
+      }
+      
+      // Если ethers недоступен, выполняем базовую проверку
+      // В этом случае мы просто принимаем адрес, если он соответствует формату
+      console.log('Ethers недоступен, выполняем только базовую проверку формата');
+      return true;
     }
     
-    // Если ethers недоступен, используем только регулярное выражение
+    // Адрес без контрольной суммы (все символы в одном регистре)
+    console.log('Адрес без контрольной суммы, принимаем');
     return true;
   } catch (error) {
     console.error(`Ошибка при проверке адреса: ${error.message}`);
     
     // Запасной вариант проверки адреса
     const addressRegex = /^0x[0-9a-fA-F]{40}$/;
-    return addressRegex.test(address);
+    const isValid = addressRegex.test(address);
+    console.log(`Запасная проверка адреса: ${isValid}`);
+    return isValid;
   }
 }
 
@@ -1539,7 +1640,15 @@ app.get('/gas_price', async (req, res) => {
           const rpc = await getWorkingRpc(chainId);
           const gasPriceHex = await getGasPrice(rpc);
           const gasPriceWei = hexToDecimal(gasPriceHex);
-          const gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+          
+          // Проверяем, доступен ли ethers для форматирования
+          let gasPriceGwei;
+          if (ethers && ethers.utils && ethers.utils.formatUnits) {
+            gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+          } else {
+            // Ручное форматирование в gwei (1 gwei = 10^9 wei)
+            gasPriceGwei = (parseFloat(gasPriceWei) / Math.pow(10, 9)).toString();
+          }
           
           results[chainId] = {
             chain_id: chainId,
@@ -1566,7 +1675,15 @@ app.get('/gas_price', async (req, res) => {
         const rpc = await getWorkingRpc(normalizedChainId);
         const gasPriceHex = await getGasPrice(rpc);
         const gasPriceWei = hexToDecimal(gasPriceHex);
-        const gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+        
+        // Проверяем, доступен ли ethers для форматирования
+        let gasPriceGwei;
+        if (ethers && ethers.utils && ethers.utils.formatUnits) {
+          gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+        } else {
+          // Ручное форматирование в gwei (1 gwei = 10^9 wei)
+          gasPriceGwei = (parseFloat(gasPriceWei) / Math.pow(10, 9)).toString();
+        }
         
         return res.json({
           chain_id: normalizedChainId,
@@ -1654,10 +1771,25 @@ app.get('/gas_estimate', async (req, res) => {
     // Получаем цену газа
     const gasPriceHex = await getGasPrice(rpc);
     const gasPriceWei = hexToDecimal(gasPriceHex);
-    const gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+    
+    // Проверяем, доступен ли ethers для форматирования
+    let gasPriceGwei;
+    if (ethers && ethers.utils && ethers.utils.formatUnits) {
+      gasPriceGwei = ethers.utils.formatUnits(gasPriceWei, 'gwei');
+    } else {
+      // Ручное форматирование в gwei (1 gwei = 10^9 wei)
+      gasPriceGwei = (parseFloat(gasPriceWei) / Math.pow(10, 9)).toString();
+    }
     
     // Рассчитываем стоимость газа
-    const gasCostWei = ethers.BigNumber.from(gasDecimal).mul(ethers.BigNumber.from(gasPriceWei)).toString();
+    let gasCostWei;
+    if (ethers && ethers.BigNumber) {
+      gasCostWei = ethers.BigNumber.from(gasDecimal).mul(ethers.BigNumber.from(gasPriceWei)).toString();
+    } else {
+      // Ручное умножение
+      gasCostWei = (BigInt(gasDecimal) * BigInt(gasPriceWei)).toString();
+    }
+    
     const gasCostEth = weiToEther(gasCostWei);
     
     return res.json({
@@ -1743,33 +1875,90 @@ app.get('/gas_re', async (req, res) => {
     
     // Получаем баланс отправителя
     const balanceHex = await getBalance(from, rpc);
-    const balanceWei = ethers.BigNumber.from(balanceHex);
-    const balanceEth = weiToEther(balanceWei);
+    
+    // Преобразуем баланс в BigNumber или BigInt
+    let balanceWei;
+    if (ethers && ethers.BigNumber) {
+      balanceWei = ethers.BigNumber.from(balanceHex);
+    } else {
+      // Используем BigInt для больших чисел
+      balanceWei = BigInt(balanceHex);
+    }
+    
+    const balanceEth = weiToEther(balanceWei.toString());
     
     // Оцениваем газ для транзакции с нулевой суммой
     const gasHex = await estimateGas(from, to, '0x0', rpc);
-    const gasDecimal = ethers.BigNumber.from(gasHex);
+    
+    // Преобразуем газ в BigNumber или BigInt
+    let gasDecimal;
+    if (ethers && ethers.BigNumber) {
+      gasDecimal = ethers.BigNumber.from(gasHex);
+    } else {
+      // Используем BigInt для больших чисел
+      gasDecimal = BigInt(gasHex);
+    }
     
     // Получаем цену газа
     const gasPriceHex = await getGasPrice(rpc);
-    const gasPriceWei = ethers.BigNumber.from(gasPriceHex);
+    
+    // Преобразуем цену газа в BigNumber или BigInt
+    let gasPriceWei;
+    if (ethers && ethers.BigNumber) {
+      gasPriceWei = ethers.BigNumber.from(gasPriceHex);
+    } else {
+      // Используем BigInt для больших чисел
+      gasPriceWei = BigInt(gasPriceHex);
+    }
     
     // Рассчитываем стоимость газа
-    const gasCostWei = gasDecimal.mul(gasPriceWei);
-    const gasCostEth = weiToEther(gasCostWei);
+    let gasCostWei;
+    if (ethers && ethers.BigNumber) {
+      gasCostWei = gasDecimal.mul(gasPriceWei);
+    } else {
+      // Используем BigInt для умножения
+      gasCostWei = gasDecimal * gasPriceWei;
+    }
+    
+    const gasCostEth = weiToEther(gasCostWei.toString());
     
     // Рассчитываем максимальную сумму для вывода
     let maxValueWei;
-    if (balanceWei.lte(gasCostWei)) {
-      // Если баланс меньше стоимости газа, то вывести ничего нельзя
-      maxValueWei = ethers.BigNumber.from(0);
+    
+    // Проверяем, достаточно ли баланса для оплаты газа
+    let isBalanceSufficient;
+    if (ethers && ethers.BigNumber) {
+      isBalanceSufficient = balanceWei.gte(gasCostWei);
     } else {
-      // Иначе максимальная сумма = баланс - стоимость газа
-      maxValueWei = balanceWei.sub(gasCostWei);
+      isBalanceSufficient = balanceWei >= gasCostWei;
     }
     
-    const maxValueEth = weiToEther(maxValueWei);
-    const maxValueHex = maxValueWei.toHexString();
+    if (!isBalanceSufficient) {
+      // Если баланс меньше стоимости газа, то вывести ничего нельзя
+      if (ethers && ethers.BigNumber) {
+        maxValueWei = ethers.BigNumber.from(0);
+      } else {
+        maxValueWei = BigInt(0);
+      }
+    } else {
+      // Иначе максимальная сумма = баланс - стоимость газа
+      if (ethers && ethers.BigNumber) {
+        maxValueWei = balanceWei.sub(gasCostWei);
+      } else {
+        maxValueWei = balanceWei - gasCostWei;
+      }
+    }
+    
+    const maxValueEth = weiToEther(maxValueWei.toString());
+    
+    // Преобразуем в hex
+    let maxValueHex;
+    if (ethers && ethers.BigNumber) {
+      maxValueHex = maxValueWei.toHexString();
+    } else {
+      // Ручное преобразование в hex
+      maxValueHex = "0x" + maxValueWei.toString(16);
+    }
     
     return res.json({
       chain_id: normalizedChainId,
@@ -1838,6 +2027,11 @@ app.get('/send_transaction', async (req, res) => {
     
     if (!chain_id) {
       return res.status(400).json({ error: 'Необходимо указать chain_id' });
+    }
+    
+    // Проверяем, доступен ли ethers для отправки транзакций
+    if (!ethers || !ethers.providers || !ethers.Wallet) {
+      return res.status(500).json({ error: 'Ethers.js не доступен для отправки транзакций' });
     }
     
     // Получаем адрес отправителя из приватного ключа
@@ -1957,6 +2151,8 @@ app.get('/aliases', async (req, res) => {
 // Запускаем сервер
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Сервер запущен на порту ${PORT}`);
+  console.log('Версия Node.js:', process.version);
+  console.log('Версия ethers:', ethers ? (ethers.version || 'доступен, но версия неизвестна') : 'недоступен');
   
   // Загружаем данные RPC из внешних источников при запуске
   loadRpcDataFromExternalSources();
