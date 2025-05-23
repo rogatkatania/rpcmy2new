@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
-const { ethers } = require('ethers');
+const ethers = require('ethers');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 const cors = require('cors');
@@ -778,10 +778,25 @@ function isValidEthereumAddress(address) {
   if (!address) return false;
   
   try {
-    return ethers.utils.isAddress(address);
+    // Собственная реализация проверки адреса на случай проблем с ethers
+    const addressRegex = /^0x[0-9a-fA-F]{40}$/;
+    if (!addressRegex.test(address)) {
+      return false;
+    }
+    
+    // Если ethers доступен, используем его для проверки
+    if (ethers && ethers.utils && typeof ethers.utils.isAddress === 'function') {
+      return ethers.utils.isAddress(address);
+    }
+    
+    // Если ethers недоступен, используем только регулярное выражение
+    return true;
   } catch (error) {
     console.error(`Ошибка при проверке адреса: ${error.message}`);
-    return false;
+    
+    // Запасной вариант проверки адреса
+    const addressRegex = /^0x[0-9a-fA-F]{40}$/;
+    return addressRegex.test(address);
   }
 }
 
