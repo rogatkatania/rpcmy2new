@@ -850,21 +850,7 @@ async function sendTransaction(privateKey, to, value, gasPrice, rpcUrl) {
   }
 }
 
-// Функция для вычисления keccak256 хеша
-function keccak256(input) {
-  // Простая реализация keccak256 для проверки адресов
-  // Это упрощенная версия, которая работает только для проверки формата адреса
-  // В реальном приложении следует использовать полноценную библиотеку
-  
-  // Для целей проверки адреса нам достаточно просто проверить формат
-  return {
-    toString: function() {
-      return "0x" + Array(64).fill("0").join("");
-    }
-  };
-}
-
-// Проверка валидности Ethereum адреса
+// Проверка валидности Ethereum адреса - полностью автономная реализация
 function isValidEthereumAddress(address) {
   console.log(`Проверка адреса: ${address}`);
   
@@ -908,6 +894,32 @@ function isValidEthereumAddress(address) {
     return isValid;
   }
 }
+
+// Добавляем диагностический эндпоинт для проверки окружения
+app.get('/diagnostic', (req, res) => {
+  try {
+    const diagnosticInfo = {
+      node_version: process.version,
+      ethers_version: ethers ? (ethers.version || 'доступен, но версия неизвестна') : 'недоступен',
+      ethers_utils_available: ethers && ethers.utils ? true : false,
+      ethers_isAddress_available: ethers && ethers.utils && typeof ethers.utils.isAddress === 'function' ? true : false,
+      environment: process.env.NODE_ENV || 'development',
+      platform: process.platform,
+      arch: process.arch,
+      memory_usage: process.memoryUsage(),
+      uptime: process.uptime(),
+      cwd: process.cwd(),
+      custom_isAddress_test: {
+        valid_address: isValidEthereumAddress('0x1234567890123456789012345678901234567890'),
+        invalid_address: isValidEthereumAddress('0x123')
+      }
+    };
+    
+    return res.json(diagnosticInfo);
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+});
 
 // Swagger конфигурация
 const swaggerOptions = {
